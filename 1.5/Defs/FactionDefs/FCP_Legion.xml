@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <FactionDef ParentName="FactionBase">
+        <defName>FCP_Caesars_Legion</defName>
+        <label>Caesar's Legion</label>
+        <description>DESCRIPTION</description>
+        <colorSpectrum>
+            <li>(1, 1, 1)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>legionary</pawnSingular>
+        <pawnsPlural>legionaries</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <settlementGenerationWeight>1</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>caesar</leaderTitle>
+        <factionIconPath>World/FCP_LegionIcon</factionIconPath>
+        <techLevel>Industrial</techLevel>
+        <fixedName>The Legion</fixedName>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <allowedCultures>
+            <li>FCP_NeoRoman</li>
+        </allowedCultures>
+        <disallowedPrecepts>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOrSocial</li>
+        </disallowedPrecepts>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Legionism</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+        </requiredMemes>
+        <disallowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+        </disallowedMemes>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <!-- Change to Legion -->
+                    <li>Outlander</li>
+                </categories>
+                <commonality>0.95</commonality>
+            </li>
+            <li>
+                <categories>
+                    <!-- Change to something else -->
+                    <li>Offworld</li>
+                </categories>
+                <commonality>0.05</commonality>
+            </li>
+        </backstoryFilters>
+        <caravanTraderKinds>
+            <li>Caravan_Outlander_BulkGoods</li>
+            <li>Caravan_Outlander_CombatSupplier</li>
+            <li>Caravan_Outlander_Exotic</li>
+            <li>Caravan_Outlander_PirateMerchant</li>
+        </caravanTraderKinds>
+        <visitorTraderKinds>
+            <li>Visitor_Outlander_Standard</li>
+        </visitorTraderKinds>
+        <baseTraderKinds>
+            <li>Base_Outlander_Standard</li>
+        </baseTraderKinds>
+        <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+        <raidLootMaker>FCP_LegionRaidLootMaker</raidLootMaker>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0,35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+        <pawnGroupMakers>
+            <li>
+                <!-- Normal fights, standard mix -->
+                <kindDef>Combat</kindDef>
+                <options>
+                    <FCP_Legion_Scout>9</FCP_Legion_Scout>
+                    <FCP_Legion_Recruit>10</FCP_Legion_Recruit>
+                    <FCP_Legion_Recruit_Decanus>5</FCP_Legion_Recruit_Decanus>
+                    <FCP_Legion_Prime>8</FCP_Legion_Prime>
+                    <FCP_Legion_Prime_Decanus>3</FCP_Legion_Prime_Decanus>
+                    <FCP_Legion_Veteran>6</FCP_Legion_Veteran>
+                    <FCP_Legion_Veteran_Decanus>2</FCP_Legion_Veteran_Decanus>
+                    <FCP_Legion_Vexillarius>5</FCP_Legion_Vexillarius>
+                    <FCP_Legion_Centurion>3</FCP_Legion_Centurion>
+                    <FCP_Legion_Legate>1</FCP_Legion_Legate>
+                    <FCP_Legion_Caesar>1</FCP_Legion_Caesar>
+                </options>
+            </li>
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <FCP_Legion_Recruit>20</FCP_Legion_Recruit>
+                    <FCP_Legion_Recruit_Decanus>10</FCP_Legion_Recruit_Decanus>
+                    <FCP_Legion_Caesar>1</FCP_Legion_Caesar>
+                </options>
+            </li>
+            <li>
+                <kindDef>Trader</kindDef>
+                <traders>
+                    <FCP_Legion_Trader>1</FCP_Legion_Trader>
+                </traders>
+                <carriers>
+                    <Muffalo>6</Muffalo>
+                    <Dromedary>5</Dromedary>
+                    <Alpaca>2</Alpaca>
+                    <Elephant>1</Elephant>
+                </carriers>
+                <guards>
+                    <FCP_Legion_Veteran>7</FCP_Legion_Veteran>
+                    <FCP_Legion_Prime>10</FCP_Legion_Prime>
+                    <FCP_Legion_Prime_Decanus>3</FCP_Legion_Prime_Decanus>
+                    <FCP_Legion_Caesar>1</FCP_Legion_Caesar>
+                </guards>
+            </li>
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <FCP_Legion_Slave>10</FCP_Legion_Slave>
+                    <FCP_Legion_Veteran>10</FCP_Legion_Veteran>
+                    <FCP_Legion_Veteran_Decanus>8</FCP_Legion_Veteran_Decanus>
+                    <FCP_Legion_Vexillarius>7</FCP_Legion_Vexillarius>
+                    <FCP_Legion_Centurion>5</FCP_Legion_Centurion>
+                    <FCP_Legion_Legate>3</FCP_Legion_Legate>
+                    <FCP_Legion_Caesar>1</FCP_Legion_Caesar>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+
+        <modExtensions Inherit="False">
+            <li Class="FCP.Factions.PermanentlyHostileToExtension">
+                <hostileFactionDefs>
+                    <li MayRequire="Rick.FCP.NCR">FCP_Faction_NCR</li>
+                </hostileFactionDefs>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+    <ThingSetMakerDef>
+        <defName>FCP_LegionRaidLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+                <filter>
+                    <thingDefs>
+                        <li>Silver</li>
+                        <li>MedicineHerbal</li>
+                        <li>MealSurvivalPack</li>
+                    </thingDefs>
+                </filter>
+            </fixedParams>
+        </root>
+    </ThingSetMakerDef>
+
+</Defs>

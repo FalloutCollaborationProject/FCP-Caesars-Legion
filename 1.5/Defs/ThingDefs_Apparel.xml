@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ The Legion __________-->
+
+    <!--_____ Legion Armors _____-->
+
+    <!-- Legion Explorer Armor -->
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>FCP_Apparel_Legion_Explorer_Armor</defName>
+        <description>A lightweight suit of armor worn by Legion Scouts, very similar in appearance to the recruit armor. Like most Legion armor, it is made from repurposed sports equipment, consisting of a football player's protective shoulder and chest pads reinforced with additional leather padding and worn over a baseball catcher's vest. It doesn’t protect very well.</description>
+        <techLevel>Industrial</techLevel>
+        <label>Legion Explorer Armor</label>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Explorer/FCP_Legion_Explorer_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>8200</WorkToMake>
+            <Mass>3.2</Mass>
+            <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.1</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>0.05</MoveSpeed>
+        </equippedStatOffsets>
+        <costList>
+            <Steel>5</Steel>
+            <Cloth>75</Cloth>
+            <Leather_Plain>25</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Explorer/FCP_Legion_Explorer_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Explorer</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Recruit Armor -->
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>FCP_Apparel_Legion_Recruit_Armor</defName>
+        <description>Like most Legion armor, the recruit armor is made from repurposed sports equipment, consisting of a football player's protective shoulder and chest pads reinforced with additional leather padding and worn over a baseball catcher's vest.</description>
+        <techLevel>Industrial</techLevel>        
+        <label>Legion Recruit Armor</label>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Recruit/FCP_Legion_Recruit_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>8500</WorkToMake>
+            <Mass>3.6</Mass>
+            <ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+        </equippedStatOffsets>
+        <costList>
+            <Steel>20</Steel>
+            <Cloth>75</Cloth>
+            <Leather_Plain>15</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Recruit/FCP_Legion_Recruit_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Recruit</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Prime Armor -->
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>FCP_Apparel_Legion_Prime_Armor</defName>
+        <description>The Legion’s main fighting force, the prime legionaries have earned their right to wear better armor compared to the recruits. It’s still made with the same protective shoulder and chest pads but features additional armor bands wrapped around the upper body.</description>
+        <techLevel>Industrial</techLevel>        
+        <label>Legion Prime Armor</label>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Prime/FCP_Legion_Prime_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>8500</WorkToMake>
+            <Mass>3.8</Mass>
+            <ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MeleeHitChance>0.05</MeleeHitChance>
+            <MeleeDodgeChance>0.05</MeleeDodgeChance>
+        </equippedStatOffsets>
+        <costList>
+            <Steel>25</Steel>
+            <Cloth>75</Cloth>
+            <Leather_Plain>15</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Prime/FCP_Legion_Prime_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Prime</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Veteran Armor -->
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>FCP_Apparel_Legion_Veteran_Armor</defName>
+        <description>Compared to regular legionaries’ armor, veteran armor has additional armor pads on the lower legs, as well as several sharp nails sticking out of the shoulder pads and the leather wrappings on the right arm. It offers more protection while still being somewhat light.</description>
+        <techLevel>Industrial</techLevel>        
+        <label>Legion Veteran Armor</label>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Veteran/FCP_Legion_Veteran_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>8700</WorkToMake>
+            <Mass>4.0</Mass>
+            <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.22</ArmorRating_Heat>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MeleeHitChance>0.07</MeleeHitChance>
+            <MeleeDodgeChance>0.07</MeleeDodgeChance>
+        </equippedStatOffsets>
+        <costList>
+            <Steel>30</Steel>
+            <Cloth>75</Cloth>
+            <Leather_Plain>15</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Veteran/FCP_Legion_Veteran_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Veteran</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Vexillarius Armor -->
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>FCP_Apparel_Legion_Vexillarius_Armor</defName>
+        <description>Based on a suit of Legion veteran armor, with the addition of circular metal plates attached to the torso, as well as a banner displaying the flag of the Legion worn on the back. While it is a step up from the lower ranks’ armor, it is also considerably heavier.</description>
+        <techLevel>Industrial</techLevel>        
+        <label>Legion Vexillarius Armor</label>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Vexillarius/FCP_Legion_Vexillarius_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>8850</WorkToMake>
+            <Mass>4.8</Mass>
+            <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.22</ArmorRating_Heat>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.05</MoveSpeed>
+            <MeleeHitChance>0.09</MeleeHitChance>
+            <MeleeDodgeChance>0.05</MeleeDodgeChance>
+        </equippedStatOffsets>
+        <costList>
+            <Steel>50</Steel>
+            <Cloth>75</Cloth>
+            <Leather_Plain>15</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Vexillarius/FCP_Legion_Vexillarius_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Vexillarius</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Praetorian Armor -->
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>FCP_Apparel_Legion_Praetorian_Armor</defName>
+        <description>This armor commonly worn by Caesar’s personal guard is similar to the recruit armor, but sports additional metal bracers on the forearms, probably because of the Praetorian’s preference for punching people with their fists, as well as a short red cape and a red cowl. Despite its close resemblance, this armor protects it’s wearer a lot better than the recruit armor while weighing about the same.</description>
+        <techLevel>Industrial</techLevel>        
+        <label>Legion Praetorian Armor</label>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Praetorian/FCP_Legion_Praetorian_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>9000</WorkToMake>
+            <Mass>3.8</Mass>
+            <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.22</ArmorRating_Heat>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MeleeHitChance>0.10</MeleeHitChance>
+            <MeleeDodgeChance>0.05</MeleeDodgeChance>
+        </equippedStatOffsets>
+        <costList>
+            <Cloth>75</Cloth>
+            <Leather_Plain>25</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Praetorian/FCP_Legion_Praetorian_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Praetorian</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Centurion Armor -->
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>FCP_Apparel_Legion_Centurion_Armor</defName>
+        <description>A heavy suit of armor worn by the Legion’s centurions, the elite of the Legion. It’s composed of a wild assortment of different armors, including pieces of combat armor, power armor leather armor and even super mutant armor. These pieces are likely taken from enemies defeated by the wearer. Despite being such a crude assortment of different armors, it offers superior protection.</description>
+        <techLevel>Industrial</techLevel>        
+        <label>Legion Centurion Armor</label>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Centurion/FCP_Legion_Centurion_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>265</MaxHitPoints>
+            <WorkToMake>12500</WorkToMake>
+            <Mass>6.5</Mass>
+            <ArmorRating_Sharp>1.3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.25</ArmorRating_Heat>
+            <Insulation_Cold>6</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.7</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-1.0</MoveSpeed>
+            <MeleeHitChance>1.0</MeleeHitChance>
+        </equippedStatOffsets>
+        <costList>
+            <Steel>50</Steel>
+            <Cloth>75</Cloth>
+            <Leather_Plain>15</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Centurion/FCP_Legion_Centurion_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Centurion</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Legate Armor -->
+
+    <ThingDef ParentName="ArmorMachineableBase">
+        <defName>FCP_Apparel_Legion_Legate_Armor</defName>
+        <description>The armor of a Legate, a close confidante of the mighty Caesar himself. A full suit of heavy gauge steel, bearing numerous scratches and dents from countless battles, and offers full body protection. It was crafted to closely resemble the armors of the ancient romans and has little to do with the repurposed sports equipment most members of the Legion wear. Unsurprisingly it provides it’s wearer with superior protection but is incredibly heavy.</description>
+        <techLevel>Industrial</techLevel>        
+        <label>Legion Legate Armor</label>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Legate/FCP_Legion_Legate_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>265</MaxHitPoints>
+            <WorkToMake>13000</WorkToMake>
+            <Mass>7.2</Mass>
+            <ArmorRating_Sharp>1.45</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.22</ArmorRating_Heat>
+            <Insulation_Cold>6</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.7</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-1.0</MoveSpeed>
+            <MeleeHitChance>1.0</MeleeHitChance>
+        </equippedStatOffsets>
+        <costList>
+            <Steel>50</Steel>
+            <Cloth>75</Cloth>
+            <Leather_Plain>15</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Legate/FCP_Legion_Legate_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Legate</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!--_____ Legion Accessories _____-->
+
+    <!-- Legion Leather Vest -->
+
+    <!-- <ThingDef ParentName="ArmorMachineableBase">
+        <defName>FCP_Apparel_NCR_Trooper_Vest</defName>
+        <label>NCR Trooper Vest</label>
+        <description>A vest often worn by NCR troopers. It’s composed of a reinforced chestplate and
+            armoured pauldrons. While it offers quite a bit of additional protection, it only covers
+            the torso and shoulders, leaving the lower body parts and the head unprotected.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FlakArmor</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/NCR_Accessories/FCP_NCR_Trooper_Vest</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.90</drawSize>
+        </graphicData>
+        <statBases>
+            <WorkToMake>8000</WorkToMake>
+            <MaxHitPoints>200</MaxHitPoints>
+            <Mass>3</Mass>
+            <Flammability>0.6</Flammability>
+            <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+            <Insulation_Cold>2</Insulation_Cold>
+            <Insulation_Heat>3</Insulation_Heat>
+            <EquipDelay>5</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.08</MoveSpeed>
+        </equippedStatOffsets>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <costList>
+            <Cloth>35</Cloth>
+            <Steel>45</Steel>
+            <Leather_Plain>1</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/NCR_Accessories/FCP_NCR_Trooper_Vest</wornGraphicPath>
+            <layers>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>IndustrialMilitaryBasic</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef> -->
+
+    <!--_____ Legion Headgear _____-->
+
+    <!-- Legion Explorer Hood -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>FCP_Apparel_Legion_Explorer_Hood</defName>
+        <label>Legion Explorers Hood</label>
+        <description>A basic, lightweight helmet composed of a thick brown cloth headwrap featuring a visor to shield the wearer’s eyes from the scorching sun. Worn by the explorers, scouts in service of Caesar’s Legion</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Explorer/Legion_Explorer_Hood/FCP_Legion_Explorer_Hood</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.15</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <costList>
+            <Cloth>15</Cloth>
+            <Leather_Plain>10</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Explorer/Legion_Explorer_Hood/FCP_Legion_Explorer_Hood</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Explorer</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Recruit Decanus Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>FCP_Apparel_Legion_Recruit_Decanus_Helmet</defName>
+        <label>Legion Recruit Decanus Helmet</label>
+        <description>A pre-war football helmet adorned with feathers, worn with a red face wrap and black goggles. While it offers a decent amount of protection, its main use is to serve as a symbol of rank. The red and black feathers fastened on the helmet identify the wearer as a recruit decanus, the most junior rank of officer within Caesar’s Legion, leading a squad of inexperienced recruits.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Recruit/Legion_Recruit_Decanus_Helmet/FCP_Legion_Recruit_Decanus_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>90</MaxHitPoints>
+            <Mass>0.9</Mass>
+            <ArmorRating_Sharp>0.32</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <costList>
+            <Cloth>15</Cloth>
+            <Leather_Plain>20</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Recruit/Legion_Recruit_Decanus_Helmet/FCP_Legion_Recruit_Decanus_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Recruit</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Recruit Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>FCP_Apparel_Legion_Recruit_Helmet</defName>
+        <label>Legion Recruit Helmet</label>
+        <description>A brown leather cap worn with black protective goggles and the lower face is wrapped with a bandana. Not the best helmet, but it is easy to make and lightweight.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Recruit/Legion_Recruit_Helmet/FCP_Legion_Recruit_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.9</Mass>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.15</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <costList>
+            <Cloth>15</Cloth>
+            <Leather_Plain>20</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Recruit/Legion_Recruit_Helmet/FCP_Legion_Recruit_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Recruit</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Prime Decanus Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>FCP_Apparel_Legion_Prime_Decanus_Helmet</defName>
+        <label>Legion Prime Decanus Helmet</label>
+        <description>A pre-war football helmet adorned with feathers, worn with a red face wrap and black goggles. While it offers a decent amount of protection, its main use is to serve as a symbol of rank. The black feathers fastened on the helmet identify the wearer as a prime decanus, a middle rank of officer within Caesar’s Legion, leading a squad of prime legionaries.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Prime/Legion_Prime_Decanus_Helmet/FCP_Legion_Prime_Decanus_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>3150</WorkToMake>
+            <MaxHitPoints>90</MaxHitPoints>
+            <Mass>0.9</Mass>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.22</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <costList>
+            <Cloth>15</Cloth>
+            <Leather_Plain>20</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Prime/Legion_Prime_Decanus_Helmet/FCP_Legion_Prime_Decanus_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Prime</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Prime Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>FCP_Apparel_Legion_Prime_Helmet</defName>
+        <label>Legion Prime Helmet</label>
+        <description>The prime helmet is a brown cap that is equipped with black protective goggles and a red bandanna is wrapped around the lower face. It’s essentially the same helmet as the recruits’ one but features a different coloured bandana to mark the different ranks.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Prime/Legion_Prime_Helmet/FCP_Legion_Prime_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>3200</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.9</Mass>
+            <ArmorRating_Sharp>0.38</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.18</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <costList>
+            <Cloth>15</Cloth>
+            <Leather_Plain>20</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Prime/Legion_Prime_Helmet/FCP_Legion_Prime_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Prime</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Veteran Decanus Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>FCP_Apparel_Legion_Veteran_Decanus_Helmet</defName>
+        <label>Legion Veteran Decanus Helmet</label>
+        <description>A pre-war football helmet adorned with feathers, worn with a red face wrap and black goggles. While it offers a decent amount of protection, its main use is to serve as a symbol of rank. The red, white and black feathers fastened on the helmet identify the wearer as a veteran decanus, a higher-ranking officer within Caesar’s Legion, leading a squad of hardened veteran legionaries.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Veteran/Legion_Veteran_Decanus_Helmet/FCP_Legion_Veteran_Decanus_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>4000</WorkToMake>
+            <MaxHitPoints>90</MaxHitPoints>
+            <Mass>0.9</Mass>
+            <ArmorRating_Sharp>0.38</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.25</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <costList>
+            <Cloth>15</Cloth>
+            <Leather_Plain>20</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Veteran/Legion_Veteran_Decanus_Helmet/FCP_Legion_Veteran_Decanus_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Veteran</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Veteran Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>FCP_Apparel_Legion_Veteran_Helmet</defName>
+        <label>Legion Veteran Helmet</label>
+        <description>A baseball cap with an aluminium helmet, goggles for the eyes, and a face wrap. It offers a bit more protection compared to the helmets of the Legion’s lower ranks while not weighing more.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Veteran/Legion_Veteran_Helmet/FCP_Legion_Veteran_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>7500</WorkToMake>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>1.0</Mass>
+            <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.18</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <costList>
+            <Cloth>20</Cloth>
+            <Steel>20</Steel>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Veteran/Legion_Veteran_Helmet/FCP_Legion_Veteran_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Veteran</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Vexillarius Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>FCP_Apparel_Legion_Vexillarius_Helmet</defName>
+        <label>Legion Vexillarius Helmet</label>
+        <description>Worn by the advance scouts of Caesar's Legion, the vexillarii, this helmet is fashioned from the pelt from the head of a coyote. It offers little protection as its main use is symbolic in nature.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Vexillarius/Legion_Vexillarius_Helmet/FCP_Legion_Vexillarius_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>5000</WorkToMake>
+            <MaxHitPoints>110</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.18</ArmorRating_Heat>
+            <Insulation_Cold>7</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <costList>
+            <Cloth>20</Cloth>
+            <Leather_Plain>20</Leather_Plain>
+        </costList>
+        <equippedStatOffsets>
+            <SocialImpact>0.05</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Vexillarius/Legion_Vexillarius_Helmet/FCP_Legion_Vexillarius_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Vexillarius</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Centurion Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>FCP_Apparel_Legion_Centurion_Helmet</defName>
+        <label>Legion Centurion Helmet</label>
+        <description>Worn by the advance scouts of Caesar's Legion, the vexillarii, this helmet is fashioned from the pelt from the head of a coyote. It offers little protection as its main use is symbolic in nature.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Centurion/Legion_Centurion_Helmet/FCP_Legion_Centurion_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>8000</WorkToMake>
+            <MaxHitPoints>150</MaxHitPoints>
+            <Mass>1.8</Mass>
+            <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+            <Insulation_Cold>7</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <costList>
+            <Cloth>20</Cloth>
+            <Steel>30</Steel>
+        </costList>
+        <equippedStatOffsets>
+            <ArrestSuccessChance>0.25</ArrestSuccessChance>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Centurion/Legion_Centurion_Helmet/FCP_Legion_Centurion_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Centurion</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Legate Helmet -->
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+        <defName>FCP_Apparel_Legion_Legate_Helmet</defName>
+        <label>Legion Legate Helmet</label>
+        <description>The helmet of a legate, the highest-ranking warlords in the Legion, apart from Caesar of course. Its fashioned after the enclosed masks often worn by the cavalry of ancient Rome and sports red frills and horns to make the wearer look more intimidating.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Apparel/Legion_Armor/Legion_Legate/Legion_Legate_Helmet/FCP_Legion_Legate_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <statBases>
+            <WorkToMake>8200</WorkToMake>
+            <MaxHitPoints>190</MaxHitPoints>
+            <Mass>2.0</Mass>
+            <ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <costList>
+            <Steel>55</Steel>
+        </costList>
+        <equippedStatOffsets>
+            <ArrestSuccessChance>0.65</ArrestSuccessChance>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Legate/Legion_Legate_Helmet/FCP_Legion_Legate_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_Legion_Legate</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+</Defs>

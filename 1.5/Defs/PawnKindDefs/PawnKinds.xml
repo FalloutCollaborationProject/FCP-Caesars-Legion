@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="FCP_LegionkindBase" Abstract="True">
+		<race>Human</race>
+		<fixedGender>Male</fixedGender>
+		<defaultFactionType>FCP_Caesars_Legion</defaultFactionType>
+		<maxGenerationAge>60</maxGenerationAge>
+		<chemicalAddictionChance>0</chemicalAddictionChance>
+		<invNutrition>2.7</invNutrition>
+		<invFoodDef>MealSurvivalPack</invFoodDef>
+	</PawnKindDef>
+
+	<!-- Slave -->
+
+	<PawnKindDef>
+		<defName>FCP_Legion_Slave</defName>
+		<label>slave</label>
+		<race>Human</race>
+		<defaultFactionType>FCP_Caesars_Legion</defaultFactionType>
+		<maxGenerationAge>60</maxGenerationAge>
+		<combatPower>30</combatPower>
+		<invNutrition>0</invNutrition>
+		<itemQuality>Poor</itemQuality>
+		<gearHealthRange>0.2~1.1</gearHealthRange>
+		<apparelRequired>
+			<li>Apparel_TribalA</li>
+		</apparelRequired>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.15</techHediffsChance>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>4~8</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Trader -->
+
+	<PawnKindDef ParentName="FCP_LegionkindRecruit">
+		<defName>FCP_Legion_Trader</defName>
+		<label>legion trader</label>
+		<trader>true</trader>
+	</PawnKindDef>
+
+	<!-- Scout -->
+
+	<PawnKindDef ParentName="FCP_LegionkindBase">
+		<defName>FCP_Legion_Scout</defName>
+		<label>legion explorer</label>
+		<combatPower>45</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelRequired>
+			<li>FCP_Apparel_Legion_Explorer_Armor</li>
+			<li>FCP_Apparel_Legion_Explorer_Hood</li>
+		</apparelRequired>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.03</techHediffsChance>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>5~9</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Recruit -->
+
+	<PawnKindDef ParentName="FCP_LegionkindBase" Name="FCP_LegionkindRecruit">
+		<defName>FCP_Legion_Recruit</defName>
+		<label>recruit legionary</label>
+		<combatPower>50</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<canBeSapper>true</canBeSapper>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelRequired>
+			<li>FCP_Apparel_Legion_Recruit_Armor</li>
+			<li>FCP_Apparel_Legion_Recruit_Helmet</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>5~9</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Recruit Decanus -->
+
+	<PawnKindDef ParentName="FCP_LegionkindBase">
+		<defName>FCP_Legion_Recruit_Decanus</defName>
+		<label>recruit decanus</label>
+		<combatPower>55</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelRequired>
+			<li>FCP_Apparel_Legion_Recruit_Armor</li>
+			<li>FCP_Apparel_Legion_Recruit_Decanus_Helmet</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>6~10</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Prime -->
+
+	<PawnKindDef ParentName="FCP_LegionkindBase">
+		<defName>FCP_Legion_Prime</defName>
+		<label>prime legionary</label>
+		<combatPower>60</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<apparelRequired>
+			<li>FCP_Apparel_Legion_Prime_Armor</li>
+			<li>FCP_Apparel_Legion_Prime_Helmet</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<initialWillRange>1~4</initialWillRange>
+		<initialResistanceRange>7~11</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Prime Decanus -->
+
+	<PawnKindDef ParentName="FCP_LegionkindBase">
+		<defName>FCP_Legion_Prime_Decanus</defName>
+		<label>prime legionary</label>
+		<combatPower>70</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<apparelRequired>
+			<li>FCP_Apparel_Legion_Prime_Armor</li>
+			<li>FCP_Apparel_Legion_Prime_Decanus_Helmet</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<initialWillRange>1~5</initialWillRange>
+		<initialResistanceRange>7~11</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Veteran -->
+
+	<PawnKindDef ParentName="FCP_LegionkindBase">
+		<defName>FCP_Legion_Veteran</defName>
+		<label>veteran legionary</label>
+		<combatPower>80</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<apparelRequired>
+			<li>FCP_Apparel_Legion_Veteran_Armor</li>
+			<li>FCP_Apparel_Legion_Veteran_Helmet</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>7~11</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Veteran Decanus -->
+
+	<PawnKindDef ParentName="FCP_LegionkindBase">
+		<defName>FCP_Legion_Veteran_Decanus</defName>
+		<label>veteran legionary</label>
+		<combatPower>90</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<apparelRequired>
+			<li>FCP_Apparel_Legion_Veteran_Armor</li>
+			<li>FCP_Apparel_Legion_Veteran_Decanus_Helmet</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>8~12</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Vexillarius -->
+
+	<PawnKindDef ParentName="FCP_LegionkindBase">
+		<defName>FCP_Legion_Vexillarius</defName>
+		<label>legion vexillarius</label>
+		<combatPower>100</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<apparelRequired>
+			<li>FCP_Apparel_Legion_Vexillarius_Armor</li>
+			<li>FCP_Apparel_Legion_Vexillarius_Helmet</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<initialWillRange>2~5</initialWillRange>
+		<initialResistanceRange>12~16</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Centurion -->
+
+	<PawnKindDef ParentName="FCP_LegionkindBase">
+		<defName>FCP_Legion_Centurion</defName>
+		<label>centurion</label>
+		<combatPower>125</combatPower>
+		<apparelRequired>
+			<li>FCP_Apparel_Legion_Centurion_Armor</li>
+			<li>FCP_Apparel_Legion_Centurion_Helmet</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<initialWillRange>2~5</initialWillRange>
+		<initialResistanceRange>14~22</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Legate -->
+
+	<PawnKindDef ParentName="FCP_LegionkindBase">
+		<defName>FCP_Legion_Legate</defName>
+		<label>legate</label>
+		<combatPower>150</combatPower>
+		<apparelRequired>
+			<li>FCP_Apparel_Legion_Legate_Armor</li>
+			<li>FCP_Apparel_Legion_Legate_Helmet</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>18~30</initialResistanceRange>
+	</PawnKindDef>
+
+	<!-- Caesar -->
+
+	<PawnKindDef ParentName="FCP_LegionkindBase">
+		<defName>FCP_Legion_Caesar</defName>
+		<label>caesar</label>
+		<factionLeader>true</factionLeader>
+		<combatPower>150</combatPower>
+		<apparelRequired>
+			<li>FCP_Apparel_Legion_Legate_Armor</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>19~30</initialResistanceRange>
+	</PawnKindDef>
+
+</Defs>
