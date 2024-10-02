@@ -3,7 +3,7 @@
 
     <FactionDef ParentName="FactionBase">
         <defName>FCP_Caesars_Legion</defName>
-        <label>Caesar's Legion</label>
+        <label>Tribal Legion</label>
         <description>DESCRIPTION</description>
         <colorSpectrum>
             <li>(1, 1, 1)</li>
@@ -19,7 +19,7 @@
         <leaderTitle>caesar</leaderTitle>
         <factionIconPath>World/FCP_LegionIcon</factionIconPath>
         <techLevel>Industrial</techLevel>
-        <fixedName>The Legion</fixedName>
+        <fixedName>Caesar's Legion</fixedName>
         <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
         <allowedCultures>
             <li>FCP_NeoRoman</li>
