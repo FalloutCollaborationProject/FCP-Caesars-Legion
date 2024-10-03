@@ -24,19 +24,41 @@
         <allowedCultures>
             <li>FCP_NeoRoman</li>
         </allowedCultures>
-        <disallowedPrecepts>
-            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOrSocial</li>
-        </disallowedPrecepts>
-        <requiredMemes>
+
+        <!--__________ Ideology __________-->
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>Cult of Mars</ideoName>
+        <ideoDescription>Caesar, the Son of Mars, was ordered by Mars to conquer all of Earth. To facilitate this conquest, Mars cleansed the Earth with fire, bringing humans to their lowest ebb. The Caesar's divine duty is to deliver the wasteland from chaos and barbarism</ideoDescription>
+        <deityPresets>
+            <li>
+                <nameType>
+                    <name>Caesar</name>
+                    <type>Son of Mars</type>
+                </nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/DeityGeneric</iconPath>
+            </li>
+            <li>
+                <nameType>
+                    <name>Mars</name>
+                    <type>God of War</type>
+                </nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/DeityGeneric</iconPath>
+            </li>
+        </deityPresets>
+        <styles>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Morbid</li>
+        </styles>
+        <forcedMemes>
+            <!-- Structure -->
             <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Legionism</li>
+            <!-- Memes -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Legionism</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
-        </requiredMemes>
-        <disallowedMemes>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-        </disallowedMemes>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
         <backstoryFilters>
             <li>
                 <categories>
@@ -136,10 +158,30 @@
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 
         <modExtensions Inherit="False">
+            <!-- Make them hostile to the NCR -->
             <li Class="FCP.Factions.PermanentlyHostileToExtension">
                 <hostileFactionDefs>
                     <li MayRequire="Rick.FCP.NCR">FCP_Faction_NCR</li>
                 </hostileFactionDefs>
+            </li>
+            <!-- Ideology stuff -->
+            <li Class="FCP.Ideology.FixedIdeoExtension">
+                <ideoIconDef>FCP_Icon_Legion</ideoIconDef>
+                <ideoColorDef>LightGrey</ideoColorDef>
+                <memberName>Legionnaire</memberName>
+                <adjective>Legion</adjective>
+                <roleOverrides>
+                    <li>
+                        <preceptDef>IdeoRole_Leader</preceptDef>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                    </li>
+                    <li>
+                        <preceptDef>IdeoRole_Moralist</preceptDef>
+                        <newName>Instructor</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                    </li>
+                </roleOverrides>
             </li>
         </modExtensions>
     </FactionDef>

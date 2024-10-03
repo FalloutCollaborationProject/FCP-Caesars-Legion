@@ -2,12 +2,14 @@
 <Defs>
 
   <MemeDef>
-    <defName>FCP_Legionism</defName>
-    <label>legionism</label>
+    <defName>FCP_Meme_Legionism</defName>
+    <label>Sons of Mars</label>
     <description>Our people should dominate all others.</description>
     <iconPath>World/FCP_LegionIcon</iconPath>
     <groupDef>GroupRelation</groupDef>
-    <impact>1</impact>
+    <impact>2</impact>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <hiddenInChooseMemes>true</hiddenInChooseMemes>
     <consumableBuildings>
       <li>SacrificialFlag</li>
     </consumableBuildings>
@@ -81,23 +83,6 @@
         </rulesStrings>
       </rules>
     </descriptionMaker>
-    <symbolPacks>
-      <li>
-        <theme>dominance</theme>
-        <adjective>dominant</adjective>
-        <member>dominator</member>
-      </li>
-      <li>
-        <theme>victory</theme>
-        <adjective>victoryist</adjective>
-        <member>victorist</member>
-      </li>
-      <li>
-        <theme>power</theme>
-        <adjective>powerist</adjective>
-        <member>poweror</member>
-      </li>
-    </symbolPacks>
   </MemeDef>
 
 </Defs>
