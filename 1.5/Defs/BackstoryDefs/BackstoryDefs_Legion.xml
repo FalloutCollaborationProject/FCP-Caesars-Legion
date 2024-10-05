@@ -27,7 +27,7 @@
         <workDisables>Artistic</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeGlobal>Thin</bodyTypeGlobal>
         <bodyTypeFemale>Thin</bodyTypeFemale>
@@ -54,7 +54,7 @@
         <workDisables>Caring, Intellectual</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeGlobal>Thin</bodyTypeGlobal>
         <bodyTypeFemale>Thin</bodyTypeFemale>
@@ -82,7 +82,7 @@
         <workDisables></workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -107,7 +107,7 @@
         <workDisables></workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeGlobal>Hulk</bodyTypeGlobal>
         <bodyTypeFemale>Hulk</bodyTypeFemale>
@@ -134,7 +134,7 @@
         <workDisables></workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -159,7 +159,7 @@
         <workDisables></workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -184,7 +184,7 @@
         <workDisables></workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeGlobal>Fat</bodyTypeGlobal>
         <bodyTypeFemale>Fat</bodyTypeFemale>
@@ -210,7 +210,7 @@
         <workDisables></workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -235,7 +235,7 @@
         <workDisables>ManualDumb</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeGlobal>Hulk</bodyTypeGlobal>
         <bodyTypeFemale>Hulk</bodyTypeFemale>
@@ -262,7 +262,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -287,7 +287,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -313,7 +313,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -341,7 +341,7 @@
         <workDisables>Caring</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -367,7 +367,7 @@
         <workDisables>PlantWork</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -392,7 +392,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -416,7 +416,7 @@
         <workDisables>ManualSkilled, Caring</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeGlobal>Thin</bodyTypeGlobal>
         <bodyTypeFemale>Thin</bodyTypeFemale>
@@ -442,7 +442,7 @@
         <workDisables>Intellectual</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeGlobal>Thin</bodyTypeGlobal>
         <bodyTypeFemale>Thin</bodyTypeFemale>
@@ -469,7 +469,7 @@
         <workDisables>Cleaning</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -495,7 +495,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -521,7 +521,7 @@
         <workDisables>Intellectual</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeGlobal>Thin</bodyTypeGlobal>
         <bodyTypeFemale>Thin</bodyTypeFemale>
@@ -548,7 +548,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeGlobal>Thin</bodyTypeGlobal>
         <bodyTypeFemale>Thin</bodyTypeFemale>
@@ -574,7 +574,7 @@
         <workDisables>Cleaning</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeGlobal>Hulk</bodyTypeGlobal>
         <bodyTypeFemale>Hulk</bodyTypeFemale>
@@ -600,7 +600,7 @@
         <workDisables>Constructing</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_</li>
+            <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeGlobal>Hulk</bodyTypeGlobal>
         <bodyTypeFemale>Hulk</bodyTypeFemale>

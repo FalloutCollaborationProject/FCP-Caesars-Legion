@@ -3,15 +3,15 @@
 
     <FactionDef ParentName="FactionBase">
         <defName>FCP_Caesars_Legion</defName>
-        <label>Tribal Legion</label>
-        <description>DESCRIPTION</description>
+        <label>Caesar's Legion</label>
+        <description>Caesar’s Legion is the fearsome group which conquered most of the former states of Arizona, New Mexico, Colorado, and Utah. The Legion styles itself after the ancient roman legionnaires and uses many low-tech weapons such as javelins and crude but effective melee weapons. They are cruel, warlike, and known to frequently commit massacres against civilians, which they view as dissolute and profligate. Caesar, or Edward Sallow as he was once known, leads his slave armies as an iron fisted dictator and pushes them ever forward to claim new territories for their leader, the self-proclaimed son of Mars himself. Before long, the Legion stood at the shores of the Colorado river and set their eyes on the gleaming towers of New Vegas and California beyond them.</description>
         <colorSpectrum>
             <li>(1, 1, 1)</li>
         </colorSpectrum>
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-        <pawnSingular>legionary</pawnSingular>
-        <pawnsPlural>legionaries</pawnsPlural>
-        <categoryTag>Outlander</categoryTag>
+        <pawnSingular>Legionary</pawnSingular>
+        <pawnsPlural>Legionaries</pawnsPlural>
+        <categoryTag>FCP_Legion</categoryTag>
         <settlementGenerationWeight>1</settlementGenerationWeight>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
         <canSiege>true</canSiege>
@@ -26,6 +26,7 @@
         </allowedCultures>
 
         <!--__________ Ideology __________-->
+    
         <fixedIdeo>true</fixedIdeo>
         <ideoName>Cult of Mars</ideoName>
         <ideoDescription>Caesar, the Son of Mars, was ordered by Mars to conquer all of Earth. To facilitate this conquest, Mars cleansed the Earth with fire, bringing humans to their lowest ebb. The Caesar's divine duty is to deliver the wasteland from chaos and barbarism</ideoDescription>
@@ -55,15 +56,27 @@
             <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
             <!-- Memes -->
             <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Legionism</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+            <!-- <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li> -->
         </forcedMemes>
         <requiredPreceptsOnly>true</requiredPreceptsOnly>
-
+        <xenotypeSet>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+                <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+                <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+                <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+                <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+            </xenotypeChances>
+        </xenotypeSet>
         <backstoryFilters>
             <li>
                 <categories>
                     <!-- Change to Legion -->
-                    <li>Outlander</li>
+                    <li>FCP_Legion</li>
+                    <li>FCP_Legion_Child</li>
+                    <li>FCP_Wastelander_Child</li>
                 </categories>
                 <commonality>0.95</commonality>
             </li>

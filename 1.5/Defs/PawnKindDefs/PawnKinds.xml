@@ -20,12 +20,13 @@
 		<defaultFactionType>FCP_Caesars_Legion</defaultFactionType>
 		<maxGenerationAge>60</maxGenerationAge>
 		<combatPower>30</combatPower>
+        <apparelMoney>400~600</apparelMoney>
 		<invNutrition>0</invNutrition>
 		<itemQuality>Poor</itemQuality>
 		<gearHealthRange>0.2~1.1</gearHealthRange>
-		<apparelRequired>
-			<li>Apparel_TribalA</li>
-		</apparelRequired>
+		<apparelTags>
+			<li>FCP_Slave_Apparel</li>
+		</apparelTags>
 		<techHediffsMoney>50~50</techHediffsMoney>
 		<techHediffsTags>
 			<li>Poor</li>
