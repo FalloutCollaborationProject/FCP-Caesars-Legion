@@ -416,7 +416,7 @@
         <workDisables>ManualSkilled, Caring</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion</li>
+            <li>FCP_Legion_Slave</li>
         </spawnCategories>
         <bodyTypeGlobal>Thin</bodyTypeGlobal>
         <bodyTypeFemale>Thin</bodyTypeFemale>

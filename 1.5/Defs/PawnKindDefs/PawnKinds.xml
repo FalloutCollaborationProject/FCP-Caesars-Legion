@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<PawnKindDef Name="FCP_LegionkindBase" Abstract="True">
-		<race>Human</race>
-		<fixedGender>Male</fixedGender>
-		<defaultFactionType>FCP_Caesars_Legion</defaultFactionType>
-		<maxGenerationAge>60</maxGenerationAge>
-		<chemicalAddictionChance>0</chemicalAddictionChance>
-		<invNutrition>2.7</invNutrition>
-		<invFoodDef>MealSurvivalPack</invFoodDef>
-	</PawnKindDef>
+
 
 	<!-- Slave -->
 
@@ -52,7 +44,8 @@
 		<combatPower>45</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<apparelRequired>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
 			<li>FCP_Apparel_Legion_Explorer_Armor</li>
 			<li>FCP_Apparel_Legion_Explorer_Hood</li>
 		</apparelRequired>
@@ -84,7 +77,8 @@
 		<itemQuality>Poor</itemQuality>
 		<canBeSapper>true</canBeSapper>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<apparelRequired>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
 			<li>FCP_Apparel_Legion_Recruit_Armor</li>
 			<li>FCP_Apparel_Legion_Recruit_Helmet</li>
 		</apparelRequired>
@@ -108,7 +102,8 @@
 		<combatPower>55</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<apparelRequired>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
 			<li>FCP_Apparel_Legion_Recruit_Armor</li>
 			<li>FCP_Apparel_Legion_Recruit_Decanus_Helmet</li>
 		</apparelRequired>
@@ -131,7 +126,8 @@
 		<label>prime legionary</label>
 		<combatPower>60</combatPower>
 		<canBeSapper>true</canBeSapper>
-		<apparelRequired>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
 			<li>FCP_Apparel_Legion_Prime_Armor</li>
 			<li>FCP_Apparel_Legion_Prime_Helmet</li>
 		</apparelRequired>
@@ -154,7 +150,8 @@
 		<label>prime legionary</label>
 		<combatPower>70</combatPower>
 		<canBeSapper>true</canBeSapper>
-		<apparelRequired>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
 			<li>FCP_Apparel_Legion_Prime_Armor</li>
 			<li>FCP_Apparel_Legion_Prime_Decanus_Helmet</li>
 		</apparelRequired>
@@ -177,7 +174,8 @@
 		<label>veteran legionary</label>
 		<combatPower>80</combatPower>
 		<canBeSapper>true</canBeSapper>
-		<apparelRequired>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
 			<li>FCP_Apparel_Legion_Veteran_Armor</li>
 			<li>FCP_Apparel_Legion_Veteran_Helmet</li>
 		</apparelRequired>
@@ -200,7 +198,8 @@
 		<label>veteran legionary</label>
 		<combatPower>90</combatPower>
 		<canBeSapper>true</canBeSapper>
-		<apparelRequired>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
 			<li>FCP_Apparel_Legion_Veteran_Armor</li>
 			<li>FCP_Apparel_Legion_Veteran_Decanus_Helmet</li>
 		</apparelRequired>
@@ -223,7 +222,8 @@
 		<label>legion vexillarius</label>
 		<combatPower>100</combatPower>
 		<canBeSapper>true</canBeSapper>
-		<apparelRequired>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
 			<li>FCP_Apparel_Legion_Vexillarius_Armor</li>
 			<li>FCP_Apparel_Legion_Vexillarius_Helmet</li>
 		</apparelRequired>
@@ -245,7 +245,8 @@
 		<defName>FCP_Legion_Centurion</defName>
 		<label>centurion</label>
 		<combatPower>125</combatPower>
-		<apparelRequired>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
 			<li>FCP_Apparel_Legion_Centurion_Armor</li>
 			<li>FCP_Apparel_Legion_Centurion_Helmet</li>
 		</apparelRequired>
@@ -267,7 +268,8 @@
 		<defName>FCP_Legion_Legate</defName>
 		<label>legate</label>
 		<combatPower>150</combatPower>
-		<apparelRequired>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
 			<li>FCP_Apparel_Legion_Legate_Armor</li>
 			<li>FCP_Apparel_Legion_Legate_Helmet</li>
 		</apparelRequired>
@@ -290,7 +292,8 @@
 		<label>caesar</label>
 		<factionLeader>true</factionLeader>
 		<combatPower>150</combatPower>
-		<apparelRequired>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
 			<li>FCP_Apparel_Legion_Legate_Armor</li>
 		</apparelRequired>
 		<requiredWorkTags>

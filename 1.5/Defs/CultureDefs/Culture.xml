@@ -5,8 +5,8 @@
     <defName>FCP_NeoRoman</defName>
     <label>neo-roman</label>
     <description>Description</description>
-    <pawnNameMaker>NamerPersonCorunan</pawnNameMaker>
-    <pawnNameMakerFemale>NamerPersonCorunan</pawnNameMakerFemale>
+    <pawnNameMaker>FCP_Legion_Namer_Male</pawnNameMaker>
+    <pawnNameMakerFemale>FCP_Legion_Namer_Female</pawnNameMakerFemale>
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
     <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
     <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
