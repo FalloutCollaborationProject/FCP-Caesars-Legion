@@ -172,7 +172,7 @@
 
         <modExtensions Inherit="False">
             <!-- Make them hostile to the NCR -->
-            <li Class="FCP.Factions.PermanentlyHostileToExtension">
+            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
                 <hostileFactionDefs>
                     <li MayRequire="Rick.FCP.NCR">FCP_Faction_NCR</li>
                 </hostileFactionDefs>
