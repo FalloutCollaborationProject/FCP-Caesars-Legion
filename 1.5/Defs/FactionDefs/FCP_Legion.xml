@@ -2,7 +2,7 @@
 <Defs>
 
     <FactionDef ParentName="FactionBase">
-        <defName>FCP_Caesars_Legion</defName>
+        <defName>FCP_Faction_Caesars_Legion</defName>
         <label>Caesar's Legion</label>
         <description>Caesar’s Legion is the fearsome group which conquered most of the former states of Arizona, New Mexico, Colorado, and Utah. The Legion styles itself after the ancient roman legionnaires and uses many low-tech weapons such as javelins and crude but effective melee weapons. They are cruel, warlike, and known to frequently commit massacres against civilians, which they view as dissolute and profligate. Caesar, or Edward Sallow as he was once known, leads his slave armies as an iron fisted dictator and pushes them ever forward to claim new territories for their leader, the self-proclaimed son of Mars himself. Before long, the Legion stood at the shores of the Colorado river and set their eyes on the gleaming towers of New Vegas and California beyond them.</description>
         <colorSpectrum>
@@ -16,11 +16,11 @@
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
-        <leaderTitle>caesar</leaderTitle>
+        <leaderTitle>Caesar</leaderTitle>
         <factionIconPath>World/FCP_LegionIcon</factionIconPath>
         <techLevel>Industrial</techLevel>
         <fixedName>Caesar's Legion</fixedName>
-        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <settlementNameMaker>FCP_Namer_Settlement_Legion</settlementNameMaker>
         <allowedCultures>
             <li>FCP_NeoRoman</li>
         </allowedCultures>
