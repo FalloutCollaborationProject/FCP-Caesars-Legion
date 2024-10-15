@@ -6,8 +6,16 @@
     <name>FCP - Caesars Legion</name>
     <description>The Fallout Collaboration Project Presents: Caesars Legion, a Faction and Armory Mod.</description>
     <supportedVersions>
-        <li>1.4</li>
         <li>1.5</li>
     </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Rick.FCP.Core.Tools</packageId>
+            <displayName>FCP - Tools</displayName>
+        </li>
+    </modDependencies>
+    <LoadAfter>
+        <li>Rick.FCP.Core.Tools</li>
+    </LoadAfter>
 
 </ModMetaData>
