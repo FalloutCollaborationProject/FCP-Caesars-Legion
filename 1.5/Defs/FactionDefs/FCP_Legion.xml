@@ -178,7 +178,7 @@
                 </hostileFactionDefs>
             </li>
             <!-- Ideology stuff -->
-            <li Class="FCP.Ideology.FixedIdeoExtension">
+            <li Class="FCP.Core.ModExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_Legion</ideoIconDef>
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Legionnaire</memberName>
