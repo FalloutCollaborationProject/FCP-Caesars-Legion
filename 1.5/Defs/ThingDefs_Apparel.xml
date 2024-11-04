@@ -70,7 +70,7 @@
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Recruit_Armor</defName>
         <description>Like most Legion armor, the recruit armor is made from repurposed sports equipment, consisting of a football player's protective shoulder and chest pads reinforced with additional leather padding and worn over a baseball catcher's vest.</description>
-        <techLevel>Industrial</techLevel>        
+        <techLevel>Industrial</techLevel>
         <label>Legion Recruit Armor</label>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
@@ -129,7 +129,7 @@
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Prime_Armor</defName>
         <description>The Legion’s main fighting force, the prime legionaries have earned their right to wear better armor compared to the recruits. It’s still made with the same protective shoulder and chest pads but features additional armor bands wrapped around the upper body.</description>
-        <techLevel>Industrial</techLevel>        
+        <techLevel>Industrial</techLevel>
         <label>Legion Prime Armor</label>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
@@ -190,7 +190,7 @@
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Veteran_Armor</defName>
         <description>Compared to regular legionaries’ armor, veteran armor has additional armor pads on the lower legs, as well as several sharp nails sticking out of the shoulder pads and the leather wrappings on the right arm. It offers more protection while still being somewhat light.</description>
-        <techLevel>Industrial</techLevel>        
+        <techLevel>Industrial</techLevel>
         <label>Legion Veteran Armor</label>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
@@ -251,7 +251,7 @@
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Vexillarius_Armor</defName>
         <description>Based on a suit of Legion veteran armor, with the addition of circular metal plates attached to the torso, as well as a banner displaying the flag of the Legion worn on the back. While it is a step up from the lower ranks’ armor, it is also considerably heavier.</description>
-        <techLevel>Industrial</techLevel>        
+        <techLevel>Industrial</techLevel>
         <label>Legion Vexillarius Armor</label>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
@@ -313,7 +313,7 @@
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Praetorian_Armor</defName>
         <description>This armor commonly worn by Caesar’s personal guard is similar to the recruit armor, but sports additional metal bracers on the forearms, probably because of the Praetorian’s preference for punching people with their fists, as well as a short red cape and a red cowl. Despite its close resemblance, this armor protects it’s wearer a lot better than the recruit armor while weighing about the same.</description>
-        <techLevel>Industrial</techLevel>        
+        <techLevel>Industrial</techLevel>
         <label>Legion Praetorian Armor</label>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
@@ -373,7 +373,7 @@
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Centurion_Armor</defName>
         <description>A heavy suit of armor worn by the Legion’s centurions, the elite of the Legion. It’s composed of a wild assortment of different armors, including pieces of combat armor, power armor leather armor and even super mutant armor. These pieces are likely taken from enemies defeated by the wearer. Despite being such a crude assortment of different armors, it offers superior protection.</description>
-        <techLevel>Industrial</techLevel>        
+        <techLevel>Industrial</techLevel>
         <label>Legion Centurion Armor</label>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
@@ -434,7 +434,7 @@
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Legate_Armor</defName>
         <description>The armor of a Legate, a close confidante of the mighty Caesar himself. A full suit of heavy gauge steel, bearing numerous scratches and dents from countless battles, and offers full body protection. It was crafted to closely resemble the armors of the ancient romans and has little to do with the repurposed sports equipment most members of the Legion wear. Unsurprisingly it provides it’s wearer with superior protection but is incredibly heavy.</description>
-        <techLevel>Industrial</techLevel>        
+        <techLevel>Industrial</techLevel>
         <label>Legion Legate Armor</label>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
@@ -493,67 +493,136 @@
 
     <!--_____ Legion Accessories _____-->
 
-    <!-- Legion Leather Vest -->
+    <!-- Legion Tunic -->
 
-    <!-- <ThingDef ParentName="ArmorMachineableBase">
-        <defName>FCP_Apparel_NCR_Trooper_Vest</defName>
-        <label>NCR Trooper Vest</label>
-        <description>A vest often worn by NCR troopers. It’s composed of a reinforced chestplate and
-            armoured pauldrons. While it offers quite a bit of additional protection, it only covers
-            the torso and shoulders, leaving the lower body parts and the head unprotected.</description>
-        <techLevel>Industrial</techLevel>
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+        <defName>FCP_Apparel_Legion_Tunic</defName>
+        <description>PLACEHOLDER</description>
+        <label>Legion Tunic</label>
         <recipeMaker>
-            <researchPrerequisite>FlakArmor</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+            <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
-                <Crafting>4</Crafting>
+                <Crafting>2</Crafting>
             </skillRequirements>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/NCR_Accessories/FCP_NCR_Trooper_Vest</texPath>
+            <texPath>Things/Legion/Apparel/Legion_Tunic/FCP_Legion_Tunic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>0.90</drawSize>
         </graphicData>
         <statBases>
-            <WorkToMake>8000</WorkToMake>
             <MaxHitPoints>200</MaxHitPoints>
-            <Mass>3</Mass>
-            <Flammability>0.6</Flammability>
-            <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.20</ArmorRating_Heat>
-            <Insulation_Cold>2</Insulation_Cold>
-            <Insulation_Heat>3</Insulation_Heat>
-            <EquipDelay>5</EquipDelay>
+            <WorkToMake>8200</WorkToMake>
+            <Mass>3.2</Mass>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.1</EquipDelay>
         </statBases>
-        <equippedStatOffsets>
-            <MoveSpeed>-0.08</MoveSpeed>
-        </equippedStatOffsets>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <costList>
-            <Cloth>35</Cloth>
-            <Steel>45</Steel>
-            <Leather_Plain>1</Leather_Plain>
+            <Cloth>50</Cloth>
+            <Leather_Plain>30</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Legion/Apparel/Legion_Tunic/FCP_Legion_Tunic</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <!-- Legion Plate -->
+
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+        <defName>FCP_Apparel_Legion_Plate</defName>
+        <description>PLACEHOLDER</description>
+        <label>Legion Plate</label>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Legion/Apparel/Legion_Plate/FCP_Legion_Plate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>8200</WorkToMake>
+            <Mass>3.2</Mass>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.1</EquipDelay>
+        </statBases>
+        <costList>
+            <Steel>20</Steel>
         </costList>
         <apparel>
             <bodyPartGroups>
                 <li>Torso</li>
                 <li>Shoulders</li>
             </bodyPartGroups>
-            <wornGraphicPath>Apparel/NCR_Accessories/FCP_NCR_Trooper_Vest</wornGraphicPath>
+            <wornGraphicPath>Things/Legion/Apparel/Legion_Plate/FCP_Legion_Plate</wornGraphicPath>
             <layers>
-                <li>Middle</li>
+                <li>Shell</li>
             </layers>
             <tags>
-                <li>IndustrialMilitaryBasic</li>
+                <li>FCP_Legion</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
         </apparel>
-    </ThingDef> -->
+    </ThingDef>
+
+    <!-- Legion Leather Vest -->
+
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+        <defName>FCP_Apparel_Legion_Vest</defName>
+        <description>PLACEHOLDER</description>
+        <label>Legion Vest</label>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Legion/Apparel/Legion_Vest/FCP_Legion_Vest</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>8200</WorkToMake>
+            <Mass>3.2</Mass>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.1</EquipDelay>
+        </statBases>
+        <costList>
+            <Leather_Plain>25</Leather_Plain>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Legion/Apparel/Legion_Vest/FCP_Legion_Vest</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>FCP_Legion</li>
+            </tags>
+        </apparel>
+    </ThingDef>
 
     <!--_____ Legion Headgear _____-->
 
