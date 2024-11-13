@@ -18,6 +18,9 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Explorer/FCP_Legion_Explorer_Armor</texPath>
@@ -78,6 +81,9 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Recruit/FCP_Legion_Recruit_Armor</texPath>
@@ -137,6 +143,9 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Prime/FCP_Legion_Prime_Armor</texPath>
@@ -198,6 +207,9 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Veteran/FCP_Legion_Veteran_Armor</texPath>
@@ -259,6 +271,9 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Vexillarius/FCP_Legion_Vexillarius_Armor</texPath>
@@ -321,6 +336,9 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Praetorian/FCP_Legion_Praetorian_Armor</texPath>
@@ -381,6 +399,9 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Centurion/FCP_Legion_Centurion_Armor</texPath>
@@ -410,6 +431,7 @@
             <Leather_Plain>15</Leather_Plain>
         </costList>
         <apparel>
+            <shellRenderedBehindHead>true</shellRenderedBehindHead>
             <bodyPartGroups>
                 <li>Torso</li>
                 <li>Legs</li>
@@ -419,6 +441,7 @@
             <layers>
                 <li>OnSkin</li>
                 <li>Middle</li>
+                <li>Shell</li>
             </layers>
             <tags>
                 <li>FCP_Legion</li>
@@ -442,6 +465,9 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Legate/FCP_Legion_Legate_Armor</texPath>
@@ -471,6 +497,7 @@
             <Leather_Plain>15</Leather_Plain>
         </costList>
         <apparel>
+            <shellRenderedBehindHead>true</shellRenderedBehindHead>
             <bodyPartGroups>
                 <li>Torso</li>
                 <li>Legs</li>
@@ -495,9 +522,9 @@
 
     <!-- Legion Tunic -->
 
-    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+    <ThingDef ParentName="ApparelMakeableBase">
         <defName>FCP_Apparel_Legion_Tunic</defName>
-        <description>PLACEHOLDER</description>
+        <description>The common tunic worn by the members of Caesar’s Legion.</description>
         <label>Legion Tunic</label>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
@@ -505,9 +532,12 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Legion/Apparel/Legion_Tunic/FCP_Legion_Tunic</texPath>
+            <texPath>Apparel/Legion_Armor/Legion_Tunic/FCP_Legion_Tunic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
@@ -528,7 +558,7 @@
                 <li>Legs</li>
                 <li>Shoulders</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/Legion/Apparel/Legion_Tunic/FCP_Legion_Tunic</wornGraphicPath>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Tunic/FCP_Legion_Tunic</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -540,9 +570,9 @@
 
     <!-- Legion Plate -->
 
-    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+    <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Plate</defName>
-        <description>PLACEHOLDER</description>
+        <description>A set of Legion plate armor, usauly made of scavenged pre-war football pads with nails added to the shoulders for extra protection.</description>
         <label>Legion Plate</label>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
@@ -550,18 +580,22 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Legion/Apparel/Legion_Plate/FCP_Legion_Plate</texPath>
+            <texPath>Apparel/Legion_Armor/Legion_Plate/FCP_Legion_Plate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>8200</WorkToMake>
-            <Mass>3.2</Mass>
-            <Insulation_Cold>3</Insulation_Cold>
-            <Insulation_Heat>10</Insulation_Heat>
-            <EquipDelay>1.1</EquipDelay>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>2.5</Mass>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.30</ArmorRating_Heat>
+            <EquipDelay>1.0</EquipDelay>
         </statBases>
         <costList>
             <Steel>20</Steel>
@@ -571,9 +605,9 @@
                 <li>Torso</li>
                 <li>Shoulders</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/Legion/Apparel/Legion_Plate/FCP_Legion_Plate</wornGraphicPath>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Plate/FCP_Legion_Plate</wornGraphicPath>
             <layers>
-                <li>Shell</li>
+                <li>Middle</li>
             </layers>
             <tags>
                 <li>FCP_Legion</li>
@@ -583,9 +617,9 @@
 
     <!-- Legion Leather Vest -->
 
-    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
+    <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Vest</defName>
-        <description>PLACEHOLDER</description>
+        <description>A lightweight leather vest used by the Legion. The base of the vest seams to be made from an old baseball umpires pads, or even some football training pads. Either way it gives the user some more protection than nothing at all.</description>
         <label>Legion Vest</label>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
@@ -593,18 +627,24 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Legion/Apparel/Legion_Vest/FCP_Legion_Vest</texPath>
+            <texPath>Apparel/Legion_Armor/Legion_Vest/FCP_Legion_Vest</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>8200</WorkToMake>
-            <Mass>3.2</Mass>
+            <WorkToMake>700</WorkToMake>
+            <Mass>2.5</Mass>
+            <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
             <Insulation_Cold>3</Insulation_Cold>
             <Insulation_Heat>10</Insulation_Heat>
-            <EquipDelay>1.1</EquipDelay>
+            <EquipDelay>1.0</EquipDelay>
         </statBases>
         <costList>
             <Leather_Plain>25</Leather_Plain>
@@ -614,9 +654,9 @@
                 <li>Torso</li>
                 <li>Shoulders</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/Legion/Apparel/Legion_Vest/FCP_Legion_Vest</wornGraphicPath>
+            <wornGraphicPath>Apparel/Legion_Armor/Legion_Vest/FCP_Legion_Vest</wornGraphicPath>
             <layers>
-                <li>Shell</li>
+                <li>Middle</li>
             </layers>
             <tags>
                 <li>FCP_Legion</li>
@@ -639,6 +679,9 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Explorer/Legion_Explorer_Hood/FCP_Legion_Explorer_Hood</texPath>
@@ -692,6 +735,9 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Recruit/Legion_Recruit_Decanus_Helmet/FCP_Legion_Recruit_Decanus_Helmet</texPath>
@@ -745,6 +791,9 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Recruit/Legion_Recruit_Helmet/FCP_Legion_Recruit_Helmet</texPath>
@@ -798,6 +847,9 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Prime/Legion_Prime_Decanus_Helmet/FCP_Legion_Prime_Decanus_Helmet</texPath>
@@ -851,6 +903,9 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Prime/Legion_Prime_Helmet/FCP_Legion_Prime_Helmet</texPath>
@@ -904,6 +959,9 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Veteran/Legion_Veteran_Decanus_Helmet/FCP_Legion_Veteran_Decanus_Helmet</texPath>
@@ -957,6 +1015,9 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Veteran/Legion_Veteran_Helmet/FCP_Legion_Veteran_Helmet</texPath>
@@ -1010,6 +1071,9 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Vexillarius/Legion_Vexillarius_Helmet/FCP_Legion_Vexillarius_Helmet</texPath>
@@ -1066,6 +1130,9 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Centurion/Legion_Centurion_Helmet/FCP_Legion_Centurion_Helmet</texPath>
@@ -1122,6 +1189,9 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Armor_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Apparel/Legion_Armor/Legion_Legate/Legion_Legate_Helmet/FCP_Legion_Legate_Helmet</texPath>

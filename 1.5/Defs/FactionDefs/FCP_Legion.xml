@@ -26,7 +26,7 @@
         </allowedCultures>
 
         <!--__________ Ideology __________-->
-    
+
         <fixedIdeo>true</fixedIdeo>
         <ideoName>Cult of Mars</ideoName>
         <ideoDescription>Caesar, the Son of Mars, was ordered by Mars to conquer all of Earth. To facilitate this conquest, Mars cleansed the Earth with fire, bringing humans to their lowest ebb. The Caesar's divine duty is to deliver the wasteland from chaos and barbarism</ideoDescription>
@@ -176,6 +176,15 @@
                 <hostileFactionDefs>
                     <li MayRequire="Rick.FCP.NCR">FCP_Faction_NCR</li>
                 </hostileFactionDefs>
+            </li>
+            <!-- Make them unable to use drop pods -->
+            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
             </li>
             <!-- Ideology stuff -->
             <li Class="FCP.Core.ModExtension_FixedIdeo">
