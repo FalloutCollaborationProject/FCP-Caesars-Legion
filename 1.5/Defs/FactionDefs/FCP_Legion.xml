@@ -116,6 +116,7 @@
                 <!-- Normal fights, standard mix -->
                 <kindDef>Combat</kindDef>
                 <options>
+                    <FCP_Animal_Legion_Guard_Dog>3</FCP_Animal_Legion_Guard_Dog>
                     <FCP_Legion_Scout>9</FCP_Legion_Scout>
                     <FCP_Legion_Recruit>10</FCP_Legion_Recruit>
                     <FCP_Legion_Recruit_Decanus>5</FCP_Legion_Recruit_Decanus>
@@ -132,6 +133,7 @@
             <li>
                 <kindDef>Peaceful</kindDef>
                 <options>
+                    <FCP_Animal_Legion_Guard_Dog>3</FCP_Animal_Legion_Guard_Dog>
                     <FCP_Legion_Recruit>20</FCP_Legion_Recruit>
                     <FCP_Legion_Recruit_Decanus>10</FCP_Legion_Recruit_Decanus>
                     <FCP_Legion_Caesar>1</FCP_Legion_Caesar>
@@ -149,6 +151,7 @@
                     <Elephant>1</Elephant>
                 </carriers>
                 <guards>
+                    <FCP_Animal_Legion_Guard_Dog>3</FCP_Animal_Legion_Guard_Dog>
                     <FCP_Legion_Veteran>7</FCP_Legion_Veteran>
                     <FCP_Legion_Prime>10</FCP_Legion_Prime>
                     <FCP_Legion_Prime_Decanus>3</FCP_Legion_Prime_Decanus>
@@ -158,6 +161,7 @@
             <li>
                 <kindDef>Settlement</kindDef>
                 <options>
+                    <FCP_Animal_Legion_Guard_Dog>3</FCP_Animal_Legion_Guard_Dog>
                     <FCP_Legion_Slave>10</FCP_Legion_Slave>
                     <FCP_Legion_Veteran>10</FCP_Legion_Veteran>
                     <FCP_Legion_Veteran_Decanus>8</FCP_Legion_Veteran_Decanus>
@@ -171,6 +175,10 @@
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 
         <modExtensions Inherit="False">
+            <!-- Legion Denarius -->
+            <li Class="FCP.Currencies.CurrencyReplacement">
+                <currency>FCP_Currency_Legion_Denarius</currency>
+            </li>
             <!-- Make them hostile to the NCR -->
             <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
                 <hostileFactionDefs>
