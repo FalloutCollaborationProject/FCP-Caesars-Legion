@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <!--__________ Factions __________-->
+
+    <!-- Legion -->    
+
     <FactionDef ParentName="FactionBase">
         <defName>FCP_Faction_Caesars_Legion</defName>
         <label>Caesar's Legion</label>
@@ -22,7 +26,7 @@
         <fixedName>Caesar's Legion</fixedName>
         <settlementNameMaker>FCP_Namer_Settlement_Legion</settlementNameMaker>
         <allowedCultures>
-            <li>FCP_NeoRoman</li>
+            <li>FCP_Culture_Legion_NeoRoman</li>
         </allowedCultures>
 
         <!--__________ Ideology __________-->
