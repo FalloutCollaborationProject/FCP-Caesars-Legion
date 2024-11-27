@@ -63,6 +63,9 @@
             <!-- <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li> -->
         </forcedMemes>
         <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <!--__________ Biotech __________-->
+        
         <xenotypeSet>
             <xenotypeChances>
                 <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
@@ -74,6 +77,9 @@
                 <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
             </xenotypeChances>
         </xenotypeSet>
+
+        <!--__________ Backstories __________-->
+        
         <backstoryFilters>
             <li>
                 <categories>
@@ -92,18 +98,32 @@
                 <commonality>0.05</commonality>
             </li>
         </backstoryFilters>
+
+        <!--__________ Kinds __________-->
+
+        <!-- Caravan Trader Kinds -->
+        
         <caravanTraderKinds>
             <li>Caravan_Outlander_BulkGoods</li>
             <li>Caravan_Outlander_CombatSupplier</li>
             <li>Caravan_Outlander_Exotic</li>
             <li>Caravan_Outlander_PirateMerchant</li>
         </caravanTraderKinds>
+
+        <!-- Vistor Trader Kinds -->
+        
         <visitorTraderKinds>
             <li>Visitor_Outlander_Standard</li>
         </visitorTraderKinds>
+
+        <!-- Base Trader Kinds -->
+        
         <baseTraderKinds>
             <li>Base_Outlander_Standard</li>
         </baseTraderKinds>
+
+        <!-- Trader Kind Arrival Options -->
+        
         <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
         <raidLootMaker>FCP_LegionRaidLootMaker</raidLootMaker>
         <maxPawnCostPerTotalPointsCurve>
@@ -115,6 +135,9 @@
                 <li>(100000, 10000)</li>
             </points>
         </maxPawnCostPerTotalPointsCurve>
+
+        <!--__________ Group Makers __________-->
+        
         <pawnGroupMakers>
             <li>
                 <!-- Normal fights, standard mix -->
@@ -177,7 +200,6 @@
             </li>
         </pawnGroupMakers>
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
-
         <modExtensions Inherit="False">
             <!-- Legion Denarius -->
             <li Class="FCP.Currencies.CurrencyReplacement">
