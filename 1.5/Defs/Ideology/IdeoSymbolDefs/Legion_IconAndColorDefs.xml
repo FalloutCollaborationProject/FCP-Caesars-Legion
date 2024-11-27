@@ -5,7 +5,7 @@
         <defName>FCP_Icon_Legion</defName>
         <iconPath>World/FCP_LegionIcon</iconPath>
         <cultures>
-            <li>FCP_NeoRoman</li>
+            <li>FCP_Culture_Legion_NeoRoman</li>
         </cultures>
     </IdeoIconDef>
 
