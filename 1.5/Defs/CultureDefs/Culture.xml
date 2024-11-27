@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    
+    <!--__________ Cultures and Styles __________-->
 
+    <!--_____ Caesar's Legion _____-->
+
+    <!-- Cultures -->
+    
     <CultureDef>
-        <defName>FCP_NeoRoman</defName>
+        <defName>FCP_Culture_Legion_NeoRoman</defName>
         <label>neo-roman</label>
         <description>Description</description>
         <pawnNameMaker>FCP_Legion_Namer_Male</pawnNameMaker>
@@ -59,4 +65,16 @@
         </styleItemTags>
     </CultureDef>
 
+    <!-- Styles -->
+    
+    <StyleCategoryDef>
+        <defName>FCP_Style_Legion</defName>
+        <label>Legion</label>
+        <iconPath>World_Icon/Legion_Icon/FCP_Legion_Icon</iconPath>
+<!--         <soundOngoingRitual>FCP_RitualSustainer_ILoveYouCalifornia</soundOngoingRitual> -->
+<!--         <ritualVisualEffectDef>Rustic</ritualVisualEffectDef> -->
+        <thingDefStyles>
+        </thingDefStyles>
+      </StyleCategoryDef>
+    
 </Defs>
