@@ -3,7 +3,7 @@
 
     <!--__________ Factions __________-->
 
-    <!-- Legion -->    
+    <!-- Legion -->
 
     <FactionDef ParentName="FactionBase">
         <defName>FCP_Faction_Caesars_Legion</defName>
@@ -65,7 +65,7 @@
         <requiredPreceptsOnly>true</requiredPreceptsOnly>
 
         <!--__________ Biotech __________-->
-        
+
         <xenotypeSet>
             <xenotypeChances>
                 <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
@@ -79,7 +79,7 @@
         </xenotypeSet>
 
         <!--__________ Backstories __________-->
-        
+
         <backstoryFilters>
             <li>
                 <categories>
@@ -102,7 +102,7 @@
         <!--__________ Kinds __________-->
 
         <!-- Caravan Trader Kinds -->
-        
+
         <caravanTraderKinds>
             <li>Caravan_Outlander_BulkGoods</li>
             <li>Caravan_Outlander_CombatSupplier</li>
@@ -111,19 +111,19 @@
         </caravanTraderKinds>
 
         <!-- Vistor Trader Kinds -->
-        
+
         <visitorTraderKinds>
             <li>Visitor_Outlander_Standard</li>
         </visitorTraderKinds>
 
         <!-- Base Trader Kinds -->
-        
+
         <baseTraderKinds>
             <li>Base_Outlander_Standard</li>
         </baseTraderKinds>
 
         <!-- Trader Kind Arrival Options -->
-        
+
         <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
         <raidLootMaker>FCP_LegionRaidLootMaker</raidLootMaker>
         <maxPawnCostPerTotalPointsCurve>
@@ -137,7 +137,7 @@
         </maxPawnCostPerTotalPointsCurve>
 
         <!--__________ Group Makers __________-->
-        
+
         <pawnGroupMakers>
             <li>
                 <!-- Normal fights, standard mix -->
