@@ -10,7 +10,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Legion_Caesar</defName>
         <pawnKind>FCP_Legion_Caesar</pawnKind>
-        <faction>FCP_Faction_Legion</faction>
+        <faction>FCP_Faction_Caesars_Legion</faction>
         <xenotype>Baseliner</xenotype>
         <roles>
             <li Class="FCP.Core.CharacterRole_FactionLeader">
@@ -45,7 +45,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Legion_Legate_Lanius</defName>
         <pawnKind>FCP_Legion_Legate_Lanius</pawnKind>
-        <faction>FCP_Faction_Legion</faction>
+        <faction>FCP_Faction_Caesars_Legion</faction>
         <xenotype>Baseliner</xenotype>
         <roles>
             <li Class="FCP.Core.CharacterRole_FactionLeader">
@@ -78,7 +78,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Legion_Praetoran_Lucius</defName>
         <pawnKind>FCP_Legion_Praetoran_Lucius</pawnKind>
-        <faction>FCP_Faction_Legion</faction>
+        <faction>FCP_Faction_Caesars_Legion</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
@@ -106,7 +106,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Legion_Frumentarius_Vulpes_Inculta</defName>
         <pawnKind>FCP_Legion_Frumentarius_Vulpes_Inculta</pawnKind>
-        <faction>FCP_Faction_Legion</faction>
+        <faction>FCP_Faction_Caesars_Legion</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
@@ -134,7 +134,7 @@
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Legion_Centurion_Aurelius_of_Phoenix</defName>
         <pawnKind>FCP_Legion_Centurion_Aurelius_of_Phoenix</pawnKind>
-        <faction>FCP_Faction_Legion</faction>
+        <faction>FCP_Faction_Caesars_Legion</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
             <!-- Bio -->
