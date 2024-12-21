@@ -9,7 +9,7 @@
         <defName>FCP_Legion_Basic_Equipment</defName>
         <label>Legion Basic Equipment</label>
         <description>Basic equipment used by Caesars legion.</description>
-        <baseCost>4000</baseCost>
+        <baseCost>6000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
             <li>Fabrication</li>
