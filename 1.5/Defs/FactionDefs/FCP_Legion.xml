@@ -241,7 +241,7 @@
             </li>
             <!-- territory stuff -->
             <li Class="FCP.Core.ModExtension_FactionTerritory">
-                <territoryColor>(0.48, 0.11, 0.1, 0.5)</territoryColor>
+                <territoryColor>(253, 181, 21)</territoryColor>
                 <territoryBorderColor>(0.48, 0.11, 0.1, 0.75)</territoryBorderColor>
                 <factionLabelColor>(0.9, 0.2, 0.2, 1.0)</factionLabelColor>
                 <initialTerritoryRadius>10</initialTerritoryRadius>
