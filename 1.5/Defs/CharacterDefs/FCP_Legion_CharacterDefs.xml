@@ -73,11 +73,11 @@
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Praetoran Guard Commander Lucius -->
+    <!-- Praetorian Guard Commander Lucius -->
     
     <FCP.Core.CharacterDef>
-        <defName>FCP_Character_Legion_Praetoran_Lucius</defName>
-        <pawnKind>FCP_Legion_Praetoran_Lucius</pawnKind>
+        <defName>FCP_Character_Legion_Praetorian_Lucius</defName>
+        <pawnKind>FCP_Legion_Praetorian_Lucius</pawnKind>
         <faction>FCP_Faction_Caesars_Legion</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>

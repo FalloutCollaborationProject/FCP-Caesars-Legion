@@ -7,6 +7,138 @@
 
     <!--___ Legion ___-->
 
+    <!--__ Characters __-->
+
+    <!-- Caesar -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Caesar</defName>
+        <identifier>FCP_Legion_Caesar</identifier>
+        <slot>Adulthood</slot>
+        <title>Caesar</title>
+        <titleShort>Caesar</titleShort>
+        <description>[PAWN_nameDef], born Edward Sallow, is the founder and leader of Caesar’s Legion. A former member of the Followers of the Apocalypse, [PAWN_pronoun] used [PAWN_possessive] knowledge of history and tactics to unite the tribes of the wasteland under one banner. [PAWN_pronoun] is a charismatic and ruthless leader, determined to create a new empire in the post-apocalyptic world.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>6</Intellectual>
+            <Melee>4</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legate Lanius -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Legate_Lanius</defName>
+        <identifier>FCP_Legion_Legate_Lanius</identifier>
+        <slot>Adulthood</slot>
+        <title>Legate Lanius</title>
+        <titleShort>Legate Lanius</titleShort>
+        <description>[PAWN_nameDef], known as the Monster of the East, is the brutal and feared military commander of Caesar’s Legion. [PAWN_pronoun] is known for [PAWN_possessive] ruthlessness and efficiency in battle, often leading the Legion to victory through sheer force and intimidation. [PAWN_pronoun] is a master of warfare and a loyal servant to Caesar.</description>
+        <skillGains>
+            <Melee>8</Melee>
+            <Shooting>4</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Praetorian Guard Commander Lucius -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Praetorian_Lucius</defName>
+        <identifier>FCP_Legion_Praetorian_Lucius</identifier>
+        <slot>Adulthood</slot>
+        <title>Praetorian Guard Commander Lucius</title>
+        <titleShort>Commander Lucius</titleShort>
+        <description>[PAWN_nameDef] is the commander of Caesar’s elite Praetorian Guard. [PAWN_pronoun] is responsible for the personal protection of Caesar and the enforcement of [PAWN_possessive] will. [PAWN_pronoun] is a skilled fighter and a disciplined leader, ensuring the loyalty and effectiveness of the Praetorians.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>4</Shooting>
+            <Social>3</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Frumentarius Vulpes Inculta -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Frumentarius_Vulpes_Inculta</defName>
+        <identifier>FCP_Legion_Frumentarius_Vulpes_Inculta</identifier>
+        <slot>Adulthood</slot>
+        <title>Frumentarius Vulpes Inculta</title>
+        <titleShort>Vulpes Inculta</titleShort>
+        <description>[PAWN_nameDef], also known as Mr. Fox, is one of Caesar’s most trusted frumentarii, the Legion’s elite spies and intelligence officers. [PAWN_pronoun] is known for [PAWN_possessive] cunning and resourcefulness, often carrying out covert missions to gather intelligence and sabotage the Legion’s enemies.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>5</Intellectual>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Centurion Aurelius of Phoenix -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Centurion_Aurelius_of_Phoenix</defName>
+        <identifier>FCP_Legion_Centurion_Aurelius_of_Phoenix</identifier>
+        <slot>Adulthood</slot>
+        <title>Centurion Aurelius of Phoenix</title>
+        <titleShort>Aurelius of Phoenix</titleShort>
+        <description>[PAWN_nameDef] is a centurion in Caesar’s Legion, known for [PAWN_possessive] tactical acumen and leadership skills. [PAWN_pronoun] commands a cohort of Legionaries and is responsible for executing Caesar’s military strategies on the battlefield. [PAWN_pronoun] is a respected and feared leader, known for [PAWN_possessive] unwavering loyalty to Caesar.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>4</Shooting>
+            <Social>3</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
     <!--__ Adults __-->
 
     <!-- Legion Scout -->
