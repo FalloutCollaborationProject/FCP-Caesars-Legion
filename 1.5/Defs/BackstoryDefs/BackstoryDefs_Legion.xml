@@ -23,8 +23,8 @@
             <Intellectual>6</Intellectual>
             <Melee>4</Melee>
         </skillGains>
-        <workDisables>None</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <workDisables>ManualDumb, Caring</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -50,7 +50,7 @@
             <Social>2</Social>
         </skillGains>
         <workDisables>None</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -76,7 +76,7 @@
             <Social>3</Social>
         </skillGains>
         <workDisables>None</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -102,7 +102,7 @@
             <Shooting>3</Shooting>
         </skillGains>
         <workDisables>None</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -128,7 +128,7 @@
             <Social>3</Social>
         </skillGains>
         <workDisables>None</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -157,7 +157,7 @@
             <Intellectual>2</Intellectual>
         </skillGains>
         <workDisables>Artistic</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -211,8 +211,8 @@
             <Social>6</Social>
             <Intellectual>4</Intellectual>
         </skillGains>
-        <workDisables></workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -236,8 +236,8 @@
             <Medicine>2</Medicine>
             <Social>2</Social>
         </skillGains>
-        <workDisables></workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -263,7 +263,7 @@
             <Medicine>4</Medicine>
             <Intellectual>2</Intellectual>
         </skillGains>
-        <workDisables></workDisables>
+        <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
@@ -288,7 +288,7 @@
             <Crafting>1</Crafting>
             <Social>4</Social>
         </skillGains>
-        <workDisables></workDisables>
+        <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
@@ -313,7 +313,7 @@
             <Social>2</Social>
             <Intellectual>4</Intellectual>
         </skillGains>
-        <workDisables></workDisables>
+        <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
@@ -339,8 +339,8 @@
             <Melee>3</Melee>
             <Crafting>1</Crafting>
         </skillGains>
-        <workDisables></workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -365,7 +365,7 @@
             <Medicine>2</Medicine>
         </skillGains>
         <workDisables>ManualDumb</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -392,7 +392,7 @@
             <Medicine>2</Medicine>
         </skillGains>
         <workDisables>None</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -417,7 +417,7 @@
             <Social>2</Social>
         </skillGains>
         <workDisables>None</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -443,7 +443,7 @@
             <Social>2</Social>
         </skillGains>
         <workDisables>None</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -471,7 +471,7 @@
             <Intellectual>2</Intellectual>
         </skillGains>
         <workDisables>Caring</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -497,7 +497,7 @@
             <Animals>7</Animals>
         </skillGains>
         <workDisables>PlantWork</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -599,7 +599,7 @@
             <Social>2</Social>
         </skillGains>
         <workDisables>Cleaning</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -625,7 +625,7 @@
             <Intellectual>4</Intellectual>
         </skillGains>
         <workDisables>None</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -678,7 +678,7 @@
             <Social>3</Social>
         </skillGains>
         <workDisables>None</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -704,7 +704,7 @@
             <Intellectual>2</Intellectual>
         </skillGains>
         <workDisables>Cleaning</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
@@ -730,13 +730,292 @@
             <Intellectual>6</Intellectual>
         </skillGains>
         <workDisables>Constructing</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
+        <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Legion</li>
         </spawnCategories>
         <bodyTypeGlobal>Hulk</bodyTypeGlobal>
         <bodyTypeFemale>Hulk</bodyTypeFemale>
         <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!--_ Legion Generic Recruits _-->
+
+    <!-- Legion Recruit a -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Recruit_a</defName>
+        <identifier>FCP_Legion_Recruit_a</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Recruit</title>
+        <titleShort>Recruit</titleShort>
+        <description>[PAWN_nameDef] was born into the Legion, raised from childhood to see Caesar as a god and the Legion as the only true way forward. [PAWN_pronoun] trained with spears and rifles from an early age, learning discipline, obedience, and the art of war. Now of age, [PAWN_pronoun] stands among the fresh recruits, eager to earn [PAWN_possessive] place in the ranks through blood and conquest.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>5</Melee>
+            <Medicine>-4</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Recruit b -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Recruit_b</defName>
+        <identifier>FCP_Legion_Recruit_b</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Recruit</title>
+        <titleShort>Recruit</titleShort>
+        <description>Caesar is not just a warlord, he is a prophet, a divine ruler destined to unite the wasteland. [PAWN_nameDef] grew up in a Legion-controlled settlement, where the words of Caesar were absolute truth. When the time came to serve, [PAWN_pronoun] took up arms with fanatical devotion, ready to purge the weak and spread Caesar’s will.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Melee>7</Melee>
+            <Medicine>-10</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Recruit c -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Recruit_c</defName>
+        <identifier>FCP_Legion_Recruit_c</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Recruit</title>
+        <titleShort>Recruit</titleShort>
+        <description>Once, [PAWN_nameDef] belonged to a nomadic desert tribe, skilled in survival and warfare. But weakness is not tolerated. When [PAWN_pronoun] was cast out for failing [PAWN_possessive] people, death seemed certain. Instead, the Legion found [PAWN_pronoun] and offered a place among the recruits. In the Legion, failure means death, but success means power. [PAWN_pronoun] swore never to fail again.</description>
+        <skillGains>
+            <Cooking>5</Cooking>
+            <Melee>4</Melee>
+            <Social>-5</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Recruit d -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Recruit_d</defName>
+        <identifier>FCP_Legion_Recruit_d</identifier>
+        <slot>Adulthood</slot>
+        <title>Recruit</title>
+        <titleShort>Legion Recruit</titleShort>
+        <description>[PAWN_nameDef] grew up under the New California Republic, believing in democracy, law, and order. But as the NCR spread, corruption and weakness spread with it. When the Legion came, [PAWN_pronoun] expected death. Instead, [PAWN_pronoun] was given a chance to serve something stronger than the crumbling NCR. Now, with a sword in hand, [PAWN_pronoun] fights against the very nation [PAWN_pronoun] once called home, convinced that Caesar’s way is the only way forward.</description>
+        <skillGains>
+            <Social>5</Social>
+            <Melee>5</Melee>
+            <Artistic>-3</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Recruit e -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Recruit_e</defName>
+        <identifier>FCP_Legion_Recruit_e</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Recruit</title>
+        <titleShort>Recruit</titleShort>
+        <description>The Legion destroyed [PAWN_possessive] town. [PAWN_pronoun] should have died with the rest. Instead, [PAWN_pronoun] was given a choice: submit and fight for Caesar or be wiped away like the rest of [PAWN_possessive] people. With nothing left, [PAWN_pronoun] chose the Legion. At first, it was just survival. But as the years passed, [PAWN_pronoun] began to understand the Legion’s strength. The weak are burned away, and the strong endure. [PAWN_pronoun] will never be weak again.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Melee>5</Melee>
+            <Artistic>-4</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Recruit f -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Recruit_f</defName>
+        <identifier>FCP_Legion_Recruit_f</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Recruit</title>
+        <titleShort>Recruit</titleShort>
+        <description>Some people join the Legion for survival. Some join for loyalty. [PAWN_nameDef] joined because [PAWN_pronoun] loves war. The Legion offered something that no other faction could, unlimited opportunities for battle, slaughter, and conquest. [PAWN_pronoun] fights not for Caesar, not for glory, but simply because it’s what [PAWN_pronoun] does best.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>4</Melee>
+            <Social>-5</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!--_ Legion Generic Veterans _-->
+
+    <!-- Legion Veteran a -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Veteran_a</defName>
+        <identifier>FCP_Legion_Veteran_a</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>[PAWN_nameDef] has fought beside greatness. From the early days of [PAWN_possessive] service, [PAWN_pronoun] caught the attention of a powerful Centurion, serving as a personal enforcer, executioner, and right-hand warrior. In battle, [PAWN_nameDef] was the one sent to break the enemy’s resolve, to cut down officers, champions, and cowards alike. With [PAWN_possessive] Centurion now dead, [PAWN_pronoun] fights on, not just to honor the fallen, but to one day rise to that same position of power.</description>
+        <skillGains>
+            <Melee>8</Melee>
+            <Social>4</Social>
+            <Cooking>-5</Cooking>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Veteran b -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Veteran_b</defName>
+        <identifier>FCP_Legion_Veteran_b</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>Some battles end in an hour. Others last years. When Caesar ordered a campaign deep into NCR-controlled territory, [PAWN_nameDef] was among those sent on the grueling march. Months without resupply. Constant fighting. Watching entire centuries wiped out. [PAWN_pronoun] survived it all and returned to tell the tale, scarred, hardened, and more devoted than ever. Those who survived became Veterans, forged into warriors beyond pain or fear.</description>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Shooting>5</Shooting>
+            <Social>-6</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Veteran c -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Veteran_c</defName>
+        <identifier>FCP_Legion_Veteran_c</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>The battle for Hoover Dam was a test, one that many Legionaries did not survive. But [PAWN_nameDef] was among the few who stood victorious, cutting through wave after wave of NCR defenders. Even when the battle turned against Caesar, [PAWN_pronoun] refused to flee, choosing to hold ground until the last possible moment. Now, [PAWN_pronoun] fights not just for conquest, but for revenge, to see the NCR shattered and Hoover Dam taken once and for all.</description>
+        <skillGains>
+            <Construction>-4</Construction>
+            <Melee>14</Melee>
+            <Crafting>-4</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Veteran d -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Veteran_d</defName>
+        <identifier>FCP_Legion_Veteran_d</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>[PAWN_nameDef] grew up under the New California Republic, believing in democracy, law, and order. But as the NCR spread, corruption and weakness spread with it. When the Legion came, [PAWN_pronoun] expected death. Instead, [PAWN_pronoun] was given a chance to serve something stronger than the crumbling NCR. Now, with a sword in hand, [PAWN_pronoun] fights against the very nation [PAWN_pronoun] once called home, convinced that Caesar’s way is the only way forward.</description>
+        <skillGains>
+            <Social>5</Social>
+            <Melee>5</Melee>
+            <Artistic>-3</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Veteran e -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Veteran_e</defName>
+        <identifier>FCP_Legion_Veteran_e</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>The Legion destroyed [PAWN_possessive] town. [PAWN_pronoun] should have died with the rest. Instead, [PAWN_pronoun] was given a choice: submit and fight for Caesar or be wiped away like the rest of [PAWN_possessive] people. With nothing left, [PAWN_pronoun] chose the Legion. At first, it was just survival. But as the years passed, [PAWN_pronoun] began to understand the Legion’s strength. The weak are burned away, and the strong endure. [PAWN_pronoun] will never be weak again.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Melee>5</Melee>
+            <Artistic>-4</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions>
         </possessions>
     </BackstoryDef>
