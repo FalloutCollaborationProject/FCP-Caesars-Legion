@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Rule Pack Strings for leader titles -->
+
+    <RulePackDef>
+        <defName>FCP_LeaderTitleMaker_Legion</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->Caesar</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

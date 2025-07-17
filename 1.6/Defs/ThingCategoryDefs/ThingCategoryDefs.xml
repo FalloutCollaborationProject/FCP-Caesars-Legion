@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Currencies ___________-->
+
+	<!-- Legion Denarius -->
+
+	<ThingCategoryDef>
+		<defName>FCP_Currencies_Legion</defName>
+		<label>currencies Legion</label>
+		<parent>Manufactured</parent>
+		<iconPath>Things/Items/Currencies/FCP_Legion_Denarius_Currency/FCP_Legion_Denarius_Currency_c</iconPath>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+
+</Defs>

@@ -28,12 +28,16 @@
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(88, 60, 51)</hairColor>
+                <hairColor>(255, 255, 255)</hairColor>
                 <hairDef>FCP_Hair_Ranger_Rick</hairDef>
                 <beardDef>NoBeard</beardDef>
                 <skinColorOverride>(239, 189, 163)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+            <!-- Unique Apparels -->
+            <li Class="FCP.Core.CharacterUniqueItemDefinition">
+                <uniqueItem>FCP_Apparel_Caesar_Robes</uniqueItem>
             </li>
         </definitions>
     </FCP.Core.CharacterDef>

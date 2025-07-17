@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Currencies __________-->
+
+	<!-- Legion Denarius -->
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>FCP_Currency_Legion_Denarius</defName>
+		<label>Legion Denarius</label>
+		<description>Caesar's Legion uses this coin as one of the primary forms of currency. This coin bears an image of Caesar himself on one side and Caesar, Josua Grahm and Bill Calhoun on the other.</description>
+		<graphicData>
+			<texPath>Things/Items/Currencies/FCP_Legion_Denarius_Currency</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+		<statBases>
+			<RoyalFavorValue>0.002</RoyalFavorValue>
+			<MarketValue>4</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<thingCategories>
+			<li>FCP_Currencies_Legion</li>
+		</thingCategories>
+		<stackLimit>250</stackLimit>
+		<smallVolume>true</smallVolume>
+		<allowedArchonexusCount>250</allowedArchonexusCount>
+		<possessionCount>10</possessionCount>
+	</ThingDef>
+
+</Defs>

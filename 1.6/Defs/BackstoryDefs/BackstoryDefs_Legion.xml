@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Backstories __________-->
+
+    <!--_____ Factions _____-->
+
+    <!--___ Legion ___-->
+
+    <!--__ Characters __-->
+
+    <!-- Caesar -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Caesar</defName>
+        <identifier>FCP_Legion_Caesar</identifier>
+        <slot>Adulthood</slot>
+        <title>Caesar</title>
+        <titleShort>Caesar</titleShort>
+        <description>[PAWN_nameDef], born Edward Sallow, is the founder and leader of Caesar’s Legion. A former member of the Followers of the Apocalypse, [PAWN_pronoun] used [PAWN_possessive] knowledge of history and tactics to unite the tribes of the wasteland under one banner. [PAWN_pronoun] is a charismatic and ruthless leader, determined to create a new empire in the post-apocalyptic world.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>6</Intellectual>
+            <Melee>4</Melee>
+        </skillGains>
+        <workDisables>ManualDumb, Caring</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legate Lanius -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Legate_Lanius</defName>
+        <identifier>FCP_Legion_Legate_Lanius</identifier>
+        <slot>Adulthood</slot>
+        <title>Legate Lanius</title>
+        <titleShort>Legate Lanius</titleShort>
+        <description>[PAWN_nameDef], known as the Monster of the East, is the brutal and feared military commander of Caesar’s Legion. [PAWN_pronoun] is known for [PAWN_possessive] ruthlessness and efficiency in battle, often leading the Legion to victory through sheer force and intimidation. [PAWN_pronoun] is a master of warfare and a loyal servant to Caesar.</description>
+        <skillGains>
+            <Melee>8</Melee>
+            <Shooting>4</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Praetorian Guard Commander Lucius -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Praetorian_Lucius</defName>
+        <identifier>FCP_Legion_Praetorian_Lucius</identifier>
+        <slot>Adulthood</slot>
+        <title>Praetorian Guard Commander Lucius</title>
+        <titleShort>Commander Lucius</titleShort>
+        <description>[PAWN_nameDef] is the commander of Caesar’s elite Praetorian Guard. [PAWN_pronoun] is responsible for the personal protection of Caesar and the enforcement of [PAWN_possessive] will. [PAWN_pronoun] is a skilled fighter and a disciplined leader, ensuring the loyalty and effectiveness of the Praetorians.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>4</Shooting>
+            <Social>3</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Frumentarius Vulpes Inculta -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Frumentarius_Vulpes_Inculta</defName>
+        <identifier>FCP_Legion_Frumentarius_Vulpes_Inculta</identifier>
+        <slot>Adulthood</slot>
+        <title>Frumentarius Vulpes Inculta</title>
+        <titleShort>Vulpes Inculta</titleShort>
+        <description>[PAWN_nameDef], also known as Mr. Fox, is one of Caesar’s most trusted frumentarii, the Legion’s elite spies and intelligence officers. [PAWN_pronoun] is known for [PAWN_possessive] cunning and resourcefulness, often carrying out covert missions to gather intelligence and sabotage the Legion’s enemies.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>5</Intellectual>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Centurion Aurelius of Phoenix -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Centurion_Aurelius_of_Phoenix</defName>
+        <identifier>FCP_Legion_Centurion_Aurelius_of_Phoenix</identifier>
+        <slot>Adulthood</slot>
+        <title>Centurion Aurelius of Phoenix</title>
+        <titleShort>Aurelius of Phoenix</titleShort>
+        <description>[PAWN_nameDef] is a centurion in Caesar’s Legion, known for [PAWN_possessive] tactical acumen and leadership skills. [PAWN_pronoun] commands a cohort of Legionaries and is responsible for executing Caesar’s military strategies on the battlefield. [PAWN_pronoun] is a respected and feared leader, known for [PAWN_possessive] unwavering loyalty to Caesar.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>4</Shooting>
+            <Social>3</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!--__ Adults __-->
+
+    <!-- Legion Scout -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Scout</defName>
+        <identifier>FCP_Legion_Scout</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Scout</title>
+        <titleShort>Legion Scout</titleShort>
+        <description>[PAWN_nameDef] was a Scout in Caesar’s Legion. [PAWN_pronoun] job was to explore new areas for the Legion to conquer. [PAWN_nameDef] is well-trained with the weapons of the Legion and always eager to show his prowess in battle against the enemies of the son of Mars.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+            <Medicine>4</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>Artistic</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Slave -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Slave</defName>
+        <identifier>FCP_Legion_Slave</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Slave</title>
+        <titleShort>Legion Slave</titleShort>
+        <description>[PAWN_nameDef] was a slave of Caesar’s Legion. [PAWN_pronoun] was put to backbreaking work by [PAWN_possessive] masters. It was a bleak life full of violence and toil, but it made [PAWN_nameDef] tough and resilient, albeit wary of others.</description>
+        <skillGains>
+            <Construction>4</Construction>
+            <Mining>2</Mining>
+            <Cooking>2</Cooking>
+            <Plants>2</Plants>
+        </skillGains>
+        <workDisables>Caring, Intellectual</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Frumentarius -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Frumentarius</defName>
+        <identifier>FCP_Legion_Frumentarius</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Frumentarius</title>
+        <titleShort>Legion Frumentarius</titleShort>
+        <description>[PAWN_nameDef] was a frumentarius. As one of the elite intelligence officers [PAWN_nameDef] serves as the mighty Caesars eyes and ears and is tasked with subtle missions, like infiltrating the enemy’s society or gathering intelligence behind enemy lines.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+            <Crafting>4</Crafting>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Taskmaster -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Taskmaster</defName>
+        <identifier>FCP_Legion_Taskmaster</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Taskmaster</title>
+        <titleShort>Legion Frumentarius</titleShort>
+        <description>[PAWN_nameDef] was tasked with ensuring discipline and obedience among the recruits and slaves of Caesar’s Legion. While [PAWN_pronoun] was feared among [PAWN_possessive] subordinates for [PAWN_possessive] brutal methods and high expectations, [PAWN_nameDef] always felt a sense of pride for the younglings [PAWN_pronoun] shaped into Legionaries.</description>
+        <skillGains>
+            <Melee>4</Melee>
+            <Medicine>2</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Healer -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Healer</defName>
+        <identifier>FCP_Legion_Healer</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Healer</title>
+        <titleShort>Legion Healer</titleShort>
+        <description>While the Legion shunned most forms of modern technology, including many types of medicine, someone had to keep the Legionaries in fighting condition, patching them up if wounded or putting them down for good if deemed too weak to fight again. [PAWN_nameDef] never got any kind of real medical training but proved to be quite resourceful with needle and thread, as well as several herbal concoctions of questionable quality.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Plants>4</Plants>
+            <Medicine>4</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Arizona Trader -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Arizona_Trader</defName>
+        <identifier>FCP_Legion_Arizona_Trader</identifier>
+        <slot>Adulthood</slot>
+        <title>Arizona Trader</title>
+        <titleShort>Arizona Trader</titleShort>
+        <description>Not all who lived in the domain of Caesar were part of his army. Many of the inhabitants of more civilized settlements within Legion domain remained relatively free. As a matter of fact, many traders preferred operating in Legion territory, as they managed to keep the roads safe from raiders. [PAWN_nameDef] was one of those merchants, traveling around Arizona, New Mexico, Utah and Colorado and dealing with the Legion on a regular basis.</description>
+        <skillGains>
+            <Animals>2</Animals>
+            <Crafting>1</Crafting>
+            <Social>4</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Administrator -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Administrator</defName>
+        <identifier>FCP_Legion_Administrator</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Administrator</title>
+        <titleShort>Legion Administrator</titleShort>
+        <description>[PAWN_nameDef] was a Legion administrator, tasked with overseeing the logistics that are required to hold together such an innumerable army as the Legion. As such, [PAWN_pronoun] had a talent for numbers, administration and other things most legionaries viewed as the work of profligates.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Social>2</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Fat</bodyTypeGlobal>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Recruit -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Recruit</defName>
+        <identifier>FCP_Legion_Recruit</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Recruit</title>
+        <titleShort>Legion Recruit</titleShort>
+        <description>The Legion’s reckless way of war and the consequently high casualties meant that they were always in dire need of new recruits. [PAWN_nameDef] was one of those recruits. While [PAWN_pronoun] didn’t have much combat experience, [PAWN_pronoun] was eager to prove himself in the eyes of [PAWN_possessive] decanus and fought ferociously.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>3</Melee>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Centurion -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Centurion</defName>
+        <identifier>FCP_Legion_Centurion</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Centurion</title>
+        <titleShort>Legion Centurion</titleShort>
+        <description>[PAWN_nameDef] was an elite soldier of Caesar’s Legion. Unrelenting and fearless in battle, [PAWN_pronoun] was awarded with the rank of centurion. There were few who could match [PAWN_pronoun] in close combat and [PAWN_nameDef] used [PAWN_possessive] abilities to crush anyone foolish enough to stand in the Legion’s way.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>8</Melee>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Decanus -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Decanus</defName>
+        <identifier>FCP_Legion_Decanus</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Decanus</title>
+        <titleShort>Legion Decanus</titleShort>
+        <description>[PAWN_nameDef] was a decanus in Caesar’s Legion. It was [PAWN_possessive] duty to lead the rank and file legionaries in battle. [PAWN_nameDef] has been a decanus for many years and yearned for a chance to ascend to the rank of centurion.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>5</Melee>
+            <Crafting>2</Crafting>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Gladiator -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Gladiator</defName>
+        <identifier>FCP_Legion_Gladiator</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Gladiator</title>
+        <titleShort>Legion Gladiator</titleShort>
+        <description>[PAWN_nameDef] fought frequently in the fighting arenas, often located at the centre of Legion camps. [PAWN_pronoun] has won many battles in the arena, leaving [PAWN_possessive] opponents bleeding out in the dust. [PAWN_nameDef] wore [PAWN_possessive] many scars with pride.</description>
+        <skillGains>
+            <Melee>5</Melee>
+            <Crafting>2</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Sentry -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Sentry</defName>
+        <identifier>FCP_Legion_Sentry</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Sentry</title>
+        <titleShort>Legion Sentry</titleShort>
+        <description>Being a sentry wasn’t seen as a very honourable task by most legionaries. It was a task mostly left to the less experienced legionaries and recruits. [PAWN_nameDef] wasn’t particularly fond of guard duty, but the horrifying punishments the Legion enacted upon those who neglected their duties were motivation enough to keep [PAWN_objective] focused and obedient.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+            <Crafting>1</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Scavenger -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Scavenger</defName>
+        <identifier>FCP_Legion_Scavenger</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Scavenger</title>
+        <titleShort>Legion Scavenger</titleShort>
+        <description>Unlike the NCR, the Legion couldn’t rely on a strong industrial centre to supply them with enough weapons and ammunition to supply their ever-growing army. [PAWN_nameDef] was a scavenger for the Legion, who’s main task was to scavenge pre-war buildings for weaponry. As the Legion generally was a rather low-tech faction, they favoured weapons that were easy to maintain and repair and rugged enough to keep their functionality in the hazardous wasteland.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+            <Mining>4</Mining>
+            <Crafting>4</Crafting>
+            <Social>-4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>Caring</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Hunter -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Hunter</defName>
+        <identifier>FCP_Legion_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Hunter</title>
+        <titleShort>Legion Hunter</titleShort>
+        <description>[PAWN_nameDef] was a trusted enough warrior, to receive advanced hunting equipment. With [PAWN_possessive] trusty rifle, [PAWN_pronoun] prowled through the wasteland, always on the lookout for brahmin, bighorners and other game to fill the bellies of the hungry legionaries at the camp.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>2</Melee>
+            <Cooking>3</Cooking>
+            <Animals>7</Animals>
+        </skillGains>
+        <workDisables>PlantWork</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Cook -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Cook</defName>
+        <identifier>FCP_Legion_Cook</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Cook</title>
+        <titleShort>Legion Cook</titleShort>
+        <description>As cynical as it may sound, [PAWN_nameDef] was a rather lucky slave. [PAWN_pronoun] was tasked with the preparation of meals for [PAWN_possessive] Legion camp, which absolved [PAWN_objective] from most of the hardest, most exhausting labour. Truth be told, [PAWN_nameDef] wasn’t even that good a cook, but the Legion’s contempt for luxury ensured that that wasn’t an issue.</description>
+        <skillGains>
+            <Cooking>4</Cooking>
+            <Animals>5</Animals>
+            <Plants>5</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Carrier Slave -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Carrier_Slave</defName>
+        <identifier>FCP_Legion_Carrier_Slave</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Carrier Slave</title>
+        <titleShort>Legion Carrier Slave</titleShort>
+        <description>[PAWN_nameDef] was used as a human beast of burden to carry around massive amounts of materiel. [PAWN_pronoun] was treated like cattle for most of [PAWN_possessive] life. Needless to say, that such cruel treatment left deep scars in [PAWN_possessive] soul.</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Animals>3</Animals>
+        </skillGains>
+        <workDisables>ManualSkilled, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Slave</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Miner -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Miner</defName>
+        <identifier>FCP_Legion_Miner</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Miner</title>
+        <titleShort>Legion Miner</titleShort>
+        <description>[PAWN_nameDef] was part of a tribe, which was only recently subjugated by the Legion. [PAWN_possessive] tribe lived in the Rocky Mountains, where they lived in caves and canyons. As such they were skilled miners and [PAWN_nameDef] was put to work as a miner for Caesar’s Legion.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Construction>4</Construction>
+            <Mining>5</Mining>
+        </skillGains>
+        <workDisables>Intellectual</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Praetorian -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Praetorian</defName>
+        <identifier>FCP_Legion_Praetorian</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Praetorian</title>
+        <titleShort>Legion Praetorian</titleShort>
+        <description>[PAWN_nameDef] was a member of the esteemed praetorian guard, tasked with the protection of none other than the almighty Caesar himself. [PAWN_pronoun] became part of this elite group by challenging and defeating one of the praetorians and took great pride in the fact that few other’s within the Legion would ever be so close to their infallible leader as [PAWN_pronoun] was. Of course, this position was not representative in nature, [PAWN_pronoun] had to be a formidable fighter, capable of dispatching any would-be assassins sent after Caesar.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>7</Melee>
+            <Medicine>3</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Cleaning</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Magister -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Magister</defName>
+        <identifier>FCP_Legion_Magister</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Magister</title>
+        <titleShort>Legion Magister</titleShort>
+        <description>While the Legion did not put much emphasis on education, there still was a need for someone to teach the values of the Legion to the younglings. [PAWN_nameDef] was in charge of educating the soon-to-be Legionaries. Through [PAWN_objective] they learned how a Legionary had to speak, as well as the most essential things about the cult of mars.</description>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Medicine>3</Medicine>
+            <Social>5</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Peasant -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Peasant</defName>
+        <identifier>FCP_Legion_Peasant</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Peasant</title>
+        <titleShort>Legion Peasant</titleShort>
+        <description>While [PAWN_nameDef] wasn’t technically a slave, [PAWN_pronoun] still lived within Legion territory, where [PAWN_pronoun] had to work the land. A large proportion of [PAWN_possessive] produce was confiscated by Legion administrators after each harvest, but [PAWN_nameDef] was still content since Caesar’s warriors kept the raiders at bay and didn’t harass [PAWN_objective] otherwise.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Cooking>2</Cooking>
+            <Plants>5</Plants>
+            <Animals>5</Animals>
+        </skillGains>
+        <workDisables>Intellectual</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Smith -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Smith</defName>
+        <identifier>FCP_Legion_Smith</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Smith</title>
+        <titleShort>Legion Smith</titleShort>
+        <description>It was expected of each and every Legionary that he was capable of maintaining of his equipment. However, it was [PAWN_nameDef] to craft the equipment at first. [PAWN_pronoun] was a proficient smith, able to craft the Legionaries distinctive armour out of old sport equipment and other salvage. [PAWN_possessive] abilities made [PAWN_objective] popular within the Legion’s encampments, as no warrior, no matter how skilled, can fight for long without good gear.</description>
+        <skillGains>
+            <Melee>4</Melee>
+            <Crafting>6</Crafting>
+            <Artistic>2</Artistic>
+            <Social>3</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Acolyte of Mars -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Acolyte_of_Mars</defName>
+        <identifier>FCP_Legion_Acolyte_of_Mars</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Acolyte of Mars</title>
+        <titleShort>Acolyte of Mars</titleShort>
+        <description>[PAWN_nameDef] was an acolyte of mars, spreading the word of Caesar, the son of mars, through the lands occupied by the Legion. While [PAWN_pronoun] essentially was something in between a priest and a messenger, [PAWN_nameDef] truly thought [PAWN_pronoun] had a divine mission. [PAWN_pronoun] was gifted with words and where [PAWN_pronoun] spoke, the people listened.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>Cleaning</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Scribe -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Scribe</defName>
+        <identifier>FCP_Legion_Scribe</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Scribe</title>
+        <titleShort>Legion Scribe</titleShort>
+        <description>[PAWN_nameDef] was a scribe in service of Caesar’s Legion. [PAWN_possessive] task was to write done orders, sometimes from Caesar himself, and send them on their way through the Legion’s domain and beyond. Some Legionaries rumoured, that [PAWN_pronoun] secretly wrote poetry, but there never was any proof for these allegations.</description>
+        <skillGains>
+            <Artistic>6</Artistic>
+            <Social>2</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <workDisables>Constructing</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!--_ Legion Generic Recruits _-->
+
+    <!-- Legion Recruit a -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Recruit_a</defName>
+        <identifier>FCP_Legion_Recruit_a</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Recruit</title>
+        <titleShort>Recruit</titleShort>
+        <description>[PAWN_nameDef] was born into the Legion, raised from childhood to see Caesar as a god and the Legion as the only true way forward. [PAWN_pronoun] trained with spears and rifles from an early age, learning discipline, obedience, and the art of war. Now of age, [PAWN_pronoun] stands among the fresh recruits, eager to earn [PAWN_possessive] place in the ranks through blood and conquest.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>5</Melee>
+            <Medicine>-4</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Recruit b -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Recruit_b</defName>
+        <identifier>FCP_Legion_Recruit_b</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Recruit</title>
+        <titleShort>Recruit</titleShort>
+        <description>Caesar is not just a warlord, he is a prophet, a divine ruler destined to unite the wasteland. [PAWN_nameDef] grew up in a Legion-controlled settlement, where the words of Caesar were absolute truth. When the time came to serve, [PAWN_pronoun] took up arms with fanatical devotion, ready to purge the weak and spread Caesar’s will.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Melee>7</Melee>
+            <Medicine>-10</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Recruit c -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Recruit_c</defName>
+        <identifier>FCP_Legion_Recruit_c</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Recruit</title>
+        <titleShort>Recruit</titleShort>
+        <description>Once, [PAWN_nameDef] belonged to a nomadic desert tribe, skilled in survival and warfare. But weakness is not tolerated. When [PAWN_pronoun] was cast out for failing [PAWN_possessive] people, death seemed certain. Instead, the Legion found [PAWN_pronoun] and offered a place among the recruits. In the Legion, failure means death, but success means power. [PAWN_pronoun] swore never to fail again.</description>
+        <skillGains>
+            <Cooking>5</Cooking>
+            <Melee>4</Melee>
+            <Social>-5</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Recruit d -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Recruit_d</defName>
+        <identifier>FCP_Legion_Recruit_d</identifier>
+        <slot>Adulthood</slot>
+        <title>Recruit</title>
+        <titleShort>Legion Recruit</titleShort>
+        <description>[PAWN_nameDef] grew up under the New California Republic, believing in democracy, law, and order. But as the NCR spread, corruption and weakness spread with it. When the Legion came, [PAWN_pronoun] expected death. Instead, [PAWN_pronoun] was given a chance to serve something stronger than the crumbling NCR. Now, with a sword in hand, [PAWN_pronoun] fights against the very nation [PAWN_pronoun] once called home, convinced that Caesar’s way is the only way forward.</description>
+        <skillGains>
+            <Social>5</Social>
+            <Melee>5</Melee>
+            <Artistic>-3</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Recruit e -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Recruit_e</defName>
+        <identifier>FCP_Legion_Recruit_e</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Recruit</title>
+        <titleShort>Recruit</titleShort>
+        <description>The Legion destroyed [PAWN_possessive] town. [PAWN_pronoun] should have died with the rest. Instead, [PAWN_pronoun] was given a choice: submit and fight for Caesar or be wiped away like the rest of [PAWN_possessive] people. With nothing left, [PAWN_pronoun] chose the Legion. At first, it was just survival. But as the years passed, [PAWN_pronoun] began to understand the Legion’s strength. The weak are burned away, and the strong endure. [PAWN_pronoun] will never be weak again.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Melee>5</Melee>
+            <Artistic>-4</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Recruit f -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Recruit_f</defName>
+        <identifier>FCP_Legion_Recruit_f</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Recruit</title>
+        <titleShort>Recruit</titleShort>
+        <description>Some people join the Legion for survival. Some join for loyalty. [PAWN_nameDef] joined because [PAWN_pronoun] loves war. The Legion offered something that no other faction could, unlimited opportunities for battle, slaughter, and conquest. [PAWN_pronoun] fights not for Caesar, not for glory, but simply because it’s what [PAWN_pronoun] does best.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>4</Melee>
+            <Social>-5</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!--_ Legion Generic Veterans _-->
+
+    <!-- Legion Veteran a -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Veteran_a</defName>
+        <identifier>FCP_Legion_Veteran_a</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>[PAWN_nameDef] has fought beside greatness. From the early days of [PAWN_possessive] service, [PAWN_pronoun] caught the attention of a powerful Centurion, serving as a personal enforcer, executioner, and right-hand warrior. In battle, [PAWN_nameDef] was the one sent to break the enemy’s resolve, to cut down officers, champions, and cowards alike. With [PAWN_possessive] Centurion now dead, [PAWN_pronoun] fights on, not just to honor the fallen, but to one day rise to that same position of power.</description>
+        <skillGains>
+            <Melee>8</Melee>
+            <Social>4</Social>
+            <Cooking>-5</Cooking>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Veteran b -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Veteran_b</defName>
+        <identifier>FCP_Legion_Veteran_b</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>Some battles end in an hour. Others last years. When Caesar ordered a campaign deep into NCR-controlled territory, [PAWN_nameDef] was among those sent on the grueling march. Months without resupply. Constant fighting. Watching entire centuries wiped out. [PAWN_pronoun] survived it all and returned to tell the tale, scarred, hardened, and more devoted than ever. Those who survived became Veterans, forged into warriors beyond pain or fear.</description>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Shooting>5</Shooting>
+            <Social>-6</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Veteran c -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Veteran_c</defName>
+        <identifier>FCP_Legion_Veteran_c</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>The battle for Hoover Dam was a test, one that many Legionaries did not survive. But [PAWN_nameDef] was among the few who stood victorious, cutting through wave after wave of NCR defenders. Even when the battle turned against Caesar, [PAWN_pronoun] refused to flee, choosing to hold ground until the last possible moment. Now, [PAWN_pronoun] fights not just for conquest, but for revenge, to see the NCR shattered and Hoover Dam taken once and for all.</description>
+        <skillGains>
+            <Construction>-4</Construction>
+            <Melee>14</Melee>
+            <Crafting>-4</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Veteran d -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Veteran_d</defName>
+        <identifier>FCP_Legion_Veteran_d</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>[PAWN_nameDef] grew up under the New California Republic, believing in democracy, law, and order. But as the NCR spread, corruption and weakness spread with it. When the Legion came, [PAWN_pronoun] expected death. Instead, [PAWN_pronoun] was given a chance to serve something stronger than the crumbling NCR. Now, with a sword in hand, [PAWN_pronoun] fights against the very nation [PAWN_pronoun] once called home, convinced that Caesar’s way is the only way forward.</description>
+        <skillGains>
+            <Social>5</Social>
+            <Melee>5</Melee>
+            <Artistic>-3</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Veteran e -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Veteran_e</defName>
+        <identifier>FCP_Legion_Veteran_e</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>The Legion destroyed [PAWN_possessive] town. [PAWN_pronoun] should have died with the rest. Instead, [PAWN_pronoun] was given a choice: submit and fight for Caesar or be wiped away like the rest of [PAWN_possessive] people. With nothing left, [PAWN_pronoun] chose the Legion. At first, it was just survival. But as the years passed, [PAWN_pronoun] began to understand the Legion’s strength. The weak are burned away, and the strong endure. [PAWN_pronoun] will never be weak again.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Melee>5</Melee>
+            <Artistic>-4</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!--__ Children __-->
+
+    <!-- Legion Born -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Born</defName>
+        <identifier>FCP_Legion_Born</identifier>
+        <slot>Childhood</slot>
+        <title>Legion Born</title>
+        <titleShort>Legion Born</titleShort>
+        <description>[PAWN_nameDef] was born in Legion territory as a child of civilians. [PAWN_pronoun] enjoyed a relatively uneventful childhood, until the day the Legion decided [PAWN_possessive] labour was needed in a nearby encampment and [PAWN_pronoun] was taken from [PAWN_possessive] parents by force, never to see them again.</description>
+        <skillGains>
+            <Mining>1</Mining>
+            <Plants>2</Plants>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Enslaved Child -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Enslaved_Child</defName>
+        <identifier>FCP_Legion_Enslaved_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Enslaved Child</title>
+        <titleShort>Enslaved Child</titleShort>
+        <description>[PAWN_nameDef] spent [PAWN_possessive] early childhood in a small settlement somewhere in the south-western part of the former USA. One day Caesar’s Legion raided the settlement, razing it to the ground and enslaving the survivors. [PAWN_nameDef] was taken as a slave and spent the remainder of [PAWN_possessive] youth in a cage, like an animal.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>Caring, Social</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Purchased Slave -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Purchased_Slave</defName>
+        <identifier>FCP_Legion_Purchased_Slave</identifier>
+        <slot>Childhood</slot>
+        <title>Purchased Slave</title>
+        <titleShort>Purchased Slave</titleShort>
+        <description>[PAWN_nameDef] was born as the child of a Legionary, as were most children within the Legion since Caesar demanded a child-quota from his soldiers to bolster his army’s ranks.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legionary Child -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Legionary_Child</defName>
+        <identifier>FCP_Legion_Legionary_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Legionary Child</title>
+        <titleShort>Legionary Child</titleShort>
+        <description>[PAWN_nameDef] was born as the child of a Legionary, as were most children within the Legion since Caesar demanded a child-quota from his soldiers to bolster his army’s ranks.</description>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Melee>2</Melee>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <workDisables>Artistic</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Raised by Priestess -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Raised_by_Priestess</defName>
+        <identifier>FCP_Legion_Raised_by_Priestess</identifier>
+        <slot>Childhood</slot>
+        <title>Raised by Priestess</title>
+        <titleShort>Raised by Priestess</titleShort>
+        <description>[PAWN_nameDef] was raised by a Priestess of Mars and enjoyed a relatively (by Legion standards) pampered childhood and a somewhat formal education.</description>
+        <skillGains>
+            <Artistic>1</Artistic>
+            <Medicine>2</Medicine>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Enslaved Tribal -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Enslaved_Tribal</defName>
+        <identifier>FCP_Legion_Enslaved_Tribal Tribal</identifier>
+        <slot>Childhood</slot>
+        <title>Enslaved Tribal</title>
+        <titleShort>Enslaved Tribal</titleShort>
+        <description>[PAWN_nameDef] was born into one of the many tribes which were conquered and subjugated by the Legion. The utter obliteration of the tribe’s culture and traditions left [PAWN_objective] shaken and traumatized.</description>
+        <skillGains>
+            <Melee>1</Melee>
+            <Plants>2</Plants>
+            <Animals>3</Animals>
+        </skillGains>
+        <workDisables>Intellectual</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Two Sun Dweller -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Two_Sun_Dweller</defName>
+        <identifier>FCP_Legion_Two_Sun_Dweller</identifier>
+        <slot>Childhood</slot>
+        <title>Two Sun Dweller</title>
+        <titleShort>Two Sun Dweller</titleShort>
+        <description>[PAWN_nameDef] was born in the Arizonian town formerly known as Tucson, which was renamed to Two Sun at some point after the Great War. Two Sun was known as a major trading hub in the southern parts of the American wastelands and an important stop for people travelling to the wastelands of what once was Mexico and vice versa. [PAWN_pronoun] learned a lot about bartering during [PAWN_possessive] time in the sprawling city.</description>
+        <skillGains>
+            <Plants>2</Plants>
+            <Crafting>2</Crafting>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Promising Youngling -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Promising_Youngling</defName>
+        <identifier>FCP_Legion_Promising_Youngling</identifier>
+        <slot>Childhood</slot>
+        <title>Promising Youngling</title>
+        <titleShort>Promising Youngling</titleShort>
+        <description>Like many other children, [PAWN_nameDef] was born in a Legion war-camp. [PAWN_pronoun] grew faster, taller, and stronger than most other children in the camps and showed great promise during the excruciating trainings, much to the pride of [PAWN_possessive] tutors.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>3</Melee>
+            <Crafting>1</Crafting>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Legion Caravan Child -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Caravan_Child</defName>
+        <identifier>FCP_Legion_Caravan_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Legion Caravan Child</title>
+        <titleShort>Legion Caravan Child</titleShort>
+        <description>The vast territories the Legion had conquered during a short timespan led to a growing demand in trading caravans. [PAWN_nameDef] grew up traveling the length and width of the southern parts of the wastelands and learned much on the dusty roads.</description>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Animals>2</Animals>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Cunning Whelp -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Cunning_Whelp</defName>
+        <identifier>FCP_Legion_Cunning_Whelp</identifier>
+        <slot>Childhood</slot>
+        <title>Cunning Whelp</title>
+        <titleShort>Cunning Whelp</titleShort>
+        <description>From [PAWN_possessive] birth, [PAWN_nameDef] was smaller and weaker than [PAWN_possessive] peers. It was rare for the Legion to let such children live, but [PAWN_nameDef] was one of the lucky few, mainly due to the fact that [PAWN_pronoun] had other skills and qualities than raw strength, [PAWN_pronoun] was cunning.</description>
+        <skillGains>
+            <Shooting>-2</Shooting>
+            <Melee>-2</Melee>
+            <Crafting>3</Crafting>
+            <Artistic>3</Artistic>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Flag Staff Kid -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Flag_Staff_Kid</defName>
+        <identifier>FCP_Legion_Flag_Staff_Kid</identifier>
+        <slot>Childhood</slot>
+        <title>Flag Staff Kid</title>
+        <titleShort>Flag Staff Kid</titleShort>
+        <description>[PAWN_nameDef] was born and raised in Flag Staff, the capital city of Caesars Legion. While Two Sun served as Arizona’s main trade hub, Flag Staff was the beating heart of the Legion itself.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Construction>3</Construction>
+            <Cooking>2</Cooking>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Colorado Kid -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Colorado_Kid</defName>
+        <identifier>FCP_Legion_Colorado_Kid</identifier>
+        <slot>Childhood</slot>
+        <title>Colorado Kid</title>
+        <titleShort>Colorado Kid</titleShort>
+        <description>[PAWN_nameDef]’s family came from Colorado. The mountainous state brought forth many skilled miners, builders, and craftspeople, most of which have found employment within the Legion. Those unwilling to do so freely were usually enslaved and put to work anyway.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Mining>4</Mining>
+            <Crafting>1</Crafting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Talented Hunter -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Talented_Hunter</defName>
+        <identifier>FCP_Legion_Talented_Hunter</identifier>
+        <slot>Childhood</slot>
+        <title>Talented Hunter</title>
+        <titleShort>Talented Hunter</titleShort>
+        <description>Early in [PAWN_possessive] life, [PAWN_nameDef] showed a great talent for hunting. These skills were fostered by the Legion, as food was scarce in the Legion camps and the hides of the beasts [PAWN_pronoun] slayed could be used to craft many useful goods like waterskins, tents and other necessities.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Cooking>2</Cooking>
+            <Animals>4</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Healer’s Child -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Healers_Child</defName>
+        <identifier>FCP_Legion_Healers_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Healer’s Child</title>
+        <titleShort>Healer’s Child</titleShort>
+        <description>[PAWN_nameDef]’s mother was a healer in the Legion. While the Legion did not have access to high-tech medicine due to their refusal to use modern technology, the Legion’s healers managed to cook up various poultices, ointments, and other herbal remedies. [PAWN_nameDef] learned a good deal about healing from [PAWN_possessive] mother.</description>
+        <skillGains>
+            <Shooting>-2</Shooting>
+            <Melee>-2</Melee>
+            <Cooking>2</Cooking>
+            <Plants>6</Plants>
+            <Medicine>4</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+    <!-- Coin Minter’s Child -->
+
+    <BackstoryDef>
+        <defName>FCP_Legion_Coin_Minters_Child</defName>
+        <identifier>FCP_Legion_Coin_Minters_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Coin Minter’s Child</title>
+        <titleShort>Coin Minter’s Child</titleShort>
+        <description>Like many other larger political entities, Caesar had his Legion mint coins adorned with his profile. [PAWN_nameDef] was born to a minter and enjoyed a relatively peaceful childhood, as the Legion left [PAWN_possessive] family be, due to the rarity of the skill provided by them.</description>
+        <skillGains>
+            <Mining>2</Mining>
+            <Crafting>4</Crafting>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <workDisables>Cleaning</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Legion_Child</li>
+        </spawnCategories>
+        <possessions>
+        </possessions>
+    </BackstoryDef>
+
+</Defs>

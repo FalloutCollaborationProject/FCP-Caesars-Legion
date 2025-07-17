@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Memes __________-->
+
+    <!-- Legionism -->
+
+    <MemeDef>
+        <defName>FCP_Meme_Legionism</defName>
+        <label>Caesar's Legion (The Legion) is an imperialistic slaver society and dictatorship. Built on the conquest and ensalvement of tribal societies in the southwestern portions of the United States. The ideological tendencies of The Legion tend to favor males, anti lgbt sentiments, slaves and a totalitarian dictatorship.</label>
+        <description>Our people should dominate all others.</description>
+        <iconPath>World/FCP_LegionIcon</iconPath>
+        <groupDef>GroupRelation</groupDef>
+        <impact>2</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <consumableBuildings>
+            <li>SacrificialFlag</li>
+        </consumableBuildings>
+        <requireOne>
+            <li>
+                <li>BodyMod_Abhorrent</li>
+            </li>
+            <li>
+                <li>InsectMeatEating_Despised_Classic</li>
+            </li>
+            <li>
+                <li>Cannibalism_Abhorrent</li>
+            </li>
+            <li>
+                <li>NutrientPasteEating_Disgusting</li>
+            </li>
+            <li>
+                <li>MarriageName_UsuallyMans</li>
+            </li>
+            <li>
+                <li>DrugUse_Prohibited</li>
+            </li>
+            <li>
+                <li>Slavery_Acceptable</li>
+                <li>Slavery_Honorable</li>
+            </li>
+            <li>
+                <li>Execution_RespectedIfGuilty</li>
+                <li>Execution_DontCare</li>
+            </li>
+            <li>
+                <li>RoughLiving_Welcomed</li>
+            </li>
+            <li>
+                <li>Temperature_Tough</li>
+            </li>
+            <li>
+                <li>Scarification_Minor</li>
+                <li>Scarification_Heavy</li>
+                <li>Scarification_Extreme</li>
+            </li>
+            <li>
+                <li>Proselytizing_Occasionally</li>
+            </li>
+            <li>
+                <li>Raiding_Respected</li>
+            </li>
+        </requireOne>
+        <agreeableTraits>
+            <li>DislikesWomen</li>
+            <li>Masochist</li>
+        </agreeableTraits>
+        <disagreeableTraits>
+            <li>Wimp</li>
+            <li>Gourmand</li>
+        </disagreeableTraits>
+    </MemeDef>
+
+</Defs>

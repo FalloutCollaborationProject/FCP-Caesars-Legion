@@ -1047,9 +1047,12 @@
             <texPath>Apparel/Legion_Armor/Legion_Veteran/Legion_Veteran_Decanus_Helmet/FCP_Legion_Veteran_Decanus_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
         <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>4000</WorkToMake>
-            <MaxHitPoints>90</MaxHitPoints>
             <Mass>0.9</Mass>
             <ArmorRating_Sharp>0.38</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
@@ -1233,6 +1236,9 @@
             <texPath>Apparel/Legion_Armor/Legion_Centurion/Legion_Centurion_Helmet/FCP_Legion_Centurion_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
         <statBases>
             <WorkToMake>8000</WorkToMake>
             <MaxHitPoints>150</MaxHitPoints>
@@ -1308,7 +1314,7 @@
             <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
             <ArmorRating_Heat>0.20</ArmorRating_Heat>
             <Insulation_Cold>5</Insulation_Cold>
-            <Insulation_Heat>5</Insulation_Heat>
+            <Insulation_Heat>10</Insulation_Heat>
             <EquipDelay>1.5</EquipDelay>
         </statBases>
         <costList>
@@ -1348,7 +1354,7 @@
         <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>8</Crafting>
                 <Artistic>6</Artistic>
@@ -1411,7 +1417,7 @@
             </li>
         </comps>
 		<modExtensions>
-			<li Class="FCP.Core.UniqueThingExtension"></li>
+			<li Class="FCP.Core.UniqueThingExtension" />
 		</modExtensions>
     </ThingDef>
 

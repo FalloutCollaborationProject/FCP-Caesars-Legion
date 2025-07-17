@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <IdeoIconDef>
+        <defName>FCP_Icon_Legion</defName>
+        <iconPath>World/FCP_LegionIcon</iconPath>
+        <cultures>
+            <li>FCP_Culture_Legion_NeoRoman</li>
+        </cultures>
+    </IdeoIconDef>
+
+</Defs>

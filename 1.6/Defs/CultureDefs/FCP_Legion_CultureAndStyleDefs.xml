@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+    <!--__________ Cultures and Styles __________-->
+
+    <!--_____ Caesar's Legion _____-->
+
+    <!-- Cultures -->
+    
+    <CultureDef>
+        <defName>FCP_Culture_Legion_NeoRoman</defName>
+        <label>neo-roman</label>
+        <description>Description</description>
+        <pawnNameMaker>FCP_Legion_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>FCP_Legion_Namer_Female</pawnNameMakerFemale>
+        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_LeaderTitleMaker_Legion</leaderTitleMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalAstropolitan</festivalNameMaker>
+        <preferredWeaponClasses>
+            <noble>Neolithic</noble>
+            <despised>Ultratech</despised>
+        </preferredWeaponClasses>
+        <allowedPlaceTags>
+            <li>OriginSpacer</li>
+        </allowedPlaceTags>
+        <iconPath>World/FCP_LegionIcon</iconPath>
+        <styleItemTags>
+            <li>
+                <tag>Urban</tag>
+                <baseWeight>1</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>Rural</tag>
+                <baseWeight>1</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoBeard</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>BeardUrban</tag>
+                <baseWeight>0.15</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>BeardRural</tag>
+                <baseWeight>0.15</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>MoustacheOnly</tag>
+                <baseWeight>0.1</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoTattoo</tag>
+                <baseWeight>1</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+        </styleItemTags>
+    </CultureDef>
+
+    <!-- Styles -->
+    
+    <StyleCategoryDef>
+        <defName>FCP_Style_Legion</defName>
+        <label>Legion</label>
+        <iconPath>World_Icon/Legion_Icon/FCP_Legion_Icon</iconPath>
+<!--         <soundOngoingRitual>FCP_RitualSustainer_ILoveYouCalifornia</soundOngoingRitual> -->
+<!--         <ritualVisualEffectDef>Rustic</ritualVisualEffectDef> -->
+        <thingDefStyles>
+        </thingDefStyles>
+      </StyleCategoryDef>
+    
+</Defs>
