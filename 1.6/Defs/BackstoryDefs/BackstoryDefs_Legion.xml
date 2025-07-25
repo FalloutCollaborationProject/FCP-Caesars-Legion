@@ -1039,7 +1039,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1061,7 +1061,7 @@
         <workDisables>Caring, Social</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1083,7 +1083,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1106,7 +1106,7 @@
         <workDisables>Artistic</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1129,7 +1129,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1152,7 +1152,7 @@
         <workDisables>Intellectual</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1176,7 +1176,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1200,7 +1200,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1224,7 +1224,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1249,7 +1249,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1273,7 +1273,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1297,7 +1297,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1320,7 +1320,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1346,7 +1346,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
@@ -1369,7 +1369,7 @@
         <workDisables>Cleaning</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Legion_Child</li>
+            <li>FCP_Backstory_Legion_Child</li>
         </spawnCategories>
         <possessions>
         </possessions>
