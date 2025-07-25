@@ -83,7 +83,6 @@
         <backstoryFilters>
             <li>
                 <categories>
-                    <!-- Change to Legion -->
                     <li>FCP_Backstory_Legion_Adult</li>
                     <li>FCP_Backstory_Legion_Child</li>
                     <li>FCP_Backstory_Wastelander_Child</li>
