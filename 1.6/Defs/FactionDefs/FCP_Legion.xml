@@ -90,13 +90,6 @@
                 </categories>
                 <commonality>0.95</commonality>
             </li>
-            <li>
-                <categories>
-                    <!-- Change to something else -->
-                    <li>Offworld</li>
-                </categories>
-                <commonality>0.05</commonality>
-            </li>
         </backstoryFilters>
 
         <!--__________ Kinds __________-->
