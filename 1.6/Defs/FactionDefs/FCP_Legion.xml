@@ -84,9 +84,9 @@
             <li>
                 <categories>
                     <!-- Change to Legion -->
-                    <li>FCP_Legion</li>
-                    <li>FCP_Legion_Child</li>
-                    <li>FCP_Wastelander_Child</li>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                    <li>FCP_Backstory_Legion_Child</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categories>
                 <commonality>0.95</commonality>
             </li>
