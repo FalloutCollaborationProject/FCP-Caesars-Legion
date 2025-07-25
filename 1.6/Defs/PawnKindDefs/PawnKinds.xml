@@ -201,6 +201,18 @@
 		<weaponTags>
 			<li>Gun</li>
 		</weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Legion_Child</li>
+				</categoriesChildhood>
+			</li>	
+        </backstoryFiltersOverride>
 		<disallowedTraits>
 			<li>Brawler</li>
 		</disallowedTraits>
@@ -238,6 +250,18 @@
 			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Recruit_Adult</li>
+                </categoriesAdulthood>
+            </li>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Legion_Child</li>
+				</categoriesChildhood>
+			</li>	
+        </backstoryFiltersOverride>
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>5~9</initialResistanceRange>
 	</PawnKindDef>
@@ -263,6 +287,18 @@
 			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Recruit_Adult</li>
+                </categoriesAdulthood>
+            </li>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Legion_Child</li>
+				</categoriesChildhood>
+			</li>	
+        </backstoryFiltersOverride>
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>6~10</initialResistanceRange>
 	</PawnKindDef>
@@ -287,6 +323,18 @@
 			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Legion_Child</li>
+				</categoriesChildhood>
+			</li>	
+        </backstoryFiltersOverride>
 		<initialWillRange>1~4</initialWillRange>
 		<initialResistanceRange>7~11</initialResistanceRange>
 	</PawnKindDef>
@@ -311,6 +359,18 @@
 			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Legion_Child</li>
+				</categoriesChildhood>
+			</li>	
+        </backstoryFiltersOverride>
 		<initialWillRange>1~5</initialWillRange>
 		<initialResistanceRange>7~11</initialResistanceRange>
 	</PawnKindDef>
@@ -335,6 +395,18 @@
 			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Veteran_Adult</li>
+                </categoriesAdulthood>
+            </li>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Legion_Child</li>
+				</categoriesChildhood>
+			</li>	
+        </backstoryFiltersOverride>
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>7~11</initialResistanceRange>
 	</PawnKindDef>
@@ -359,6 +431,18 @@
 			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Veteran_Adult</li>
+                </categoriesAdulthood>
+            </li>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Legion_Child</li>
+				</categoriesChildhood>
+			</li>	
+        </backstoryFiltersOverride>
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>8~12</initialResistanceRange>
 	</PawnKindDef>
@@ -383,6 +467,18 @@
 			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Legion_Child</li>
+				</categoriesChildhood>
+			</li>	
+        </backstoryFiltersOverride>
 		<initialWillRange>2~5</initialWillRange>
 		<initialResistanceRange>12~16</initialResistanceRange>
 	</PawnKindDef>
@@ -406,6 +502,18 @@
 			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Legion_Child</li>
+				</categoriesChildhood>
+			</li>	
+        </backstoryFiltersOverride>
 		<initialWillRange>2~5</initialWillRange>
 		<initialResistanceRange>14~22</initialResistanceRange>
 	</PawnKindDef>
@@ -429,6 +537,18 @@
 			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Legion_Child</li>
+				</categoriesChildhood>
+			</li>	
+        </backstoryFiltersOverride>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>18~30</initialResistanceRange>
 	</PawnKindDef>
