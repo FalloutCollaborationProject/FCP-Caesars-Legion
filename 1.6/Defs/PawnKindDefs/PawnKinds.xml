@@ -54,6 +54,7 @@
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>19~30</initialResistanceRange>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         	<backstoryFiltersOverride>
             	    <li>
 			<categoriesChildhood>
@@ -65,6 +66,8 @@
             	    </li>
        		</backstoryFiltersOverride>
 =======
+=======
+>>>>>>> Stashed changes
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
@@ -77,6 +80,9 @@
 				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	</PawnKindDef>
 
