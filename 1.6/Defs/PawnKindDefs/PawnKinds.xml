@@ -23,11 +23,6 @@
 					<li>FCP_Backstory_Legion_Adult</li>
 				</categoriesAdulthood>
 			</li>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Legion_Child</li>
-				</categoriesChildhood>
-			</li>
 		</backstoryFiltersOverride>
 		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
 	</PawnKindDef>
@@ -53,22 +48,7 @@
 		</weaponTags>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>19~30</initialResistanceRange>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        	<backstoryFiltersOverride>
-            	    <li>
-			<categoriesChildhood>
-                    		<li>FCP_Backstory_Wastelander_Child</li>
-                	</categoriesChildhood>
-                	<categoriesAdulthood>
-                    		<li>FCP_Legion_Caesar</li>
-                	</categoriesAdulthood>
-            	    </li>
-       		</backstoryFiltersOverride>
-=======
-=======
->>>>>>> Stashed changes
-		<backstoryFiltersOverride>
+		 <backstoryFiltersOverride>
 			<li>
 				<categoriesAdulthood>
 					<li>FCP_Backstory_Legion_Adult</li>
@@ -80,10 +60,6 @@
 				</categoriesChildhood>
 			</li>
 		</backstoryFiltersOverride>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 	</PawnKindDef>
 
 	<!-- Legate Lanius -->
