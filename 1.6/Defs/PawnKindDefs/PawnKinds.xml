@@ -49,14 +49,14 @@
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>19~30</initialResistanceRange>
         	<backstoryFiltersOverride>
-            		<li>
-				<categoriesChildhood>
-                    			<li>FCP_Backstory_Wastelander_Child</li>
-                		</categoriesChildhood>
-                		<categoriesAdulthood>
-                    			<li>FCP_Legion_Caesar</li>
-                		</categoriesAdulthood>
-            		</li>
+            	    <li>
+			<categoriesChildhood>
+                    		<li>FCP_Backstory_Wastelander_Child</li>
+                	</categoriesChildhood>
+                	<categoriesAdulthood>
+                    		<li>FCP_Legion_Caesar</li>
+                	</categoriesAdulthood>
+            	    </li>
        		</backstoryFiltersOverride>
 	</PawnKindDef>
 
