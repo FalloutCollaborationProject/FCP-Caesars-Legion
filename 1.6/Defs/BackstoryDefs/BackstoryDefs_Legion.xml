@@ -617,7 +617,7 @@
         <slot>Adulthood</slot>
         <title>Legion Magister</title>
         <titleShort>Legion Magister</titleShort>
-        <description>While the Legion did not put much emphasis on education, there still was a need for someone to teach the values of the Legion to the younglings. [PAWN_nameDef] was in charge of educating the soon-to-be Legionaries. Through [PAWN_objective] they learned how a Legionary had to speak, as well as the most essential things about the cult of mars.</description>
+        <description>While the Legion did not put much emphasis on education, there still was a need for someone to teach the values of the Legion to the younglings. [PAWN_nameDef] was in charge of educating the soon-to-be Legionaries. Through [PAWN_objective] they learned how a Legionary had to speak, as well as the most essential things about the Cult of Mars.</description>
         <skillGains>
             <Artistic>3</Artistic>
             <Medicine>3</Medicine>
