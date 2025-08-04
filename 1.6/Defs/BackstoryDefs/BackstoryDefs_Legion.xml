@@ -697,7 +697,7 @@
         <slot>Adulthood</slot>
         <title>Legion Acolyte of Mars</title>
         <titleShort>Acolyte of Mars</titleShort>
-        <description>[PAWN_nameDef] was an acolyte of mars, spreading the word of Caesar, the son of mars, through the lands occupied by the Legion. While [PAWN_pronoun] essentially was something in between a priest and a messenger, [PAWN_nameDef] truly thought [PAWN_pronoun] had a divine mission. [PAWN_pronoun] was gifted with words and where [PAWN_pronoun] spoke, the people listened.</description>
+        <description>[PAWN_nameDef] was an acolyte of Mars, spreading the word of Caesar, the son of Mars, through the lands occupied by the Legion. While [PAWN_pronoun] essentially was something in between a priest and a messenger, [PAWN_nameDef] truly thought [PAWN_pronoun] had a divine mission. [PAWN_pronoun] was gifted with words and where [PAWN_pronoun] spoke, the people listened.</description>
         <skillGains>
             <Crafting>2</Crafting>
             <Social>6</Social>
