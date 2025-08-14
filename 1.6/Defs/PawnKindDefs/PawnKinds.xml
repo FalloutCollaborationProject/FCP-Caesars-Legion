@@ -43,7 +43,6 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<initialWillRange>3~5</initialWillRange>
@@ -77,7 +76,6 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<initialWillRange>3~5</initialWillRange>
@@ -99,7 +97,6 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<initialWillRange>3~5</initialWillRange>
@@ -121,7 +118,6 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<initialWillRange>3~5</initialWillRange>
@@ -143,7 +139,6 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<initialWillRange>3~5</initialWillRange>
@@ -204,7 +199,7 @@
 		</apparelRequired>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Varmint_Rifle</li>
 		</weaponTags>
 		<backstoryFiltersOverride>
 			<li>
@@ -252,7 +247,7 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Cowboy_Repeater</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<backstoryFiltersOverride>
@@ -289,7 +284,7 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Cowboy_Repeater</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<backstoryFiltersOverride>
@@ -325,7 +320,7 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Cowboy_Repeater</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<backstoryFiltersOverride>
@@ -361,7 +356,8 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Marksman_Carbine</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Carbine</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<backstoryFiltersOverride>
@@ -397,7 +393,9 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Cowboy_Repeater</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Carbine</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Marksman_Carbine</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<backstoryFiltersOverride>
@@ -433,7 +431,8 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Carbine</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Marksman_Carbine</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<backstoryFiltersOverride>
@@ -469,7 +468,9 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Cowboy_Repeater</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Carbine</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Marksman_Carbine</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<backstoryFiltersOverride>
@@ -504,7 +505,10 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
+			<li MayRequire="Rick.FCP.BallisticWeapons">FCP_Battle_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Cowboy_Repeater</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Carbine</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Marksman_Carbine</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<backstoryFiltersOverride>
@@ -539,7 +543,10 @@
 		</requiredWorkTags>
 		<weaponMoney>150~150</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
+			<li MayRequire="Rick.FCP.BallisticWeapons">FCP_Battle_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Cowboy_Repeater</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Carbine</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Marksman_Carbine</li>
 			<li>NeolithicMeleeDecent</li>
 		</weaponTags>
 		<backstoryFiltersOverride>
