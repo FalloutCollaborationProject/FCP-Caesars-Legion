@@ -580,6 +580,9 @@
             <texPath>Apparel/Legion_Armor/Legion_Tunic/FCP_Legion_Tunic</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>8200</WorkToMake>
@@ -633,6 +636,9 @@
             <texPath>Apparel/Legion_Armor/Legion_Plate/FCP_Legion_Plate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>1000</WorkToMake>
@@ -685,6 +691,9 @@
             <texPath>Apparel/Legion_Armor/Legion_Vest/FCP_Legion_Vest</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>700</WorkToMake>
