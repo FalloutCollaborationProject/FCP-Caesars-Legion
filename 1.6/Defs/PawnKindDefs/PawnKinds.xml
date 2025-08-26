@@ -197,7 +197,7 @@
 			<li>FCP_Apparel_Legion_Explorer_Armor</li>
 			<li>FCP_Apparel_Legion_Explorer_Hood</li>
 		</apparelRequired>
-		<weaponMoney>150~150</weaponMoney>
+		<weaponMoney>150~500</weaponMoney>
 		<weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Varmint_Rifle</li>
 		</weaponTags>

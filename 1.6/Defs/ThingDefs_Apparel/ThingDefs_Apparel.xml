@@ -1056,9 +1056,6 @@
             <texPath>Apparel/Legion_Armor/Legion_Veteran/Legion_Veteran_Decanus_Helmet/FCP_Legion_Veteran_Decanus_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>4000</WorkToMake>
@@ -1245,9 +1242,6 @@
             <texPath>Apparel/Legion_Armor/Legion_Centurion/Legion_Centurion_Helmet/FCP_Legion_Centurion_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <thingCategories>
-            <li>ApparelArmor</li>
-        </thingCategories>
         <statBases>
             <WorkToMake>8000</WorkToMake>
             <MaxHitPoints>150</MaxHitPoints>
