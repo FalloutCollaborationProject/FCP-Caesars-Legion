@@ -174,12 +174,60 @@
 
 	<!--___ Traders ___-->
 
-	<!-- Trader -->
+	<!-- Legion Slave Trader -->
 
-	<PawnKindDef ParentName="FCP_LegionkindRecruit">
-		<defName>FCP_Legion_Trader</defName>
-		<label>legion trader</label>
+	<PawnKindDef ParentName="FCP_LegionkindBase">
+		<defName>FCP_Legion_Slave_Trader</defName>
+		<label>legion slave trader</label>
 		<trader>true</trader>
+		<combatPower>50</combatPower>
+		<itemQuality>Normal</itemQuality>
+		<gearHealthRange>0.7~2.0</gearHealthRange>
+		<apparelMoney>0</apparelMoney>
+		<apparelRequired>
+			<li>FCP_Apparel_Legion_Veteran_Armor</li>
+			<li>FCP_Apparel_Legion_Veteran_Helmet</li>
+		</apparelRequired>
+		<weaponMoney>200~400</weaponMoney>
+		<weaponTags>
+			<li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Cowboy_Repeater</li>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_Legion_Adult</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- Legion Quartermaster -->
+
+	<PawnKindDef ParentName="FCP_LegionkindBase">
+		<defName>FCP_Legion_Quartermaster</defName>
+		<label>legion quartermaster</label>
+		<trader>true</trader>
+		<combatPower>60</combatPower>
+		<itemQuality>Normal</itemQuality>
+		<gearHealthRange>0.7~2.0</gearHealthRange>
+		<apparelMoney>0</apparelMoney>
+		<apparelRequired>
+			<li>FCP_Apparel_Legion_Centurion_Armor</li>
+			<li>FCP_Apparel_Legion_Centurion_Helmet</li>
+		</apparelRequired>
+		<weaponMoney>300~500</weaponMoney>
+		<weaponTags>
+			<li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood>
+					<li>FCP_Backstory_Legion_Adult</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
 	</PawnKindDef>
 
 	<!--___ Military ___-->
