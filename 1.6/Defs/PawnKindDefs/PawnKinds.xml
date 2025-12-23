@@ -201,6 +201,7 @@
 			</li>
 		</backstoryFiltersOverride>
 		<initialResistanceRange>5~9</initialResistanceRange>
+		<initialWillRange>3~5</initialWillRange>
 	</PawnKindDef>
 
 	<!-- Legion Quartermaster -->
@@ -230,6 +231,7 @@
 			</li>
 		</backstoryFiltersOverride>
 		<initialResistanceRange>5~9</initialResistanceRange>
+		<initialWillRange>3~5</initialWillRange>
 	</PawnKindDef>
 
 	<!--___ Military ___-->
