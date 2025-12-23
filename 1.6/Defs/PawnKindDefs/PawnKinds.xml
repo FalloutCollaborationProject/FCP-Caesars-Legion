@@ -200,6 +200,7 @@
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
+		<initialResistanceRange>5~9</initialResistanceRange>
 	</PawnKindDef>
 
 	<!-- Legion Quartermaster -->
@@ -228,6 +229,7 @@
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
+		<initialResistanceRange>5~9</initialResistanceRange>
 	</PawnKindDef>
 
 	<!--___ Military ___-->

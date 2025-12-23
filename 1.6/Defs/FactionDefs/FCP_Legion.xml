@@ -161,7 +161,7 @@
             <li>
                 <kindDef>Trader</kindDef>
                 <traders>
-                    <FCP_Legion_Trader>1</FCP_Legion_Trader>
+                    <FCP_Legion_Quartermaster>1</FCP_Legion_Quartermaster>
                 </traders>
                 <carriers>
                     <Muffalo>6</Muffalo>
