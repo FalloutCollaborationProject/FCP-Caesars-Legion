@@ -8,15 +8,15 @@
     <ResearchProjectDef>
         <defName>FCP_Legion_Basic_Equipment</defName>
         <label>Legion Basic Equipment</label>
-        <description>Basic equipment used by Caesars legion.</description>
-        <baseCost>6000</baseCost>
+        <description>Basic equipment used by Caesar's Legion recruits and legionaries.</description>
+        <baseCost>600</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
-            <li>Fabrication</li>
+            <li>ComplexClothing</li>
         </prerequisites>
-        <researchViewX>0.00</researchViewX>
-        <researchViewY>1.10</researchViewY>
-        <tab>FCP_Research</tab>
+        <researchViewX>0.50</researchViewX>
+        <researchViewY>0.50</researchViewY>
+        <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
     <!-- Advanced Equipment -->
@@ -24,15 +24,16 @@
     <ResearchProjectDef>
         <defName>FCP_Legion_Advanced_Equipment</defName>
         <label>Legion Advanced Equipment</label>
-        <description>Advanced equipment used by Caesars legion.</description>
-        <baseCost>4000</baseCost>
+        <description>Advanced equipment used by Caesar's Legion veterans and centurions.</description>
+        <baseCost>1200</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
+            <li>FCP_Legion_Basic_Equipment</li>
             <li>Fabrication</li>
         </prerequisites>
-        <researchViewX>0.10</researchViewX>
-        <researchViewY>1.10</researchViewY>
-        <tab>FCP_Research</tab>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>0.50</researchViewY>
+        <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
 </Defs>
