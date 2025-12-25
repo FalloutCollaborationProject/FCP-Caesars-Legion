@@ -7,7 +7,7 @@
 
     <MemeDef>
         <defName>FCP_Meme_Legionism</defName>
-        <label>Roman Law</label>
+        <label>Might makes Right</label>
         <description>Our people should dominate all others.</description>
         <iconPath>World/FCP_LegionIcon</iconPath>
         <groupDef>GroupRelation</groupDef>
