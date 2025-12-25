@@ -7,7 +7,7 @@
 
     <MemeDef>
         <defName>FCP_Meme_Legionism</defName>
-        <label>Caesar's Legion (The Legion) is an imperialistic slaver society and dictatorship. Built on the conquest and ensalvement of tribal societies in the southwestern portions of the United States. The ideological tendencies of The Legion tend to favor males, anti lgbt sentiments, slaves and a totalitarian dictatorship.</label>
+        <label>Roman Law</label>
         <description>Our people should dominate all others.</description>
         <iconPath>World/FCP_LegionIcon</iconPath>
         <groupDef>GroupRelation</groupDef>
