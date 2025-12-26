@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThoughtDef>
+		<defName>FCP_Legion_Turned_In_A_Slave</defName>
+		<durationDays>4</durationDays>
+		<stackLimit>5</stackLimit>
+		<doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
+		<stages>
+			<li>
+				<label>turned in a slave</label>
+				<description>This colony turned in a prisoner to the Legion. Everyone shall know of our might!</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>
