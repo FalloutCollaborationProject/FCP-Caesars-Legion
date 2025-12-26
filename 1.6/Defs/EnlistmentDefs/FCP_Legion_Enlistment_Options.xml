@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Enlistments with Factions __________-->
+
+    <!--_____ Caesar's Legion _____-->
+
+    <FCP.Enlist.FactionEnlistOptionsDef>
+        <defName>FCP_Enlistment_Legion</defName>
+        <minGoodwillRequrementToEnlist>10</minGoodwillRequrementToEnlist>
+        <enlistGoodwillGain>5</enlistGoodwillGain>
+
+        <!-- Enlistment Options -->
+
+        <enlistLetterTitleKey>FCP_Legion_Enlist_Letter_Title</enlistLetterTitleKey>
+        <enlistLetterLabelKey>FCP_Legion_Enlist_Letter_Label</enlistLetterLabelKey>
+        <enlistButtonLabelKey>FCP_Legion_Enlist_Button_Label</enlistButtonLabelKey>
+        <enlistButtonDescKey>FCP_Legion_Enlist_Button_Desc</enlistButtonDescKey>
+        <enlistRequrementsNotSatisfiedKey>FCP_Legion_Enlist_Requrements_Not_Satisfied</enlistRequrementsNotSatisfiedKey>
+        <enlistedToHostileFactionKey>FCP_Legion_Enlisted_To_Hostile_Faction</enlistedToHostileFactionKey>
+        <enlistButtonIconTexPath>Things/UI/Enlisted/FCP_Legion_Enlist</enlistButtonIconTexPath>
+        <enlistedSoundDef>FCP_Sound_Card_Use</enlistedSoundDef>
+        <enlistedWithKey>FCP_Legion_Enlisted_With_Key</enlistedWithKey>
+
+        <!-- Mission Options -->
+
+        <missionsAreEnabled>true</missionsAreEnabled>
+        <missionsLabelKey>FCP_Legion_Missions_Label</missionsLabelKey>
+        <missionsDescKey>FCP_Legion_Missions_Desc</missionsDescKey>
+        <missionsButtonIconTexPath>Things/UI/Enlisted/FCP_Legion_Missions</missionsButtonIconTexPath>
+        <missionsBackgroundMenuTexPath>Things/UI/Enlisted/FCP_Legion_Missions</missionsBackgroundMenuTexPath>
+        <missionsMenuDescriptionKey>FCP_Legion_Menu_Missions_Desc</missionsMenuDescriptionKey>
+        <missionsMenuSelectQuestKey>FCP_Legion_Menu_Missions_Select_Quest</missionsMenuSelectQuestKey>
+        <missionsMenuStartQuestKey>FCP_Legion_Menu_Missions_Start_Quest</missionsMenuStartQuestKey>
+        <missionsQuestCost>50</missionsQuestCost>
+        <missionsMenuStartQuestNoEnoughMoneyKey>FCP_Legion_Not_Enough_Money</missionsMenuStartQuestNoEnoughMoneyKey>
+
+        <!-- Salary Options -->
+
+        <salaryIsEnabled>true</salaryIsEnabled>
+        <salaryDef>FCP_Currency_Legion_Denarius</salaryDef>
+        <salaryLabelKey>FCP_Legion_Salary_Label</salaryLabelKey>
+        <salaryDescKey>FCP_Legion_Salary_Desc</salaryDescKey>
+        <salaryButtonIconTexPath>Things/UI/Enlisted/FCP_Legion_Salary</salaryButtonIconTexPath>
+        <salaryRange>200~400</salaryRange>
+        <salaryPeriodDays>14</salaryPeriodDays>
+
+        <!-- Provision Options -->
+
+        <provisionOptions>
+            <li>
+                <provisionsLabelKey>FCP_Legion_Provisions_Label</provisionsLabelKey>
+                <provisionsDescKey>FCP_Legion_Provisions_Desc</provisionsDescKey>
+                <provisionsButtonIconTexPath>Things/UI/Enlisted/FCP_Legion_Provisions</provisionsButtonIconTexPath>
+                <provisions>
+                    <li>
+                        <thing>MealSurvivalPack</thing>
+                        <amountRange>12~18</amountRange>
+                    </li>
+                    <li>
+                        <thing>Pemmican</thing>
+                        <amountRange>20~30</amountRange>
+                    </li>
+                </provisions>
+                <provisionsRestockInDays>10</provisionsRestockInDays>
+            </li>
+            <li>
+                <provisionsLabelKey>FCP_Legion_Provisions_Label_Standard_Issue</provisionsLabelKey>
+                <provisionsDescKey>FCP_Legion_Provisions_Desc_Standard_Issue</provisionsDescKey>
+                <provisionsButtonIconTexPath>Things/UI/Enlisted/FCP_Legion_Standard_Issue</provisionsButtonIconTexPath>
+                <provisions>
+                    <li>
+                        <thing>FCP_Apparel_Legion_Recruit_Armor</thing>
+                        <amountRange>2</amountRange>
+                    </li>
+                    <li>
+                        <thing>FCP_Apparel_Legion_Recruit_Helmet</thing>
+                        <amountRange>2</amountRange>
+                    </li>
+                    <li>
+                        <thing>MeleeWeapon_Gladius</thing>
+                        <amountRange>2</amountRange>
+                    </li>
+                </provisions>
+                <provisionsRestockInDays>45</provisionsRestockInDays>
+            </li>
+        </provisionOptions>
+
+        <!-- Storage Options -->
+
+        <storageIsEnabled>true</storageIsEnabled>
+        <storageLabelKey>FCP_Legion_Storage_Label</storageLabelKey>
+        <storageDescKey>FCP_Legion_Storage_Desc</storageDescKey>
+        <storageButtonIconTexPath>Things/UI/Enlisted/FCP_Legion_Storage</storageButtonIconTexPath>
+
+        <!-- Work Options -->
+
+        <recreationGainPerTick>0.0001</recreationGainPerTick>
+        <workOptions>
+            <li>
+                <workLabelKey>FCP_Legion_Labor_Label</workLabelKey>
+                <workDescKey>FCP_Legion_Labor_Desc</workDescKey>
+                <workButtonIconTexPath>Things/UI/Enlisted/FCP_Legion_Labor</workButtonIconTexPath>
+                <additionalRestFall>0.3</additionalRestFall>
+                <silverGainPerHour>8</silverGainPerHour>
+            </li>
+            <li>
+                <workLabelKey>FCP_Legion_Medical_Camp_Label</workLabelKey>
+                <workDescKey>FCP_Legion_Medical_Camp_Desc</workDescKey>
+                <workButtonIconTexPath>Things/UI/Enlisted/FCP_Legion_Medical</workButtonIconTexPath>
+                <additionalRestFall>0.2</additionalRestFall>
+                <tendCaravanMembersEveryTicks>600</tendCaravanMembersEveryTicks>
+                <medicinesToTend>
+                    <li>MedicineHerbal</li>
+                </medicinesToTend>
+                <immunityGainSpeedMultiplier>1.5</immunityGainSpeedMultiplier>
+            </li>
+            <li>
+                <workLabelKey>FCP_Legion_Combat_Training_Label</workLabelKey>
+                <workDescKey>FCP_Legion_Combat_Training_Desc</workDescKey>
+                <workButtonIconTexPath>Things/UI/Enlisted/FCP_Legion_Combat_Training</workButtonIconTexPath>
+                <experienceGainsPerHour>
+                    <Melee>700</Melee>
+                    <Shooting>300</Shooting>
+                </experienceGainsPerHour>
+                <additionalRestFall>0.15</additionalRestFall>
+            </li>
+            <li>
+                <workLabelKey>FCP_Legion_Survival_Training_Label</workLabelKey>
+                <workDescKey>FCP_Legion_Survival_Training_Desc</workDescKey>
+                <workButtonIconTexPath>Things/UI/Enlisted/FCP_Legion_Survival_Training</workButtonIconTexPath>
+                <experienceGainsPerHour>
+                    <Medicine>400</Medicine>
+                    <Plants>300</Plants>
+                    <Animals>200</Animals>
+                </experienceGainsPerHour>
+                <additionalRestFall>0.2</additionalRestFall>
+            </li>
+        </workOptions>
+
+        <!-- Bounty Options -->
+
+        <turnInIsEnabled>true</turnInIsEnabled>
+        <turnInLabelKey>FCP_Legion_Turn_In_Label</turnInLabelKey>
+        <turnInDescKey>FCP_Legion_Turn_In_Desc</turnInDescKey>
+        <turnInButtonIconTexPath>Things/UI/Enlisted/FCP_Turn_In</turnInButtonIconTexPath>
+        <turnInTraderKind>FCP_Caravan_Legion_Slave_Trader</turnInTraderKind>
+        <turnInThought>FCP_Legion_Turned_In_A_Slave</turnInThought>
+        <turnInRefreshSilverInDays>7</turnInRefreshSilverInDays>
+        <turnInTraderNameKey>FCP_Legion_Turn_In_Trader_Name</turnInTraderNameKey>
+
+        <!-- Drop Pod Options -->
+
+        <dropPodServiceIsEnabled>false</dropPodServiceIsEnabled>
+
+        <!-- Resign Options -->
+
+        <resignGoodwillGain>-30</resignGoodwillGain>
+        <resignMenuTextKey>FCP_Legion_Resign_Menu_Text</resignMenuTextKey>
+        <resignLetterTitleKey>FCP_Legion_Resign_Letter_Title</resignLetterTitleKey>
+        <resignLetterLabelKey>FCP_Legion_Resign_Letter_Label</resignLetterLabelKey>
+        <resignButtonLabelKey>FCP_Legion_Resign_Button_Label</resignButtonLabelKey>
+        <resignButtonDescKey>FCP_Legion_Resign_Button_Desc</resignButtonDescKey>
+        <resignButtonIconTexPath>Things/UI/Enlisted/FCP_Legion_Resign</resignButtonIconTexPath>
+
+        <!-- Kicked Out Options -->
+
+        <kickOutLetterTitleKey>FCP_Legion_Kick_Out_Letter_Title</kickOutLetterTitleKey>
+        <kickOutLetterLabelKey>FCP_Legion_Kick_Out_Label_Title</kickOutLetterLabelKey>
+
+        <!-- Reinforcements Options -->
+
+        <reinforcementsAreEnabled>true</reinforcementsAreEnabled>
+        <reinforcementsButtonLabelKey>FCP_Legion_Reinforcements_Button_Label</reinforcementsButtonLabelKey>
+        <reinforcementsButtonDescKey>FCP_Legion_Reinforcements_Button_Desc</reinforcementsButtonDescKey>
+        <reinforcementsButtonIconTexPath>Things/UI/Enlisted/FCP_Legion_Call_Reinforcements</reinforcementsButtonIconTexPath>
+        <reinforcementCallGoodwillCost>-5</reinforcementCallGoodwillCost>
+        <reinforcementCallCooldownTicks>50000</reinforcementCallCooldownTicks>
+        <reinforcementOptions>
+            <li>
+                <relationsRange>75~100</relationsRange>
+                <pointsRange>900~2000</pointsRange>
+            </li>
+            <li>
+                <relationsRange>50~74</relationsRange>
+                <pointsRange>650~900</pointsRange>
+            </li>
+        </reinforcementOptions>
+
+    </FCP.Enlist.FactionEnlistOptionsDef>
+
+</Defs>

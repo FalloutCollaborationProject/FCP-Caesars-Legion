@@ -213,12 +213,12 @@
                 </arrivalModes>
             </li>
             <!-- Enlistment stuff -->
-            <!-- <li Class="FCP.Enlist.FactionEnlistOptions">
+            <li Class="FCP.Enlist.FactionEnlistOptions">
                 <enlistOptionsDefs>
                     <li>FCP_Enlistment_Legion</li>
                 </enlistOptionsDefs>
                 <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
-            </li> -->
+            </li>
             <!-- Ideology stuff -->
             <li Class="FCP.Core.ModExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_Legion</ideoIconDef>
