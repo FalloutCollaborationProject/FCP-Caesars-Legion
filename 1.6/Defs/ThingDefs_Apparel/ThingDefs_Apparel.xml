@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <!--__________ The Legion __________-->
@@ -72,9 +72,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Recruit Armor -->
-
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Recruit_Armor</defName>
         <description>Like most Legion armor, the recruit armor is made from repurposed sports equipment, consisting of a football player's protective shoulder and chest pads reinforced with additional leather padding and worn over a baseball catcher's vest.</description>
@@ -139,9 +137,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Prime Armor -->
-
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Prime_Armor</defName>
         <description>The Legion’s main fighting force, the prime legionaries have earned their right to wear better armor compared to the recruits. It’s still made with the same protective shoulder and chest pads but features additional armor bands wrapped around the upper body.</description>
@@ -208,9 +204,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Veteran Armor -->
-
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Veteran_Armor</defName>
         <description>Compared to regular legionaries’ armor, veteran armor has additional armor pads on the lower legs, as well as several sharp nails sticking out of the shoulder pads and the leather wrappings on the right arm. It offers more protection while still being somewhat light.</description>
@@ -277,9 +271,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Vexillarius Armor -->
-
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Vexillarius_Armor</defName>
         <description>Based on a suit of Legion veteran armor, with the addition of circular metal plates attached to the torso, as well as a banner displaying the flag of the Legion worn on the back. While it is a step up from the lower ranks’ armor, it is also considerably heavier.</description>
@@ -347,9 +339,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Praetorian Armor -->
-
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Praetorian_Armor</defName>
         <description>This armor commonly worn by Caesar’s personal guard is similar to the recruit armor, but sports additional metal bracers on the forearms, probably because of the Praetorian’s preference for punching people with their fists, as well as a short red cape and a red cowl. Despite its close resemblance, this armor protects it’s wearer a lot better than the recruit armor while weighing about the same.</description>
@@ -415,9 +405,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Centurion Armor -->
-
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Centurion_Armor</defName>
         <description>A heavy suit of armor worn by the Legion’s centurions, the elite of the Legion. It’s composed of a wild assortment of different armors, including pieces of combat armor, power armor leather armor and even super mutant armor. These pieces are likely taken from enemies defeated by the wearer. Despite being such a crude assortment of different armors, it offers superior protection.</description>
@@ -486,9 +474,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Legate Armor -->
-
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Legate_Armor</defName>
         <description>The armor of a Legate, a close confidante of the mighty Caesar himself. A full suit of heavy gauge steel, bearing numerous scratches and dents from countless battles, and offers full body protection. It was crafted to closely resemble the armors of the ancient romans and has little to do with the repurposed sports equipment most members of the Legion wear. Unsurprisingly it provides it’s wearer with superior protection but is incredibly heavy.</description>
@@ -557,11 +543,8 @@
             </li>
         </comps>
     </ThingDef>
-
     <!--_____ Legion Accessories _____-->
-
     <!-- Legion Tunic -->
-
     <ThingDef ParentName="ApparelMakeableBase">
         <defName>FCP_Apparel_Legion_Tunic</defName>
         <description>The common tunic worn by the members of Caesar’s Legion.</description>
@@ -615,9 +598,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Plate -->
-
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Plate</defName>
         <description>A set of Legion plate armor, usauly made of scavenged pre-war football pads with nails added to the shoulders for extra protection.</description>
@@ -670,9 +651,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Leather Vest -->
-
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Vest</defName>
         <description>A lightweight leather vest used by the Legion. The base of the vest seams to be made from an old baseball umpires pads, or even some football training pads. Either way it gives the user some more protection than nothing at all.</description>
@@ -727,11 +706,8 @@
             </li>
         </comps>
     </ThingDef>
-
     <!--_____ Legion Headgear _____-->
-
     <!-- Legion Explorer Hood -->
-
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Explorer_Hood</defName>
         <label>Legion Explorers Hood</label>
@@ -790,9 +766,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Recruit Decanus Helmet -->
-
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Recruit_Decanus_Helmet</defName>
         <label>Legion Recruit Decanus Helmet</label>
@@ -851,9 +825,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Recruit Helmet -->
-
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Recruit_Helmet</defName>
         <label>Legion Recruit Helmet</label>
@@ -912,9 +884,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Prime Decanus Helmet -->
-
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Prime_Decanus_Helmet</defName>
         <label>Legion Prime Decanus Helmet</label>
@@ -973,9 +943,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Prime Helmet -->
-
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Prime_Helmet</defName>
         <label>Legion Prime Helmet</label>
@@ -1034,9 +1002,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Veteran Decanus Helmet -->
-
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Veteran_Decanus_Helmet</defName>
         <label>Legion Veteran Decanus Helmet</label>
@@ -1095,9 +1061,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Veteran Helmet -->
-
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Veteran_Helmet</defName>
         <label>Legion Veteran Helmet</label>
@@ -1156,9 +1120,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Vexillarius Helmet -->
-
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Vexillarius_Helmet</defName>
         <label>Legion Vexillarius Helmet</label>
@@ -1220,9 +1182,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Centurion Helmet -->
-
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Centurion_Helmet</defName>
         <label>Legion Centurion Helmet</label>
@@ -1284,9 +1244,7 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Legion Legate Helmet -->
-
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Legate_Helmet</defName>
         <label>Legion Legate Helmet</label>
@@ -1347,11 +1305,10 @@
             </li>
         </comps>
     </ThingDef>
-
     <!-- Caesar's Robes -->
-
     <ThingDef ParentName="ApparelMakeableBase">
         <defName>FCP_Apparel_Caesar_Robes</defName>
+        <useHitPoints>false</useHitPoints>
         <label>Caesar's Robes</label>
         <description>The ornate ceremonial robes worn by Caesar himself, the supreme leader of the Legion. These magnificent red and gold robes are crafted from the finest pre-war materials and adorned with golden trim, symbolizing absolute authority over the Legion. The robes provide modest protection but their true power lies in the awe and respect they command from all who see them.</description>
         <techLevel>Industrial</techLevel>
@@ -1383,6 +1340,8 @@
             <Insulation_Cold>15</Insulation_Cold>
             <Insulation_Heat>8</Insulation_Heat>
             <EquipDelay>1.8</EquipDelay>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
         </statBases>
         <equippedStatOffsets>
             <SocialImpact>0.80</SocialImpact>
@@ -1419,9 +1378,8 @@
                 <rarity>Unique</rarity>
             </li>
         </comps>
-		<modExtensions>
-			<li Class="FCP.Core.UniqueThingExtension" />
-		</modExtensions>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension" />
+        </modExtensions>
     </ThingDef>
-
 </Defs>

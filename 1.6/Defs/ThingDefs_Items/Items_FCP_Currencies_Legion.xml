@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
 	<!--__________ Currencies __________-->
@@ -21,8 +21,9 @@
 		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
 		<statBases>
 			<RoyalFavorValue>0.002</RoyalFavorValue>
-			<MarketValue>4</MarketValue>
+			<MarketValue>10000</MarketValue>
 			<Mass>0.002</Mass>
+			<Flammability>0</Flammability>
 		</statBases>
 		<thingCategories>
 			<li>FCP_Currencies_Legion</li>
