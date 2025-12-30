@@ -3,7 +3,7 @@
 
     <IdeoIconDef>
         <defName>FCP_Icon_Legion</defName>
-        <iconPath>World/FCP_LegionIcon</iconPath>
+        <iconPath>Things/UI/Ideology/FCP_Might_is_Right</iconPath>
         <cultures>
             <li>FCP_Culture_Legion_NeoRoman</li>
         </cultures>
