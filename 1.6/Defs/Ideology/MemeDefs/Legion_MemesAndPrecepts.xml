@@ -9,7 +9,7 @@
         <defName>FCP_Meme_Legionism</defName>
         <label>Might makes Right</label>
         <description>Our people should dominate all others.</description>
-        <iconPath>World/FCP_LegionIcon</iconPath>
+        <iconPath>Things/UI/Ideology/FCP_Might_is_Right</iconPath>
         <groupDef>GroupRelation</groupDef>
         <impact>2</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
