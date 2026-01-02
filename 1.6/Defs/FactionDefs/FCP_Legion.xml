@@ -16,7 +16,7 @@
         <pawnSingular>Legionary</pawnSingular>
         <pawnsPlural>Legionaries</pawnsPlural>
         <categoryTag>FCP_Legion</categoryTag>
-        <settlementGenerationWeight>1</settlementGenerationWeight>
+        <settlementGenerationWeight>0.3</settlementGenerationWeight>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
