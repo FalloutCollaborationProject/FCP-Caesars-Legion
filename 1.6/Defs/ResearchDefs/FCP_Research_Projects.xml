@@ -14,8 +14,8 @@
         <prerequisites>
             <li>ComplexClothing</li>
         </prerequisites>
-        <researchViewX>0.50</researchViewX>
-        <researchViewY>0.50</researchViewY>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>0.00</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -31,8 +31,8 @@
             <li>FCP_Legion_Basic_Equipment</li>
             <li>Fabrication</li>
         </prerequisites>
-        <researchViewX>2.00</researchViewX>
-        <researchViewY>0.50</researchViewY>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>0.00</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
