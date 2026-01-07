@@ -21,6 +21,7 @@
     <loadAfter>
         <li>Rick.FCP.Core.Tools</li>
         <li>Rick.FCP.Animals</li>
+        <li>Rick.FCP.BallisticWeapons</li>
     </loadAfter>
 
 </ModMetaData>
