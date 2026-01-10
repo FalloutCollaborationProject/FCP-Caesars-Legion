@@ -1,620 +1,796 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!--_____ Legion Pawnkinds _____-->
 
-	<!--___ Characters ___-->
+    <!--_____ Legion Pawnkinds _____-->
 
-	<!-- Character Military Base -->
+    <!--___ Characters ___-->
+    <!-- Character Military Base -->
+    
+<PawnKindDef Name="FCP_Legion_CharacterkindBase" ParentName="FCP_LegionkindBase" Abstract="true">
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>9999</weaponMoney>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>19~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
 
-	<PawnKindDef Name="FCP_Legion_CharacterkindBase" ParentName="FCP_LegionkindBase" Abstract="true">
-		<apparelMoney>9999</apparelMoney>
-		<gearHealthRange>10</gearHealthRange>
-		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>9999</weaponMoney>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>19~30</initialResistanceRange>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Adult</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
-	</PawnKindDef>
+    <!-- Caesar -->
+    
+<PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Caesar</defName>
+        <label>Caesar</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>150</combatPower>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Caesar_Robes</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>19~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Legion_Child</li>
+                </categoriesChildhood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
 
-	<!-- Caesar -->
+    <!-- Legate Lanius -->
+    
+<PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Legate_Lanius</defName>
+        <label>Legate Lanius</label>
+        <combatPower>140</combatPower>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Legate_Armor</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>18~30</initialResistanceRange>
+    </PawnKindDef>
 
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Caesar</defName>
-		<label>Caesar</label>
-		<factionLeader>true</factionLeader>
-		<combatPower>150</combatPower>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Caesar_Robes</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>19~30</initialResistanceRange>
-		 <backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Adult</li>
-				</categoriesAdulthood>
-			</li>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Legion_Child</li>
-				</categoriesChildhood>
-			</li>
-		</backstoryFiltersOverride>
-	</PawnKindDef>
+    <!-- Praetorian Guard Commander Lucius -->
+    
+<PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Praetorian_Lucius</defName>
+        <label>Praetorian Guard Commander Lucius</label>
+        <combatPower>130</combatPower>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Praetorian_Armor</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>18~30</initialResistanceRange>
+    </PawnKindDef>
 
-	<!-- Legate Lanius -->
+    <!-- Frumentarius Vulpes Inculta -->
+    
+<PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Frumentarius_Vulpes_Inculta</defName>
+        <label>Frumentarius Vulpes Inculta</label>
+        <combatPower>120</combatPower>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Vexillarius_Armor</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>18~30</initialResistanceRange>
+    </PawnKindDef>
 
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Legate_Lanius</defName>
-		<label>Legate Lanius</label>
-		<combatPower>140</combatPower>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Legate_Armor</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>18~30</initialResistanceRange>
-	</PawnKindDef>
+    <!-- Centurion Aurelius of Phoenix -->
+    
+<PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Centurion_Aurelius_of_Phoenix</defName>
+        <label>Centurion Aurelius of Phoenix</label>
+        <combatPower>110</combatPower>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Centurion_Armor</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>18~30</initialResistanceRange>
+    </PawnKindDef>
 
-	<!-- Praetorian Guard Commander Lucius -->
+    <!--___ Civilians ___-->
+    <!-- Slave -->
+    
+<PawnKindDef>
+        <defName>FCP_Legion_Slave</defName>
+        <label>slave</label>
+        <race>Human</race>
+        <defaultFactionType>FCP_Faction_Caesars_Legion</defaultFactionType>
+        <maxGenerationAge>60</maxGenerationAge>
+        <combatPower>30</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <invNutrition>0</invNutrition>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.2~1.1</gearHealthRange>
+        <apparelTags>
+            <li>FCP_Slave_Apparel</li>
+        </apparelTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.15</techHediffsChance>
+        <initialWillRange>0~1</initialWillRange>
+        <initialResistanceRange>4~8</initialResistanceRange>
+    </PawnKindDef>
 
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Praetorian_Lucius</defName>
-		<label>Praetorian Guard Commander Lucius</label>
-		<combatPower>130</combatPower>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Praetorian_Armor</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>18~30</initialResistanceRange>
-	</PawnKindDef>
+    <!--___ Traders ___-->
+    <!-- Legion Slave Trader -->
+    
+<PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Slave_Trader</defName>
+        <label>legion slave trader</label>
+        <trader>true</trader>
+        <combatPower>50</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.7~2.0</gearHealthRange>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Veteran_Armor</li>
+            <li>FCP_Apparel_Legion_Veteran_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>200~400</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Cowboy_Repeater</li>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialResistanceRange>5~9</initialResistanceRange>
+        <initialWillRange>3~5</initialWillRange>
+    </PawnKindDef>
 
-	<!-- Frumentarius Vulpes Inculta -->
+    <!-- Legion Quartermaster -->
+    
+<PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Quartermaster</defName>
+        <label>legion quartermaster</label>
+        <trader>true</trader>
+        <combatPower>60</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.7~2.0</gearHealthRange>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Centurion_Armor</li>
+            <li>FCP_Apparel_Legion_Centurion_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>300~500</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialResistanceRange>5~9</initialResistanceRange>
+        <initialWillRange>3~5</initialWillRange>
+    </PawnKindDef>
 
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Frumentarius_Vulpes_Inculta</defName>
-		<label>Frumentarius Vulpes Inculta</label>
-		<combatPower>120</combatPower>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Vexillarius_Armor</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>18~30</initialResistanceRange>
-	</PawnKindDef>
-
-	<!-- Centurion Aurelius of Phoenix -->
-
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Centurion_Aurelius_of_Phoenix</defName>
-		<label>Centurion Aurelius of Phoenix</label>
-		<combatPower>110</combatPower>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Centurion_Armor</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>18~30</initialResistanceRange>
-	</PawnKindDef>
-
-	<!--___ Civilians ___-->
-
-	<!-- Slave -->
-
-	<PawnKindDef>
-		<defName>FCP_Legion_Slave</defName>
-		<label>slave</label>
-		<race>Human</race>
-		<defaultFactionType>FCP_Faction_Caesars_Legion</defaultFactionType>
-		<maxGenerationAge>60</maxGenerationAge>
-		<combatPower>30</combatPower>
-		<apparelMoney>400~600</apparelMoney>
-		<invNutrition>0</invNutrition>
-		<itemQuality>Poor</itemQuality>
-		<gearHealthRange>0.2~1.1</gearHealthRange>
-		<apparelTags>
-			<li>FCP_Slave_Apparel</li>
-		</apparelTags>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.15</techHediffsChance>
-		<initialWillRange>0~1</initialWillRange>
-		<initialResistanceRange>4~8</initialResistanceRange>
-	</PawnKindDef>
-
-	<!--___ Traders ___-->
-
-	<!-- Legion Slave Trader -->
-
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Slave_Trader</defName>
-		<label>legion slave trader</label>
-		<trader>true</trader>
-		<combatPower>50</combatPower>
-		<itemQuality>Normal</itemQuality>
-		<gearHealthRange>0.7~2.0</gearHealthRange>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Veteran_Armor</li>
-			<li>FCP_Apparel_Legion_Veteran_Helmet</li>
-		</apparelRequired>
-		<weaponMoney>200~400</weaponMoney>
-		<weaponTags>
-			<li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Cowboy_Repeater</li>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Adult</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-		<initialResistanceRange>5~9</initialResistanceRange>
-		<initialWillRange>3~5</initialWillRange>
-	</PawnKindDef>
-
-	<!-- Legion Quartermaster -->
-
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Quartermaster</defName>
-		<label>legion quartermaster</label>
-		<trader>true</trader>
-		<combatPower>60</combatPower>
-		<itemQuality>Normal</itemQuality>
-		<gearHealthRange>0.7~2.0</gearHealthRange>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Centurion_Armor</li>
-			<li>FCP_Apparel_Legion_Centurion_Helmet</li>
-		</apparelRequired>
-		<weaponMoney>300~500</weaponMoney>
-		<weaponTags>
-			<li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Adult</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-		<initialResistanceRange>5~9</initialResistanceRange>
-		<initialWillRange>3~5</initialWillRange>
-	</PawnKindDef>
-
-	<!--___ Military ___-->
-
-	<!-- Scout -->
-
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Scout</defName>
-		<label>legion explorer</label>
-		<combatPower>45</combatPower>
-		<itemQuality>Poor</itemQuality>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Explorer_Armor</li>
-			<li>FCP_Apparel_Legion_Explorer_Hood</li>
-		</apparelRequired>
-		<weaponMoney>175~500</weaponMoney>
-		<weaponTags>
+    <!--___ Military ___-->
+    <!-- Scout -->
+    
+<PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Scout</defName>
+        <label>legion explorer</label>
+        <combatPower>45</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Explorer_Armor</li>
+            <li>FCP_Apparel_Legion_Explorer_Hood</li>
+        </apparelRequired>
+        <weaponMoney>175~500</weaponMoney>
+        <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Varmint_Rifle</li>
-		</weaponTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Adult</li>
-				</categoriesAdulthood>
-			</li>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Legion_Child</li>
-				</categoriesChildhood>
-			</li>	
-		</backstoryFiltersOverride>
-		<disallowedTraits>
-			<li>Brawler</li>
-		</disallowedTraits>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<techHediffsMoney>50~50</techHediffsMoney>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-		<techHediffsChance>0.03</techHediffsChance>
-		<initialWillRange>1~3</initialWillRange>
-		<initialResistanceRange>5~9</initialResistanceRange>
-	</PawnKindDef>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Legion_Child</li>
+                </categoriesChildhood>
+            </li>
+        </backstoryFiltersOverride>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>5~9</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.80</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>3~15</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>5~15</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>5~10</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
 
-	<!-- Recruit -->
-
-	<PawnKindDef ParentName="FCP_LegionkindBase" Name="FCP_LegionkindRecruit">
-		<defName>FCP_Legion_Recruit</defName>
-		<label>recruit legionary</label>
-		<combatPower>50</combatPower>
-		<itemQuality>Poor</itemQuality>
-		<canBeSapper>true</canBeSapper>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Recruit_Armor</li>
-			<li>FCP_Apparel_Legion_Recruit_Helmet</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
+    <PawnKindDef ParentName="FCP_LegionkindBase" Name="FCP_LegionkindRecruit">
+        <defName>FCP_Legion_Recruit</defName>
+        <label>recruit legionary</label>
+        <combatPower>50</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Recruit_Armor</li>
+            <li>FCP_Apparel_Legion_Recruit_Helmet</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Cowboy_Repeater</li>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Recruit_Adult</li>
-				</categoriesAdulthood>
-			</li>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Legion_Child</li>
-				</categoriesChildhood>
-			</li>	
-		</backstoryFiltersOverride>
-		<initialWillRange>1~3</initialWillRange>
-		<initialResistanceRange>5~9</initialResistanceRange>
-	</PawnKindDef>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Recruit_Adult</li>
+                </categoriesAdulthood>
+            </li>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Legion_Child</li>
+                </categoriesChildhood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>5~9</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.80</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>3~15</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>5~15</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>5~10</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
 
-	<!-- Recruit Decanus -->
-
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Recruit_Decanus</defName>
-		<label>recruit decanus</label>
-		<combatPower>55</combatPower>
-		<itemQuality>Poor</itemQuality>
-		<gearHealthRange>0.5~1.8</gearHealthRange>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Recruit_Armor</li>
-			<li>FCP_Apparel_Legion_Recruit_Decanus_Helmet</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Recruit_Decanus</defName>
+        <label>recruit decanus</label>
+        <combatPower>55</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Recruit_Armor</li>
+            <li>FCP_Apparel_Legion_Recruit_Decanus_Helmet</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Cowboy_Repeater</li>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Recruit_Adult</li>
-				</categoriesAdulthood>
-			</li>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Legion_Child</li>
-				</categoriesChildhood>
-			</li>	
-		</backstoryFiltersOverride>
-		<initialWillRange>1~3</initialWillRange>
-		<initialResistanceRange>6~10</initialResistanceRange>
-	</PawnKindDef>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Recruit_Adult</li>
+                </categoriesAdulthood>
+            </li>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Legion_Child</li>
+                </categoriesChildhood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>6~10</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.75</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>5~20</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>5~18</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>5~12</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
 
-	<!-- Prime -->
-
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Prime</defName>
-		<label>prime legionary</label>
-		<combatPower>60</combatPower>
-		<canBeSapper>true</canBeSapper>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Prime_Armor</li>
-			<li>FCP_Apparel_Legion_Prime_Helmet</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Prime</defName>
+        <label>prime legionary</label>
+        <combatPower>60</combatPower>
+        <canBeSapper>true</canBeSapper>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Prime_Armor</li>
+            <li>FCP_Apparel_Legion_Prime_Helmet</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Cowboy_Repeater</li>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Adult</li>
-				</categoriesAdulthood>
-			</li>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Legion_Child</li>
-				</categoriesChildhood>
-			</li>	
-		</backstoryFiltersOverride>
-		<initialWillRange>1~4</initialWillRange>
-		<initialResistanceRange>7~11</initialResistanceRange>
-	</PawnKindDef>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Legion_Child</li>
+                </categoriesChildhood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>1~4</initialWillRange>
+        <initialResistanceRange>7~11</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.75</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>5~20</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>5~18</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>5~12</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineHerbal</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
 
-	<!-- Prime Decanus -->
-
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Prime_Decanus</defName>
-		<label>prime legionary</label>
-		<combatPower>70</combatPower>
-		<canBeSapper>true</canBeSapper>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Prime_Armor</li>
-			<li>FCP_Apparel_Legion_Prime_Decanus_Helmet</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Prime_Decanus</defName>
+        <label>prime legionary</label>
+        <combatPower>70</combatPower>
+        <canBeSapper>true</canBeSapper>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Prime_Armor</li>
+            <li>FCP_Apparel_Legion_Prime_Decanus_Helmet</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Adult</li>
-				</categoriesAdulthood>
-			</li>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Legion_Child</li>
-				</categoriesChildhood>
-			</li>	
-		</backstoryFiltersOverride>
-		<initialWillRange>1~5</initialWillRange>
-		<initialResistanceRange>7~11</initialResistanceRange>
-	</PawnKindDef>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Legion_Child</li>
+                </categoriesChildhood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>1~5</initialWillRange>
+        <initialResistanceRange>7~11</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.70</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>8~25</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>8~22</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>7~15</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineHerbal</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
 
-	<!-- Veteran -->
-
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Veteran</defName>
-		<label>veteran legionary</label>
-		<combatPower>80</combatPower>
-		<canBeSapper>true</canBeSapper>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Veteran_Armor</li>
-			<li>FCP_Apparel_Legion_Veteran_Helmet</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Cowboy_Repeater</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Veteran_Adult</li>
-				</categoriesAdulthood>
-			</li>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Legion_Child</li>
-				</categoriesChildhood>
-			</li>	
-		</backstoryFiltersOverride>
-		<initialWillRange>2~4</initialWillRange>
-		<initialResistanceRange>7~11</initialResistanceRange>
-	</PawnKindDef>
-
-	<!-- Veteran Decanus -->
-
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Veteran_Decanus</defName>
-		<label>veteran legionary</label>
-		<combatPower>90</combatPower>
-		<canBeSapper>true</canBeSapper>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Veteran_Armor</li>
-			<li>FCP_Apparel_Legion_Veteran_Decanus_Helmet</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Veteran_Adult</li>
-				</categoriesAdulthood>
-			</li>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Legion_Child</li>
-				</categoriesChildhood>
-			</li>	
-		</backstoryFiltersOverride>
-		<initialWillRange>2~4</initialWillRange>
-		<initialResistanceRange>8~12</initialResistanceRange>
-	</PawnKindDef>
-
-	<!-- Vexillarius -->
-
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Vexillarius</defName>
-		<label>legion vexillarius</label>
-		<combatPower>100</combatPower>
-		<canBeSapper>true</canBeSapper>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Vexillarius_Armor</li>
-			<li>FCP_Apparel_Legion_Vexillarius_Helmet</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Veteran</defName>
+        <label>veteran legionary</label>
+        <combatPower>80</combatPower>
+        <canBeSapper>true</canBeSapper>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Veteran_Armor</li>
+            <li>FCP_Apparel_Legion_Veteran_Helmet</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Cowboy_Repeater</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Adult</li>
-				</categoriesAdulthood>
-			</li>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Legion_Child</li>
-				</categoriesChildhood>
-			</li>	
-		</backstoryFiltersOverride>
-		<initialWillRange>2~5</initialWillRange>
-		<initialResistanceRange>12~16</initialResistanceRange>
-	</PawnKindDef>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Veteran_Adult</li>
+                </categoriesAdulthood>
+            </li>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Legion_Child</li>
+                </categoriesChildhood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>7~11</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.70</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>8~25</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>8~22</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>7~15</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineHerbal</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
 
-	<!-- Centurion -->
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Veteran_Decanus</defName>
+        <label>veteran legionary</label>
+        <combatPower>90</combatPower>
+        <canBeSapper>true</canBeSapper>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Veteran_Armor</li>
+            <li>FCP_Apparel_Legion_Veteran_Decanus_Helmet</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Veteran_Adult</li>
+                </categoriesAdulthood>
+            </li>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Legion_Child</li>
+                </categoriesChildhood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>8~12</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.65</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>10~30</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>10~25</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>8~18</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineHerbal</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
 
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Centurion</defName>
-		<label>centurion</label>
-		<combatPower>125</combatPower>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Centurion_Armor</li>
-			<li>FCP_Apparel_Legion_Centurion_Helmet</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
-			<li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Battle_Rifle</li>
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Vexillarius</defName>
+        <label>legion vexillarius</label>
+        <combatPower>100</combatPower>
+        <canBeSapper>true</canBeSapper>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Vexillarius_Armor</li>
+            <li>FCP_Apparel_Legion_Vexillarius_Helmet</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Cowboy_Repeater</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Legion_Child</li>
+                </categoriesChildhood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~16</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.60</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>12~35</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>12~28</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>10~20</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineHerbal</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Centurion</defName>
+        <label>centurion</label>
+        <combatPower>125</combatPower>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Centurion_Armor</li>
+            <li>FCP_Apparel_Legion_Centurion_Helmet</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Battle_Rifle</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Brush_Gun</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Adult</li>
-				</categoriesAdulthood>
-			</li>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Legion_Child</li>
-				</categoriesChildhood>
-			</li>	
-		</backstoryFiltersOverride>
-		<initialWillRange>2~5</initialWillRange>
-		<initialResistanceRange>14~22</initialResistanceRange>
-	</PawnKindDef>
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Legion_Child</li>
+                </categoriesChildhood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>14~22</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.55</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>15~40</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>15~32</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>12~25</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineHerbal</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
 
-	<!-- Legate -->
-
-	<PawnKindDef ParentName="FCP_LegionkindBase">
-		<defName>FCP_Legion_Legate</defName>
-		<label>legate</label>
-		<combatPower>150</combatPower>
-		<apparelMoney>0</apparelMoney>
-		<apparelRequired>
-			<li>FCP_Apparel_Legion_Legate_Armor</li>
-			<li>FCP_Apparel_Legion_Legate_Helmet</li>
-		</apparelRequired>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<weaponMoney>150~150</weaponMoney>
-		<weaponTags>
-			<li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Battle_Rifle</li>
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Legion_Legate</defName>
+        <label>legate</label>
+        <combatPower>150</combatPower>
+        <apparelMoney>0</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Legate_Armor</li>
+            <li>FCP_Apparel_Legion_Legate_Helmet</li>
+        </apparelRequired>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>150~150</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Battle_Rifle</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Brush_Gun</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
-			<li>NeolithicMeleeDecent</li>
-		</weaponTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>FCP_Backstory_Legion_Adult</li>
-				</categoriesAdulthood>
-			</li>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Legion_Child</li>
-				</categoriesChildhood>
-			</li>	
-		</backstoryFiltersOverride>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>18~30</initialResistanceRange>
-	</PawnKindDef>
-
+            <li>NeolithicMeleeDecent</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Legion_Adult</li>
+                </categoriesAdulthood>
+            </li>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Legion_Child</li>
+                </categoriesChildhood>
+            </li>
+        </backstoryFiltersOverride>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>18~30</initialResistanceRange>
+        <inventoryOptions>
+            <skipChance>0.50</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>20~50</countRange>
+                </li>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>18~40</countRange>
+                </li>
+                <li>
+                    <thingDef>Pemmican</thingDef>
+                    <countRange>15~30</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineHerbal</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
 </Defs>
