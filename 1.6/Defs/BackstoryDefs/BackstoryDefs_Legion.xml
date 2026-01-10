@@ -11,7 +11,7 @@
     <!--__ Characters __-->
     <!-- Caesar -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Caesar</defName>
         <identifier>FCP_Legion_Caesar</identifier>
         <slot>Adulthood</slot>
@@ -36,7 +36,7 @@
 
     <!-- Legate Lanius -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Legate_Lanius</defName>
         <identifier>FCP_Legion_Legate_Lanius</identifier>
         <slot>Adulthood</slot>
@@ -64,7 +64,7 @@
 
     <!-- Praetorian Guard Commander Lucius -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Praetorian_Lucius</defName>
         <identifier>FCP_Legion_Praetorian_Lucius</identifier>
         <slot>Adulthood</slot>
@@ -92,7 +92,7 @@
 
     <!-- Frumentarius Vulpes Inculta -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Frumentarius_Vulpes_Inculta</defName>
         <identifier>FCP_Legion_Frumentarius_Vulpes_Inculta</identifier>
         <slot>Adulthood</slot>
@@ -120,7 +120,7 @@
 
     <!-- Centurion Aurelius of Phoenix -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Centurion_Aurelius_of_Phoenix</defName>
         <identifier>FCP_Legion_Centurion_Aurelius_of_Phoenix</identifier>
         <slot>Adulthood</slot>
@@ -149,7 +149,7 @@
     <!--__ Adults __-->
     <!-- Legion Scout -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Scout</defName>
         <identifier>FCP_Legion_Scout</identifier>
         <slot>Adulthood</slot>
@@ -178,7 +178,7 @@
 
     <!-- Legion Slave -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Slave</defName>
         <identifier>FCP_Legion_Slave</identifier>
         <slot>Adulthood</slot>
@@ -207,7 +207,7 @@
 
     <!-- Legion Frumentarius -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Frumentarius</defName>
         <identifier>FCP_Legion_Frumentarius</identifier>
         <slot>Adulthood</slot>
@@ -236,7 +236,7 @@
 
     <!-- Legion Taskmaster -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Taskmaster</defName>
         <identifier>FCP_Legion_Taskmaster</identifier>
         <slot>Adulthood</slot>
@@ -261,7 +261,7 @@
 
     <!-- Legion Healer -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Healer</defName>
         <identifier>FCP_Legion_Healer</identifier>
         <slot>Adulthood</slot>
@@ -286,7 +286,7 @@
 
     <!-- Arizona Trader -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Arizona_Trader</defName>
         <identifier>FCP_Legion_Arizona_Trader</identifier>
         <slot>Adulthood</slot>
@@ -310,7 +310,7 @@
 
     <!-- Legion Administrator -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Administrator</defName>
         <identifier>FCP_Legion_Administrator</identifier>
         <slot>Adulthood</slot>
@@ -335,7 +335,7 @@
 
     <!-- Legion Recruit -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Recruit</defName>
         <identifier>FCP_Legion_Recruit</identifier>
         <slot>Adulthood</slot>
@@ -362,7 +362,7 @@
 
     <!-- Legion Centurion -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Centurion</defName>
         <identifier>FCP_Legion_Centurion</identifier>
         <slot>Adulthood</slot>
@@ -390,7 +390,7 @@
 
     <!-- Legion Decanus -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Decanus</defName>
         <identifier>FCP_Legion_Decanus</identifier>
         <slot>Adulthood</slot>
@@ -418,7 +418,7 @@
 
     <!-- Legion Gladiator -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Gladiator</defName>
         <identifier>FCP_Legion_Gladiator</identifier>
         <slot>Adulthood</slot>
@@ -442,7 +442,7 @@
 
     <!-- Legion Sentry -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Sentry</defName>
         <identifier>FCP_Legion_Sentry</identifier>
         <slot>Adulthood</slot>
@@ -470,7 +470,7 @@
 
     <!-- Legion Scavenger -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Scavenger</defName>
         <identifier>FCP_Legion_Scavenger</identifier>
         <slot>Adulthood</slot>
@@ -500,7 +500,7 @@
 
     <!-- Legion Hunter -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Hunter</defName>
         <identifier>FCP_Legion_Hunter</identifier>
         <slot>Adulthood</slot>
@@ -528,7 +528,7 @@
 
     <!-- Legion Cook -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Cook</defName>
         <identifier>FCP_Legion_Cook</identifier>
         <slot>Adulthood</slot>
@@ -552,7 +552,7 @@
 
     <!-- Legion Carrier Slave -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Carrier_Slave</defName>
         <identifier>FCP_Legion_Carrier_Slave</identifier>
         <slot>Adulthood</slot>
@@ -576,7 +576,7 @@
 
     <!-- Legion Miner -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Miner</defName>
         <identifier>FCP_Legion_Miner</identifier>
         <slot>Adulthood</slot>
@@ -601,7 +601,7 @@
 
     <!-- Legion Praetorian -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Praetorian</defName>
         <identifier>FCP_Legion_Praetorian</identifier>
         <slot>Adulthood</slot>
@@ -629,7 +629,7 @@
 
     <!-- Legion Magister -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Magister</defName>
         <identifier>FCP_Legion_Magister</identifier>
         <slot>Adulthood</slot>
@@ -654,7 +654,7 @@
 
     <!-- Legion Peasant -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Peasant</defName>
         <identifier>FCP_Legion_Peasant</identifier>
         <slot>Adulthood</slot>
@@ -680,7 +680,7 @@
 
     <!-- Legion Smith -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Smith</defName>
         <identifier>FCP_Legion_Smith</identifier>
         <slot>Adulthood</slot>
@@ -706,7 +706,7 @@
 
     <!-- Acolyte of Mars -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Acolyte_of_Mars</defName>
         <identifier>FCP_Legion_Acolyte_of_Mars</identifier>
         <slot>Adulthood</slot>
@@ -731,7 +731,7 @@
 
     <!-- Legion Scribe -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Scribe</defName>
         <identifier>FCP_Legion_Scribe</identifier>
         <slot>Adulthood</slot>
@@ -757,7 +757,7 @@
     <!--_ Legion Generic Recruits _-->
     <!-- Legion Recruit a -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Recruit_a</defName>
         <identifier>FCP_Legion_Recruit_a</identifier>
         <slot>Adulthood</slot>
@@ -784,7 +784,7 @@
 
     <!-- Legion Recruit b -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Recruit_b</defName>
         <identifier>FCP_Legion_Recruit_b</identifier>
         <slot>Adulthood</slot>
@@ -808,7 +808,7 @@
 
     <!-- Legion Recruit c -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Recruit_c</defName>
         <identifier>FCP_Legion_Recruit_c</identifier>
         <slot>Adulthood</slot>
@@ -832,7 +832,7 @@
 
     <!-- Legion Recruit d -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Recruit_d</defName>
         <identifier>FCP_Legion_Recruit_d</identifier>
         <slot>Adulthood</slot>
@@ -856,7 +856,7 @@
 
     <!-- Legion Recruit e -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Recruit_e</defName>
         <identifier>FCP_Legion_Recruit_e</identifier>
         <slot>Adulthood</slot>
@@ -883,7 +883,7 @@
 
     <!-- Legion Recruit f -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Recruit_f</defName>
         <identifier>FCP_Legion_Recruit_f</identifier>
         <slot>Adulthood</slot>
@@ -911,7 +911,7 @@
     <!--_ Legion Generic Veterans _-->
     <!-- Legion Veteran a -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Veteran_a</defName>
         <identifier>FCP_Legion_Veteran_a</identifier>
         <slot>Adulthood</slot>
@@ -935,7 +935,7 @@
 
     <!-- Legion Veteran b -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Veteran_b</defName>
         <identifier>FCP_Legion_Veteran_b</identifier>
         <slot>Adulthood</slot>
@@ -963,7 +963,7 @@
 
     <!-- Legion Veteran c -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Veteran_c</defName>
         <identifier>FCP_Legion_Veteran_c</identifier>
         <slot>Adulthood</slot>
@@ -987,7 +987,7 @@
 
     <!-- Legion Veteran d -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Veteran_d</defName>
         <identifier>FCP_Legion_Veteran_d</identifier>
         <slot>Adulthood</slot>
@@ -1011,7 +1011,7 @@
 
     <!-- Legion Veteran e -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Veteran_e</defName>
         <identifier>FCP_Legion_Veteran_e</identifier>
         <slot>Adulthood</slot>
@@ -1039,7 +1039,7 @@
     <!--__ Children __-->
     <!-- Legion Born -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Born</defName>
         <identifier>FCP_Legion_Born</identifier>
         <slot>Childhood</slot>
@@ -1061,7 +1061,7 @@
 
     <!-- Enslaved Child -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Enslaved_Child</defName>
         <identifier>FCP_Legion_Enslaved_Child</identifier>
         <slot>Childhood</slot>
@@ -1085,7 +1085,7 @@
 
     <!-- Purchased Slave -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Purchased_Slave</defName>
         <identifier>FCP_Legion_Purchased_Slave</identifier>
         <slot>Childhood</slot>
@@ -1109,7 +1109,7 @@
 
     <!-- Legionary Child -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Legionary_Child</defName>
         <identifier>FCP_Legion_Legionary_Child</identifier>
         <slot>Childhood</slot>
@@ -1134,7 +1134,7 @@
 
     <!-- Raised by Priestess -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Raised_by_Priestess</defName>
         <identifier>FCP_Legion_Raised_by_Priestess</identifier>
         <slot>Childhood</slot>
@@ -1156,7 +1156,7 @@
 
     <!-- Enslaved Tribal -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Enslaved_Tribal</defName>
         <identifier>FCP_Legion_Enslaved_Tribal Tribal</identifier>
         <slot>Childhood</slot>
@@ -1178,7 +1178,7 @@
 
     <!-- Two Sun Dweller -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Two_Sun_Dweller</defName>
         <identifier>FCP_Legion_Two_Sun_Dweller</identifier>
         <slot>Childhood</slot>
@@ -1201,7 +1201,7 @@
 
     <!-- Promising Youngling -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Promising_Youngling</defName>
         <identifier>FCP_Legion_Promising_Youngling</identifier>
         <slot>Childhood</slot>
@@ -1224,7 +1224,7 @@
 
     <!-- Legion Caravan Child -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Caravan_Child</defName>
         <identifier>FCP_Legion_Caravan_Child</identifier>
         <slot>Childhood</slot>
@@ -1247,7 +1247,7 @@
 
     <!-- Cunning Whelp -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Cunning_Whelp</defName>
         <identifier>FCP_Legion_Cunning_Whelp</identifier>
         <slot>Childhood</slot>
@@ -1271,7 +1271,7 @@
 
     <!-- Flag Staff Kid -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Flag_Staff_Kid</defName>
         <identifier>FCP_Legion_Flag_Staff_Kid</identifier>
         <slot>Childhood</slot>
@@ -1294,7 +1294,7 @@
 
     <!-- Colorado Kid -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Colorado_Kid</defName>
         <identifier>FCP_Legion_Colorado_Kid</identifier>
         <slot>Childhood</slot>
@@ -1317,7 +1317,7 @@
 
     <!-- Talented Hunter -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Talented_Hunter</defName>
         <identifier>FCP_Legion_Talented_Hunter</identifier>
         <slot>Childhood</slot>
@@ -1342,7 +1342,7 @@
 
     <!-- Healer’s Child -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Healers_Child</defName>
         <identifier>FCP_Legion_Healers_Child</identifier>
         <slot>Childhood</slot>
@@ -1367,7 +1367,7 @@
 
     <!-- Coin Minter’s Child -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Legion_Coin_Minters_Child</defName>
         <identifier>FCP_Legion_Coin_Minters_Child</identifier>
         <slot>Childhood</slot>

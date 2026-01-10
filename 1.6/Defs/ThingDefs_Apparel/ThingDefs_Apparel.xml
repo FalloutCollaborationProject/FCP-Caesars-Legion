@@ -1,4 +1,4 @@
-ï»¿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <!--__________ The Legion __________-->
@@ -9,7 +9,7 @@
 
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Explorer_Armor</defName>
-        <description>A lightweight suit of armor worn by Legion Scouts, very similar in appearance to the recruit armor. Like most Legion armor, it is made from repurposed sports equipment, consisting of a football player's protective shoulder and chest pads reinforced with additional leather padding and worn over a baseball catcher's vest. It doesnâ€™t protect very well.</description>
+        <description>A lightweight suit of armor worn by Legion Scouts, very similar in appearance to the recruit armor. Like most Legion armor, it is made from repurposed sports equipment, consisting of a football player's protective shoulder and chest pads reinforced with additional leather padding and worn over a baseball catcher's vest. It doesn’t protect very well.</description>
         <techLevel>Industrial</techLevel>
         <label>Legion Explorer Armor</label>
         <recipeMaker>
@@ -140,7 +140,7 @@
     <!-- Legion Prime Armor -->
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Prime_Armor</defName>
-        <description>The Legionâ€™s main fighting force, the prime legionaries have earned their right to wear better armor compared to the recruits. Itâ€™s still made with the same protective shoulder and chest pads but features additional armor bands wrapped around the upper body.</description>
+        <description>The Legion’s main fighting force, the prime legionaries have earned their right to wear better armor compared to the recruits. It’s still made with the same protective shoulder and chest pads but features additional armor bands wrapped around the upper body.</description>
         <techLevel>Industrial</techLevel>
         <label>Legion Prime Armor</label>
         <recipeMaker>
@@ -207,7 +207,7 @@
     <!-- Legion Veteran Armor -->
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Veteran_Armor</defName>
-        <description>Compared to regular legionariesâ€™ armor, veteran armor has additional armor pads on the lower legs, as well as several sharp nails sticking out of the shoulder pads and the leather wrappings on the right arm. It offers more protection while still being somewhat light.</description>
+        <description>Compared to regular legionaries’ armor, veteran armor has additional armor pads on the lower legs, as well as several sharp nails sticking out of the shoulder pads and the leather wrappings on the right arm. It offers more protection while still being somewhat light.</description>
         <techLevel>Industrial</techLevel>
         <label>Legion Veteran Armor</label>
         <recipeMaker>
@@ -274,7 +274,7 @@
     <!-- Legion Vexillarius Armor -->
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Vexillarius_Armor</defName>
-        <description>Based on a suit of Legion veteran armor, with the addition of circular metal plates attached to the torso, as well as a banner displaying the flag of the Legion worn on the back. While it is a step up from the lower ranksâ€™ armor, it is also considerably heavier.</description>
+        <description>Based on a suit of Legion veteran armor, with the addition of circular metal plates attached to the torso, as well as a banner displaying the flag of the Legion worn on the back. While it is a step up from the lower ranks’ armor, it is also considerably heavier.</description>
         <techLevel>Industrial</techLevel>
         <label>Legion Vexillarius Armor</label>
         <recipeMaker>
@@ -342,7 +342,7 @@
     <!-- Legion Praetorian Armor -->
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Praetorian_Armor</defName>
-        <description>This armor commonly worn by Caesarâ€™s personal guard is similar to the recruit armor, but sports additional metal bracers on the forearms, probably because of the Praetorianâ€™s preference for punching people with their fists, as well as a short red cape and a red cowl. Despite its close resemblance, this armor protects itâ€™s wearer a lot better than the recruit armor while weighing about the same.</description>
+        <description>This armor commonly worn by Caesar’s personal guard is similar to the recruit armor, but sports additional metal bracers on the forearms, probably because of the Praetorian’s preference for punching people with their fists, as well as a short red cape and a red cowl. Despite its close resemblance, this armor protects it’s wearer a lot better than the recruit armor while weighing about the same.</description>
         <techLevel>Industrial</techLevel>
         <label>Legion Praetorian Armor</label>
         <recipeMaker>
@@ -408,7 +408,7 @@
     <!-- Legion Centurion Armor -->
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Centurion_Armor</defName>
-        <description>A heavy suit of armor worn by the Legionâ€™s centurions, the elite of the Legion. Itâ€™s composed of a wild assortment of different armors, including pieces of combat armor, power armor leather armor and even super mutant armor. These pieces are likely taken from enemies defeated by the wearer. Despite being such a crude assortment of different armors, it offers superior protection.</description>
+        <description>A heavy suit of armor worn by the Legion’s centurions, the elite of the Legion. It’s composed of a wild assortment of different armors, including pieces of combat armor, power armor leather armor and even super mutant armor. These pieces are likely taken from enemies defeated by the wearer. Despite being such a crude assortment of different armors, it offers superior protection.</description>
         <techLevel>Industrial</techLevel>
         <label>Legion Centurion Armor</label>
         <recipeMaker>
@@ -477,7 +477,7 @@
     <!-- Legion Legate Armor -->
     <ThingDef ParentName="ArmorMachineableBase">
         <defName>FCP_Apparel_Legion_Legate_Armor</defName>
-        <description>The armor of a Legate, a close confidante of the mighty Caesar himself. A full suit of heavy gauge steel, bearing numerous scratches and dents from countless battles, and offers full body protection. It was crafted to closely resemble the armors of the ancient romans and has little to do with the repurposed sports equipment most members of the Legion wear. Unsurprisingly it provides itâ€™s wearer with superior protection but is incredibly heavy.</description>
+        <description>The armor of a Legate, a close confidante of the mighty Caesar himself. A full suit of heavy gauge steel, bearing numerous scratches and dents from countless battles, and offers full body protection. It was crafted to closely resemble the armors of the ancient romans and has little to do with the repurposed sports equipment most members of the Legion wear. Unsurprisingly it provides it’s wearer with superior protection but is incredibly heavy.</description>
         <techLevel>Industrial</techLevel>
         <label>Legion Legate Armor</label>
         <recipeMaker>
@@ -547,7 +547,7 @@
     <!-- Legion Tunic -->
     <ThingDef ParentName="ApparelMakeableBase">
         <defName>FCP_Apparel_Legion_Tunic</defName>
-        <description>The common tunic worn by the members of Caesarâ€™s Legion.</description>
+        <description>The common tunic worn by the members of Caesar’s Legion.</description>
         <label>Legion Tunic</label>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
@@ -711,7 +711,7 @@
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Explorer_Hood</defName>
         <label>Legion Explorers Hood</label>
-        <description>A basic, lightweight helmet composed of a thick brown cloth headwrap featuring a visor to shield the wearerâ€™s eyes from the scorching sun. Worn by the explorers, scouts in service of Caesarâ€™s Legion</description>
+        <description>A basic, lightweight helmet composed of a thick brown cloth headwrap featuring a visor to shield the wearer’s eyes from the scorching sun. Worn by the explorers, scouts in service of Caesar’s Legion</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
@@ -770,7 +770,7 @@
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Recruit_Decanus_Helmet</defName>
         <label>Legion Recruit Decanus Helmet</label>
-        <description>A pre-war football helmet adorned with feathers, worn with a red face wrap and black goggles. While it offers a decent amount of protection, its main use is to serve as a symbol of rank. The red and black feathers fastened on the helmet identify the wearer as a recruit decanus, the most junior rank of officer within Caesarâ€™s Legion, leading a squad of inexperienced recruits.</description>
+        <description>A pre-war football helmet adorned with feathers, worn with a red face wrap and black goggles. While it offers a decent amount of protection, its main use is to serve as a symbol of rank. The red and black feathers fastened on the helmet identify the wearer as a recruit decanus, the most junior rank of officer within Caesar’s Legion, leading a squad of inexperienced recruits.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
@@ -888,7 +888,7 @@
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Prime_Decanus_Helmet</defName>
         <label>Legion Prime Decanus Helmet</label>
-        <description>A pre-war football helmet adorned with feathers, worn with a red face wrap and black goggles. While it offers a decent amount of protection, its main use is to serve as a symbol of rank. The black feathers fastened on the helmet identify the wearer as a prime decanus, a middle rank of officer within Caesarâ€™s Legion, leading a squad of prime legionaries.</description>
+        <description>A pre-war football helmet adorned with feathers, worn with a red face wrap and black goggles. While it offers a decent amount of protection, its main use is to serve as a symbol of rank. The black feathers fastened on the helmet identify the wearer as a prime decanus, a middle rank of officer within Caesar’s Legion, leading a squad of prime legionaries.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
@@ -947,7 +947,7 @@
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Prime_Helmet</defName>
         <label>Legion Prime Helmet</label>
-        <description>The prime helmet is a brown cap that is equipped with black protective goggles and a red bandanna is wrapped around the lower face. Itâ€™s essentially the same helmet as the recruitsâ€™ one but features a different coloured bandana to mark the different ranks.</description>
+        <description>The prime helmet is a brown cap that is equipped with black protective goggles and a red bandanna is wrapped around the lower face. It’s essentially the same helmet as the recruits’ one but features a different coloured bandana to mark the different ranks.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
@@ -1006,7 +1006,7 @@
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Veteran_Decanus_Helmet</defName>
         <label>Legion Veteran Decanus Helmet</label>
-        <description>A pre-war football helmet adorned with feathers, worn with a red face wrap and black goggles. While it offers a decent amount of protection, its main use is to serve as a symbol of rank. The red, white and black feathers fastened on the helmet identify the wearer as a veteran decanus, a higher-ranking officer within Caesarâ€™s Legion, leading a squad of hardened veteran legionaries.</description>
+        <description>A pre-war football helmet adorned with feathers, worn with a red face wrap and black goggles. While it offers a decent amount of protection, its main use is to serve as a symbol of rank. The red, white and black feathers fastened on the helmet identify the wearer as a veteran decanus, a higher-ranking officer within Caesar’s Legion, leading a squad of hardened veteran legionaries.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Basic_Equipment</researchPrerequisite>
@@ -1065,7 +1065,7 @@
     <ThingDef ParentName="ArmorHelmetMakeableBase">
         <defName>FCP_Apparel_Legion_Veteran_Helmet</defName>
         <label>Legion Veteran Helmet</label>
-        <description>A baseball cap with an aluminium helmet, goggles for the eyes, and a face wrap. It offers a bit more protection compared to the helmets of the Legionâ€™s lower ranks while not weighing more.</description>
+        <description>A baseball cap with an aluminium helmet, goggles for the eyes, and a face wrap. It offers a bit more protection compared to the helmets of the Legion’s lower ranks while not weighing more.</description>
         <techLevel>Industrial</techLevel>
         <recipeMaker>
             <researchPrerequisite>FCP_Legion_Advanced_Equipment</researchPrerequisite>

@@ -7,7 +7,7 @@
     <!--___ Characters ___-->
     <!-- Character Military Base -->
     
-<PawnKindDef Name="FCP_Legion_CharacterkindBase" ParentName="FCP_LegionkindBase" Abstract="true">
+    <PawnKindDef Name="FCP_Legion_CharacterkindBase" ParentName="FCP_LegionkindBase" Abstract="true">
         <apparelMoney>9999</apparelMoney>
         <gearHealthRange>10</gearHealthRange>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
@@ -29,7 +29,7 @@
 
     <!-- Caesar -->
     
-<PawnKindDef ParentName="FCP_LegionkindBase">
+    <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Caesar</defName>
         <label>Caesar</label>
         <factionLeader>true</factionLeader>
@@ -63,7 +63,7 @@
 
     <!-- Legate Lanius -->
     
-<PawnKindDef ParentName="FCP_LegionkindBase">
+    <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Legate_Lanius</defName>
         <label>Legate Lanius</label>
         <combatPower>140</combatPower>
@@ -84,7 +84,7 @@
 
     <!-- Praetorian Guard Commander Lucius -->
     
-<PawnKindDef ParentName="FCP_LegionkindBase">
+    <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Praetorian_Lucius</defName>
         <label>Praetorian Guard Commander Lucius</label>
         <combatPower>130</combatPower>
@@ -105,7 +105,7 @@
 
     <!-- Frumentarius Vulpes Inculta -->
     
-<PawnKindDef ParentName="FCP_LegionkindBase">
+    <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Frumentarius_Vulpes_Inculta</defName>
         <label>Frumentarius Vulpes Inculta</label>
         <combatPower>120</combatPower>
@@ -126,7 +126,7 @@
 
     <!-- Centurion Aurelius of Phoenix -->
     
-<PawnKindDef ParentName="FCP_LegionkindBase">
+    <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Centurion_Aurelius_of_Phoenix</defName>
         <label>Centurion Aurelius of Phoenix</label>
         <combatPower>110</combatPower>
@@ -148,7 +148,7 @@
     <!--___ Civilians ___-->
     <!-- Slave -->
     
-<PawnKindDef>
+    <PawnKindDef>
         <defName>FCP_Legion_Slave</defName>
         <label>slave</label>
         <race>Human</race>
@@ -174,7 +174,7 @@
     <!--___ Traders ___-->
     <!-- Legion Slave Trader -->
     
-<PawnKindDef ParentName="FCP_LegionkindBase">
+    <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Slave_Trader</defName>
         <label>legion slave trader</label>
         <trader>true</trader>
@@ -204,7 +204,7 @@
 
     <!-- Legion Quartermaster -->
     
-<PawnKindDef ParentName="FCP_LegionkindBase">
+    <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Quartermaster</defName>
         <label>legion quartermaster</label>
         <trader>true</trader>
@@ -235,7 +235,7 @@
     <!--___ Military ___-->
     <!-- Scout -->
     
-<PawnKindDef ParentName="FCP_LegionkindBase">
+    <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Scout</defName>
         <label>legion explorer</label>
         <combatPower>45</combatPower>
