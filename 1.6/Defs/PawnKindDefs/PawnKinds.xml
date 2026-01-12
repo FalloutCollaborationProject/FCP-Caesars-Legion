@@ -146,6 +146,7 @@
     </PawnKindDef>
 
     <!--___ Civilians ___-->
+
     <!-- Slave -->
     
     <PawnKindDef>
@@ -173,6 +174,7 @@
 
     <!--___ Traders ___-->
     <!-- Legion Slave Trader -->
+
     
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Slave_Trader</defName>
@@ -188,7 +190,7 @@
         </apparelRequired>
         <weaponMoney>200~400</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Cowboy_Repeater</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
             <li>NeolithicMeleeDecent</li>
         </weaponTags>
         <backstoryFiltersOverride>
@@ -218,7 +220,7 @@
         </apparelRequired>
         <weaponMoney>300~500</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
             <li>NeolithicMeleeDecent</li>
         </weaponTags>
         <backstoryFiltersOverride>
@@ -233,6 +235,7 @@
     </PawnKindDef>
 
     <!--___ Military ___-->
+
     <!-- Scout -->
     
     <PawnKindDef ParentName="FCP_LegionkindBase">
@@ -246,9 +249,9 @@
             <li>FCP_Apparel_Legion_Explorer_Armor</li>
             <li>FCP_Apparel_Legion_Explorer_Hood</li>
         </apparelRequired>
-        <weaponMoney>175~500</weaponMoney>
+        <weaponMoney>280~600</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Varmint_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
         </weaponTags>
         <backstoryFiltersOverride>
             <li>
@@ -294,6 +297,8 @@
         </inventoryOptions>
     </PawnKindDef>
 
+	<!-- Recruit Legionary -->
+
     <PawnKindDef ParentName="FCP_LegionkindBase" Name="FCP_LegionkindRecruit">
         <defName>FCP_Legion_Recruit</defName>
         <label>recruit legionary</label>
@@ -309,9 +314,10 @@
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
-        <weaponMoney>150~150</weaponMoney>
+        <weaponMoney>150~300</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Cowboy_Repeater</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Psitol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li>NeolithicMeleeDecent</li>
         </weaponTags>
         <backstoryFiltersOverride>
@@ -347,6 +353,8 @@
         </inventoryOptions>
     </PawnKindDef>
 
+	<!-- Recruit Decanus -->
+
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Recruit_Decanus</defName>
         <label>recruit decanus</label>
@@ -361,9 +369,9 @@
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
-        <weaponMoney>150~150</weaponMoney>
+        <weaponMoney>280~500</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Cowboy_Repeater</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
             <li>NeolithicMeleeDecent</li>
         </weaponTags>
         <backstoryFiltersOverride>
@@ -399,6 +407,8 @@
         </inventoryOptions>
     </PawnKindDef>
 
+	<!-- Prime Legionary -->
+
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Prime</defName>
         <label>prime legionary</label>
@@ -412,9 +422,9 @@
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
-        <weaponMoney>150~150</weaponMoney>
+        <weaponMoney>280~500</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Cowboy_Repeater</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
             <li>NeolithicMeleeDecent</li>
         </weaponTags>
         <backstoryFiltersOverride>
@@ -454,9 +464,11 @@
         </inventoryOptions>
     </PawnKindDef>
 
+	<!-- Prime Decanus -->
+
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Prime_Decanus</defName>
-        <label>prime legionary</label>
+        <label>prime decanus</label>
         <combatPower>70</combatPower>
         <canBeSapper>true</canBeSapper>
         <apparelMoney>0</apparelMoney>
@@ -467,10 +479,12 @@
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
-        <weaponMoney>150~150</weaponMoney>
+        <weaponMoney>500~800</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li>NeolithicMeleeDecent</li>
         </weaponTags>
         <backstoryFiltersOverride>
@@ -510,6 +524,8 @@
         </inventoryOptions>
     </PawnKindDef>
 
+	<!-- Veteran Legionary -->
+
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Veteran</defName>
         <label>veteran legionary</label>
@@ -523,11 +539,12 @@
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
-        <weaponMoney>150~150</weaponMoney>
+        <weaponMoney>500~850</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Cowboy_Repeater</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li>NeolithicMeleeDecent</li>
         </weaponTags>
         <backstoryFiltersOverride>
@@ -567,9 +584,11 @@
         </inventoryOptions>
     </PawnKindDef>
 
+	<!-- Veteran Decanus -->
+
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Veteran_Decanus</defName>
-        <label>veteran legionary</label>
+        <label>veteran decanus</label>
         <combatPower>90</combatPower>
         <canBeSapper>true</canBeSapper>
         <apparelMoney>0</apparelMoney>
@@ -580,10 +599,12 @@
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
-        <weaponMoney>150~150</weaponMoney>
+        <weaponMoney>500~850</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li>NeolithicMeleeDecent</li>
         </weaponTags>
         <backstoryFiltersOverride>
@@ -623,6 +644,8 @@
         </inventoryOptions>
     </PawnKindDef>
 
+	<!-- Legion Vexillarius -->
+
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Vexillarius</defName>
         <label>legion vexillarius</label>
@@ -636,11 +659,12 @@
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
-        <weaponMoney>150~150</weaponMoney>
+        <weaponMoney>500~850</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Cowboy_Repeater</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li>NeolithicMeleeDecent</li>
         </weaponTags>
         <backstoryFiltersOverride>
@@ -680,6 +704,8 @@
         </inventoryOptions>
     </PawnKindDef>
 
+	<!-- Centurion -->
+
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Centurion</defName>
         <label>centurion</label>
@@ -692,12 +718,12 @@
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
-        <weaponMoney>150~150</weaponMoney>
+        <weaponMoney>500~850</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Battle_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Brush_Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li>NeolithicMeleeDecent</li>
         </weaponTags>
         <backstoryFiltersOverride>
@@ -737,6 +763,8 @@
         </inventoryOptions>
     </PawnKindDef>
 
+	<!-- Legate -->
+
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Legion_Legate</defName>
         <label>legate</label>
@@ -751,10 +779,10 @@
         </requiredWorkTags>
         <weaponMoney>150~150</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Battle_Rifle</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Brush_Gun</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Standard</li>
-            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Gun_Combat_Rifle_Marksman</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
             <li>NeolithicMeleeDecent</li>
         </weaponTags>
         <backstoryFiltersOverride>
