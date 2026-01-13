@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!--__________ Legion __________-->
+    <!--__________ Caesar's Legion Characters __________-->
 
-    <!--_____ Caesar _____-->    
-    
-    <!-- Caesar -->
-    
+    <!--_____ Caesar's Legion _____-->
+
+    <!-- Caesar (Edward Sallow) -->
+
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Legion_Caesar</defName>
-        <pawnKind>FCP_Legion_Caesar</pawnKind>
-        <faction>FCP_Faction_Caesars_Legion</faction>
+        <pawnKind>FCP_Unique_Pawnkind_Caesar</pawnKind>
         <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
         <roles>
             <li Class="FCP.Core.CharacterRole_FactionLeader">
                 <seniority>1000</seniority>
@@ -28,29 +28,23 @@
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(255, 255, 255)</hairColor>
-                <hairDef>FCP_Hair_Ranger_Rick</hairDef>
+                <hairColor>(220, 220, 220)</hairColor>
+                <hairDef>Mop</hairDef>
                 <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(239, 189, 163)</skinColorOverride>
+                <skinColorOverride>(210, 180, 155)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
-            </li>
-            <!-- Unique Apparels -->
-            <li Class="FCP.Core.CharacterUniqueItemDefinition">
-                <uniqueItem>FCP_Apparel_Caesar_Robes</uniqueItem>
             </li>
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!--_____ Legionaires _____-->    
-
     <!-- Legate Lanius -->
-    
+
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Legion_Legate_Lanius</defName>
-        <pawnKind>FCP_Legion_Legate_Lanius</pawnKind>
-        <faction>FCP_Faction_Caesars_Legion</faction>
+        <pawnKind>FCP_Unique_Pawnkind_Legate_Lanius</pawnKind>
         <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
         <roles>
             <li Class="FCP.Core.CharacterRole_FactionLeader">
                 <seniority>900</seniority>
@@ -59,59 +53,69 @@
         <definitions>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
-                <firstName>Lanius</firstName>
-                <!-- <lastName>Lewis</lastName> -->
+                <firstName />
+                <lastName>Lanius</lastName>
                 <nickname>Monster of the East</nickname>
                 <gender>Male</gender>
                 <age>38</age>
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(88, 60, 51)</hairColor>
-                <hairDef>FCP_Hair_Ranger_Rick</hairDef>
+                <hairColor>(70, 50, 40)</hairColor>
+                <hairDef>Mop</hairDef>
                 <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(239, 189, 163)</skinColorOverride>
+                <skinColorOverride>(190, 160, 135)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
-                <bodyTypeDef>Male</bodyTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
             </li>
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Praetorian Guard Commander Lucius -->
-    
+    <!-- Lucius -->
+
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Legion_Praetorian_Lucius</defName>
-        <pawnKind>FCP_Legion_Praetorian_Lucius</pawnKind>
-        <faction>FCP_Faction_Caesars_Legion</faction>
+        <pawnKind>FCP_Unique_Pawnkind_Lucius</pawnKind>
         <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>850</seniority>
+            </li>
+        </roles>
         <definitions>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
-                <firstName>Lucius</firstName>
-                <!-- <lastName>Lewis</lastName> -->
-                <!-- <nickname></nickname> -->
+                <firstName />
+                <lastName>Lucius</lastName>
+                <nickname>Praetorian Commander</nickname>
                 <gender>Male</gender>
                 <age>48</age>
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(88, 60, 51)</hairColor>
-                <hairDef>FCP_Hair_Ranger_Rick</hairDef>
+                <hairColor>(80, 60, 45)</hairColor>
+                <hairDef>Mop</hairDef>
                 <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(239, 189, 163)</skinColorOverride>
+                <skinColorOverride>(185, 155, 130)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Frumentarius Vulpes Inculta -->
-    
+    <!-- Vulpes Inculta -->
+
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Legion_Frumentarius_Vulpes_Inculta</defName>
-        <pawnKind>FCP_Legion_Frumentarius_Vulpes_Inculta</pawnKind>
-        <faction>FCP_Faction_Caesars_Legion</faction>
+        <pawnKind>FCP_Unique_Pawnkind_Vulpes_Inculta</pawnKind>
         <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>800</seniority>
+            </li>
+        </roles>
         <definitions>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
@@ -123,38 +127,43 @@
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(88, 60, 51)</hairColor>
-                <hairDef>FCP_Hair_Ranger_Rick</hairDef>
+                <hairColor>(75, 55, 40)</hairColor>
+                <hairDef>Messy</hairDef>
                 <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(239, 189, 163)</skinColorOverride>
+                <skinColorOverride>(200, 170, 145)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
-                <bodyTypeDef>Male</bodyTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
             </li>
         </definitions>
     </FCP.Core.CharacterDef>
 
-    <!-- Centurion Aurelius of Phoenix -->
-    
+    <!-- Aurelius of Phoenix -->
+
     <FCP.Core.CharacterDef>
         <defName>FCP_Character_Legion_Centurion_Aurelius_of_Phoenix</defName>
-        <pawnKind>FCP_Legion_Centurion_Aurelius_of_Phoenix</pawnKind>
-        <faction>FCP_Faction_Caesars_Legion</faction>
+        <pawnKind>FCP_Unique_Pawnkind_Aurelius</pawnKind>
         <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>750</seniority>
+            </li>
+        </roles>
         <definitions>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
-                <firstName>Aurelius of Phoenix</firstName>
-                <!-- <lastName></lastName>
-                <nickname></nickname> -->
+                <firstName>Aurelius</firstName>
+                <lastName>of Phoenix</lastName>
+                <nickname>Centurion Aurelius</nickname>
                 <gender>Male</gender>
                 <age>35</age>
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(88, 60, 51)</hairColor>
-                <hairDef>FCP_Hair_Ranger_Rick</hairDef>
+                <hairColor>(60, 45, 35)</hairColor>
+                <hairDef>Mop</hairDef>
                 <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(239, 189, 163)</skinColorOverride>
+                <skinColorOverride>(180, 150, 125)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>

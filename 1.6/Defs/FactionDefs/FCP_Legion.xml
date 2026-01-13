@@ -146,7 +146,7 @@
                     <FCP_Legion_Vexillarius>5</FCP_Legion_Vexillarius>
                     <FCP_Legion_Centurion>3</FCP_Legion_Centurion>
                     <FCP_Legion_Legate>1</FCP_Legion_Legate>
-                    <FCP_Legion_Caesar>1</FCP_Legion_Caesar>
+                    <FCP_Unique_Pawnkind_Caesar>1</FCP_Unique_Pawnkind_Caesar>
                 </options>
             </li>
             <li>
@@ -155,7 +155,7 @@
                     <FCP_Animal_Legion_Guard_Dog MayRequire="Rick.FCP.Animals">3</FCP_Animal_Legion_Guard_Dog>
                     <FCP_Legion_Recruit>20</FCP_Legion_Recruit>
                     <FCP_Legion_Recruit_Decanus>10</FCP_Legion_Recruit_Decanus>
-                    <FCP_Legion_Caesar>1</FCP_Legion_Caesar>
+                    <FCP_Unique_Pawnkind_Caesar>1</FCP_Unique_Pawnkind_Caesar>
                 </options>
             </li>
             <li>
@@ -174,7 +174,7 @@
                     <FCP_Legion_Veteran>7</FCP_Legion_Veteran>
                     <FCP_Legion_Prime>10</FCP_Legion_Prime>
                     <FCP_Legion_Prime_Decanus>3</FCP_Legion_Prime_Decanus>
-                    <FCP_Legion_Caesar>1</FCP_Legion_Caesar>
+                    <FCP_Unique_Pawnkind_Caesar>1</FCP_Unique_Pawnkind_Caesar>
                 </guards>
             </li>
             <li>
@@ -187,7 +187,7 @@
                     <FCP_Legion_Vexillarius>7</FCP_Legion_Vexillarius>
                     <FCP_Legion_Centurion>5</FCP_Legion_Centurion>
                     <FCP_Legion_Legate>3</FCP_Legion_Legate>
-                    <FCP_Legion_Caesar>1</FCP_Legion_Caesar>
+                    <FCP_Unique_Pawnkind_Caesar>1</FCP_Unique_Pawnkind_Caesar>
                 </options>
             </li>
         </pawnGroupMakers>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Caesar's Legion Character Backstories __________-->
+
+    <!--_____ Caesar (Edward Sallow) _____-->
+
+    <!-- Childhood -->
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Caesar_Child</defName>
+        <identifier>FCP_Character_Backstory_Caesar_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Follower Acolyte</title>
+        <titleShort>Acolyte</titleShort>
+        <description>Born Edward Sallow, [PAWN_nameDef] was raised by the Followers of the Apocalypse after [PAWN_possessive] parents died. [PAWN_pronoun] spent [PAWN_possessive] youth studying history, linguistics, and philosophy in the Boneyard, developing a sharp intellect and an obsession with ancient Rome.</description>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Caesar_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Caesar_Adult</defName>
+        <identifier>FCP_Character_Backstory_Caesar_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Caesar</title>
+        <titleShort>Caesar</titleShort>
+        <description>[PAWN_nameDef] founded Caesar's Legion after being captured by the Blackfoot tribe. Using [PAWN_possessive] knowledge of Roman history and tactics, [PAWN_pronoun] united dozens of tribes under one banner. [PAWN_pronoun] is a brilliant strategist and charismatic leader, though [PAWN_pronoun] suffers from a brain tumor that causes periodic weakness.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>6</Intellectual>
+            <Melee>2</Melee>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Caesar_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Legate Lanius _____-->
+
+    <!-- Childhood -->
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Lanius_Child</defName>
+        <identifier>FCP_Character_Backstory_Lanius_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Hidebarks Tribesman</title>
+        <titleShort>Tribesman</titleShort>
+        <description>[PAWN_nameDef] was born into the Hidebarks tribe in the savage lands east of the Colorado River. As a youth, [PAWN_pronoun] witnessed [PAWN_possessive] tribe's brutal traditions and learned that strength and fear were the only currencies that mattered in the wasteland.</description>
+        <skillGains>
+            <Melee>4</Melee>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Lanius_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Lanius_Adult</defName>
+        <identifier>FCP_Character_Backstory_Lanius_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Legate</title>
+        <titleShort>Legate</titleShort>
+        <description>Known as the Monster of the East, [PAWN_nameDef] rose to become Caesar's most feared military commander. After personally executing [PAWN_possessive] entire tribe for cowardice, [PAWN_pronoun] joined the Legion and became legendary for [PAWN_possessive] brutality and unstoppable combat prowess. [PAWN_pronoun] leads from the front, breaking enemy lines through sheer violence.</description>
+        <skillGains>
+            <Melee>10</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>Intellectual, Artistic, Social, Caring</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Lanius_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Lucius _____-->
+
+    <!-- Childhood -->
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Lucius_Child</defName>
+        <identifier>FCP_Character_Backstory_Lucius_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Legion Recruit</title>
+        <titleShort>Recruit</titleShort>
+        <description>[PAWN_nameDef] was one of the earliest tribes assimilated into Caesar's Legion as a child. [PAWN_pronoun] was trained in the ways of the Legion from a young age, learning discipline, tactics, and absolute loyalty to Caesar.</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Lucius_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Lucius_Adult</defName>
+        <identifier>FCP_Character_Backstory_Lucius_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Praetorian Commander</title>
+        <titleShort>Praetorian</titleShort>
+        <description>[PAWN_nameDef] commands Caesar's elite Praetorian Guard. [PAWN_pronoun] is a veteran warrior who has served the Legion for decades, earning [PAWN_possessive] position through unwavering loyalty and battlefield skill. [PAWN_pronoun] is responsible for Caesar's personal safety and the training of the Praetorian Guard.</description>
+        <skillGains>
+            <Melee>8</Melee>
+            <Shooting>4</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Intellectual, Artistic</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Lucius_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Vulpes Inculta _____-->
+
+    <!-- Childhood -->
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Vulpes_Child</defName>
+        <identifier>FCP_Character_Backstory_Vulpes_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Tribal Scout</title>
+        <titleShort>Scout</titleShort>
+        <description>[PAWN_nameDef] showed exceptional intelligence and cunning from a young age. When [PAWN_possessive] tribe was absorbed by the Legion, [PAWN_pronoun] was selected for special training due to [PAWN_possessive] quick mind and natural talent for deception.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Vulpes_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Vulpes_Adult</defName>
+        <identifier>FCP_Character_Backstory_Vulpes_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Frumentarius</title>
+        <titleShort>Frumentarius</titleShort>
+        <description>[PAWN_nameDef] leads the Legion's Frumentarii, the elite intelligence and infiltration corps. Known as "Mr. Fox," [PAWN_pronoun] is a master of espionage, sabotage, and psychological warfare. [PAWN_pronoun] operates behind enemy lines, sowing chaos and gathering intelligence for Caesar's campaigns.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>6</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Vulpes_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Aurelius of Phoenix _____-->
+
+    <!-- Childhood -->
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Aurelius_Child</defName>
+        <identifier>FCP_Character_Backstory_Aurelius_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Legion Youth</title>
+        <titleShort>Youth</titleShort>
+        <description>[PAWN_nameDef] was born in Legion territory and raised according to Caesar's strict code. [PAWN_pronoun] excelled in military training and showed natural leadership abilities from an early age.</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Aurelius_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Aurelius_Adult</defName>
+        <identifier>FCP_Character_Backstory_Aurelius_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Centurion</title>
+        <titleShort>Centurion</titleShort>
+        <description>[PAWN_nameDef] earned the rank of Centurion through valor in battle. [PAWN_pronoun] commands a century of legionaries and is responsible for pacifying the Phoenix area. [PAWN_pronoun] is a skilled tactician and respected by [PAWN_possessive] troops for leading from the front.</description>
+        <skillGains>
+            <Melee>7</Melee>
+            <Shooting>5</Shooting>
+            <Social>3</Social>
+        </skillGains>
+        <workDisables>Intellectual, Artistic</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Aurelius_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+    </BackstoryDef>
+
+</Defs>
