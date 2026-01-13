@@ -28,10 +28,10 @@
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(220, 220, 220)</hairColor>
-                <hairDef>Mop</hairDef>
-                <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(210, 180, 155)</skinColorOverride>
+                <hairColor>(200, 200, 200)</hairColor>
+                <hairDef>Short</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(235, 210, 190)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>
@@ -61,11 +61,11 @@
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(70, 50, 40)</hairColor>
-                <hairDef>Mop</hairDef>
+                <hairColor>(50, 40, 30)</hairColor>
+                <hairDef>Bald</hairDef>
                 <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(190, 160, 135)</skinColorOverride>
-                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <skinColorOverride>(175, 145, 120)</skinColorOverride>
+                <headTypeDef>Male_HeavyJaw</headTypeDef>
                 <bodyTypeDef>Hulk</bodyTypeDef>
             </li>
         </definitions>
@@ -94,11 +94,11 @@
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(80, 60, 45)</hairColor>
-                <hairDef>Mop</hairDef>
-                <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(185, 155, 130)</skinColorOverride>
-                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <hairColor>(90, 70, 50)</hairColor>
+                <hairDef>Short</hairDef>
+                <beardDef>Beard</beardDef>
+                <skinColorOverride>(180, 150, 125)</skinColorOverride>
+                <headTypeDef>Male_NarrowNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>
         </definitions>
@@ -127,11 +127,11 @@
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
-                <hairColor>(75, 55, 40)</hairColor>
-                <hairDef>Messy</hairDef>
+                <hairColor>(65, 45, 35)</hairColor>
+                <hairDef>Mohawk</hairDef>
                 <beardDef>NoBeard</beardDef>
-                <skinColorOverride>(200, 170, 145)</skinColorOverride>
-                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <skinColorOverride>(195, 165, 140)</skinColorOverride>
+                <headTypeDef>Male_NarrowPointy</headTypeDef>
                 <bodyTypeDef>Thin</bodyTypeDef>
             </li>
         </definitions>
@@ -160,10 +160,414 @@
             </li>
             <!-- Appearance -->
             <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(55, 40, 30)</hairColor>
+                <hairDef>Short</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(170, 140, 115)</skinColorOverride>
+                <headTypeDef>Male_HeavyJaw</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!--_____ Centurions _____-->
+
+    <!-- Dead Sea -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Legion_Centurion_Dead_Sea</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Dead_Sea</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>740</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Dead Sea</lastName>
+                <nickname>Centurion Dead Sea</nickname>
+                <gender>Male</gender>
+                <age>42</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(50, 35, 25)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(165, 135, 110)</skinColorOverride>
+                <headTypeDef>Male_HeavyJaw</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Alexus -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Legion_Centurion_Alexus</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Alexus</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>730</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Alexus</lastName>
+                <nickname>Centurion Alexus</nickname>
+                <gender>Male</gender>
+                <age>39</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(60, 45, 35)</hairColor>
-                <hairDef>Mop</hairDef>
+                <hairDef>Short</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(175, 145, 120)</skinColorOverride>
+                <headTypeDef>Male_NarrowNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Canyon Runner -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Legion_Centurion_Canyon_Runner</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Canyon_Runner</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>720</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Canyon Runner</lastName>
+                <nickname>Centurion Canyon Runner</nickname>
+                <gender>Male</gender>
+                <age>45</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(70, 55, 40)</hairColor>
+                <hairDef>Short</hairDef>
+                <beardDef>Beard</beardDef>
+                <skinColorOverride>(160, 130, 105)</skinColorOverride>
+                <headTypeDef>Male_HeavyJaw</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Gaius Magnus -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Legion_Centurion_Gaius_Magnus</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Gaius_Magnus</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>710</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Gaius</firstName>
+                <lastName>Magnus</lastName>
+                <nickname>Centurion Gaius Magnus</nickname>
+                <gender>Male</gender>
+                <age>37</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(65, 50, 35)</hairColor>
+                <hairDef>Short</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(170, 140, 115)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Severus -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Legion_Centurion_Severus</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Centurion_Severus</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>700</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Severus</lastName>
+                <nickname>Centurion Severus</nickname>
+                <gender>Male</gender>
+                <age>41</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(55, 40, 30)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>Beard</beardDef>
+                <skinColorOverride>(165, 135, 110)</skinColorOverride>
+                <headTypeDef>Male_HeavyJaw</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!--_____ Frumentarii _____-->
+
+    <!-- Picus -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Legion_Frumentarius_Picus</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Picus</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>650</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Picus</lastName>
+                <nickname>Agent Picus</nickname>
+                <gender>Male</gender>
+                <age>32</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(75, 55, 40)</hairColor>
+                <hairDef>Messy</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(195, 165, 140)</skinColorOverride>
+                <headTypeDef>Male_NarrowPointy</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Cursor Lucullus -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Legion_Frumentarius_Cursor_Lucullus</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Cursor_Lucullus</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>640</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Cursor</firstName>
+                <lastName>Lucullus</lastName>
+                <nickname>Cursor Lucullus</nickname>
+                <gender>Male</gender>
+                <age>29</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(80, 60, 45)</hairColor>
+                <hairDef>Short</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(200, 170, 145)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Silus -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Legion_Frumentarius_Silus</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Silus</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>630</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Silus</lastName>
+                <nickname>Captured Frumentarius</nickname>
+                <gender>Male</gender>
+                <age>34</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(70, 50, 35)</hairColor>
+                <hairDef>Messy</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(190, 160, 135)</skinColorOverride>
+                <headTypeDef>Male_NarrowNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!--_____ Decanii _____-->
+
+    <!-- Decanus Severus -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Legion_Decanus_Severus</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Decanus_Severus</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>600</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Severus</lastName>
+                <nickname>Decanus Severus</nickname>
+                <gender>Male</gender>
+                <age>31</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(60, 45, 30)</hairColor>
+                <hairDef>Short</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(175, 145, 120)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Karl -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Legion_Decanus_Karl</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Karl</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>590</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Karl</lastName>
+                <nickname>Decanus Karl</nickname>
+                <gender>Male</gender>
+                <age>28</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(65, 50, 35)</hairColor>
+                <hairDef>Short</hairDef>
                 <beardDef>NoBeard</beardDef>
                 <skinColorOverride>(180, 150, 125)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!--_____ Specialists _____-->
+
+    <!-- Otho -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Legion_Veteran_Otho</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Otho</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>550</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Otho</lastName>
+                <nickname>Mongrel Handler</nickname>
+                <gender>Male</gender>
+                <age>36</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(70, 55, 40)</hairColor>
+                <hairDef>Messy</hairDef>
+                <beardDef>Beard</beardDef>
+                <skinColorOverride>(170, 140, 115)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Antony -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Legion_Merchant_Antony</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Antony</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Caesars_Legion</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>500</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Antony</lastName>
+                <nickname>Legion Arms Merchant</nickname>
+                <gender>Male</gender>
+                <age>43</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(85, 65, 50)</hairColor>
+                <hairDef>Short</hairDef>
+                <beardDef>Goatee</beardDef>
+                <skinColorOverride>(185, 155, 130)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>

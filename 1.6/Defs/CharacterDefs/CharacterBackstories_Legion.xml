@@ -6,6 +6,7 @@
     <!--_____ Caesar (Edward Sallow) _____-->
 
     <!-- Childhood -->
+
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Caesar_Child</defName>
         <identifier>FCP_Character_Backstory_Caesar_Child</identifier>
@@ -23,6 +24,7 @@
     </BackstoryDef>
 
     <!-- Adulthood -->
+
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Caesar_Adult</defName>
         <identifier>FCP_Character_Backstory_Caesar_Adult</identifier>
@@ -46,6 +48,7 @@
     <!--_____ Legate Lanius _____-->
 
     <!-- Childhood -->
+
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Lanius_Child</defName>
         <identifier>FCP_Character_Backstory_Lanius_Child</identifier>
@@ -63,6 +66,7 @@
     </BackstoryDef>
 
     <!-- Adulthood -->
+
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Lanius_Adult</defName>
         <identifier>FCP_Character_Backstory_Lanius_Adult</identifier>
@@ -85,6 +89,7 @@
     <!--_____ Lucius _____-->
 
     <!-- Childhood -->
+
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Lucius_Child</defName>
         <identifier>FCP_Character_Backstory_Lucius_Child</identifier>
@@ -102,6 +107,7 @@
     </BackstoryDef>
 
     <!-- Adulthood -->
+
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Lucius_Adult</defName>
         <identifier>FCP_Character_Backstory_Lucius_Adult</identifier>
@@ -125,6 +131,7 @@
     <!--_____ Vulpes Inculta _____-->
 
     <!-- Childhood -->
+
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Vulpes_Child</defName>
         <identifier>FCP_Character_Backstory_Vulpes_Child</identifier>
@@ -142,6 +149,7 @@
     </BackstoryDef>
 
     <!-- Adulthood -->
+
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Vulpes_Adult</defName>
         <identifier>FCP_Character_Backstory_Vulpes_Adult</identifier>
@@ -165,6 +173,7 @@
     <!--_____ Aurelius of Phoenix _____-->
 
     <!-- Childhood -->
+
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Aurelius_Child</defName>
         <identifier>FCP_Character_Backstory_Aurelius_Child</identifier>
@@ -182,6 +191,7 @@
     </BackstoryDef>
 
     <!-- Adulthood -->
+    
     <BackstoryDef>
         <defName>FCP_Character_Backstory_Aurelius_Adult</defName>
         <identifier>FCP_Character_Backstory_Aurelius_Adult</identifier>
@@ -198,6 +208,537 @@
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Character_Backstory_Aurelius_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Dead Sea _____-->
+
+    <!-- Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Dead_Sea_Child</defName>
+        <identifier>FCP_Backstory_Dead_Sea_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Brutal tribal youth</title>
+        <titleShort>brutal</titleShort>
+        <description>[PAWN_nameDef] grew up in a harsh tribal environment where only the strong survived. [PAWN_pronoun] learned early that violence and intimidation were the keys to power.</description>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Dead_Sea_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Dead_Sea_Adult</defName>
+        <identifier>FCP_Backstory_Dead_Sea_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Centurion at Nelson</title>
+        <titleShort>Centurion</titleShort>
+        <description>[PAWN_nameDef] commands Legion forces at Camp Nelson with ruthless efficiency. [PAWN_pronoun] is known for brutal tactics including crucifying NCR prisoners. [PAWN_nameDef] enforces discipline through fear and violence.</description>
+        <skillGains>
+            <Melee>8</Melee>
+            <Shooting>7</Shooting>
+            <Social>4</Social>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Dead_Sea_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Alexus _____-->
+
+    <!-- Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Alexus_Child</defName>
+        <identifier>FCP_Backstory_Alexus_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Legion conscript</title>
+        <titleShort>conscript</titleShort>
+        <description>[PAWN_nameDef] was taken into the Legion as a child during tribal assimilation. [PAWN_pronoun] adapted quickly to military discipline and showed tactical aptitude.</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>3</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Artistic</workDisables>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Alexus_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Alexus_Adult</defName>
+        <identifier>FCP_Backstory_Alexus_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Centurion at Techatticup</title>
+        <titleShort>Centurion</titleShort>
+        <description>[PAWN_nameDef] serves as Centurion overseeing Legion operations at Techatticup Mine. [PAWN_pronoun] manages slave labor and defends strategic mining positions with tactical precision.</description>
+        <skillGains>
+            <Melee>7</Melee>
+            <Shooting>7</Shooting>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Alexus_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Canyon Runner _____-->
+
+    <!-- Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Canyon_Runner_Child</defName>
+        <identifier>FCP_Backstory_Canyon_Runner_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Canyon survivor</title>
+        <titleShort>survivor</titleShort>
+        <description>[PAWN_nameDef] grew up navigating dangerous canyons and learning to track and capture prey. These skills would later serve [PAWN_objective] well in a different kind of hunting.</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>2</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Artistic</workDisables>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Canyon_Runner_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Canyon_Runner_Adult</defName>
+        <identifier>FCP_Backstory_Canyon_Runner_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion Slave Master</title>
+        <titleShort>Centurion</titleShort>
+        <description>[PAWN_nameDef] serves as Centurion overseeing the Legion's slave operations at The Fort. [PAWN_pronoun] manages the capture, breaking, and assignment of slaves with cold efficiency. [PAWN_nameDef] views slaves as resources to be exploited.</description>
+        <skillGains>
+            <Melee>7</Melee>
+            <Shooting>6</Shooting>
+            <Social>6</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, Caring</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Canyon_Runner_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Gaius Magnus _____-->
+
+    <!-- Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Gaius_Magnus_Child</defName>
+        <identifier>FCP_Backstory_Gaius_Magnus_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Legion raised warrior</title>
+        <titleShort>warrior</titleShort>
+        <description>[PAWN_nameDef] was raised within the Legion from early childhood. [PAWN_pronoun] excelled in combat training and absorbed Legion philosophy completely.</description>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Artistic</workDisables>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Gaius_Magnus_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Gaius_Magnus_Adult</defName>
+        <identifier>FCP_Backstory_Gaius_Magnus_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Centurion at Forlorn Hope</title>
+        <titleShort>Centurion</titleShort>
+        <description>[PAWN_nameDef] leads Legion raids against NCR positions, particularly targeting Camp Forlorn Hope. [PAWN_pronoun] is a skilled tactician who keeps NCR forces under constant pressure through coordinated attacks.</description>
+        <skillGains>
+            <Melee>7</Melee>
+            <Shooting>7</Shooting>
+            <Social>5</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Gaius_Magnus_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Centurion Severus _____-->
+
+    <!-- Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Centurion_Severus_Child</defName>
+        <identifier>FCP_Backstory_Centurion_Severus_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Wasteland enforcer youth</title>
+        <titleShort>enforcer</titleShort>
+        <description>[PAWN_nameDef] grew up learning to enforce order through strength. [PAWN_pronoun] believed in harsh discipline and total obedience from an early age.</description>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Centurion_Severus_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Centurion_Severus_Adult</defName>
+        <identifier>FCP_Backstory_Centurion_Severus_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Centurion of Dry Wells</title>
+        <titleShort>Centurion</titleShort>
+        <description>[PAWN_nameDef] commands Legion forces at Dry Wells, enforcing Caesar's will with brutal efficiency. [PAWN_pronoun] is ruthless in combat and shows no mercy to enemies or incompetent subordinates.</description>
+        <skillGains>
+            <Melee>8</Melee>
+            <Shooting>7</Shooting>
+            <Social>4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Centurion_Severus_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Picus _____-->
+
+    <!-- Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Picus_Child</defName>
+        <identifier>FCP_Backstory_Picus_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Observant youth</title>
+        <titleShort>observer</titleShort>
+        <description>[PAWN_nameDef] was always watching, always listening. [PAWN_pronoun] learned to gather information and read people's intentions before speaking.</description>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Social>3</Social>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Picus_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Picus_Adult</defName>
+        <identifier>FCP_Backstory_Picus_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Deep cover agent</title>
+        <titleShort>Frumentarius</titleShort>
+        <description>[PAWN_nameDef] operates as a Frumentarius embedded at Camp McCarran. [PAWN_pronoun] passes as an NCR civilian while gathering intelligence and sabotaging operations. [PAWN_nameDef] must maintain [PAWN_possessive] cover at all costs.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>7</Intellectual>
+            <Shooting>5</Shooting>
+            <Melee>4</Melee>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Picus_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Cursor Lucullus _____-->
+
+    <!-- Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Cursor_Lucullus_Child</defName>
+        <identifier>FCP_Backstory_Cursor_Lucullus_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Swift messenger child</title>
+        <titleShort>messenger</titleShort>
+        <description>[PAWN_nameDef] was always fast on [PAWN_possessive] feet and quick-minded. [PAWN_pronoun] delivered messages across dangerous terrain with speed and reliability.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Cursor_Lucullus_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Cursor_Lucullus_Adult</defName>
+        <identifier>FCP_Backstory_Cursor_Lucullus_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion scout</title>
+        <titleShort>Cursor</titleShort>
+        <description>[PAWN_nameDef] serves as a Cursor, a Legion scout and messenger. [PAWN_pronoun] explores ahead of Legion forces, gathering intelligence and relaying orders. [PAWN_nameDef] moves quickly through hostile territory.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>5</Melee>
+            <Intellectual>5</Intellectual>
+            <Social>4</Social>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Cursor_Lucullus_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Silus _____-->
+
+    <!-- Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Silus_Child</defName>
+        <identifier>FCP_Backstory_Silus_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Deceptive child</title>
+        <titleShort>deceptive</titleShort>
+        <description>[PAWN_nameDef] learned early that lies and misdirection could be as effective as weapons. [PAWN_pronoun] practiced assuming different personas and hiding [PAWN_possessive] true nature.</description>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Silus_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Silus_Adult</defName>
+        <identifier>FCP_Backstory_Silus_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Captured spy</title>
+        <titleShort>Frumentarius</titleShort>
+        <description>[PAWN_nameDef] operated as a Frumentarius until [PAWN_possessive] capture by the NCR. Now held at Camp McCarran, [PAWN_pronoun] faces interrogation while maintaining loyalty to Caesar. [PAWN_nameDef] knows too much to give up easily.</description>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>6</Intellectual>
+            <Shooting>5</Shooting>
+            <Melee>4</Melee>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Silus_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Decanus Severus _____-->
+
+    <!-- Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Decanus_Severus_Child</defName>
+        <identifier>FCP_Backstory_Decanus_Severus_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Legion youth</title>
+        <titleShort>youth</titleShort>
+        <description>[PAWN_nameDef] was raised in the Legion's training camps. [PAWN_pronoun] learned combat skills and tactical basics, preparing to lead small units.</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>3</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Artistic</workDisables>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Decanus_Severus_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Decanus_Severus_Adult</defName>
+        <identifier>FCP_Backstory_Decanus_Severus_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Squad leader at Nelson</title>
+        <titleShort>Decanus</titleShort>
+        <description>[PAWN_nameDef] commands a contubernium (squad) at Camp Nelson. [PAWN_pronoun] enforces discipline among legionaries and coordinates small unit tactics. [PAWN_nameDef] aspires to earn promotion through battlefield performance.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>6</Shooting>
+            <Social>4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Decanus_Severus_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Karl _____-->
+
+    <!-- Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Karl_Child</defName>
+        <identifier>FCP_Backstory_Karl_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Tribal warrior youth</title>
+        <titleShort>warrior</titleShort>
+        <description>[PAWN_nameDef] grew up in a tribe conquered by the Legion. [PAWN_pronoun] proved [PAWN_possessive] worth in combat and was selected for military training.</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>2</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Artistic</workDisables>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Karl_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Karl_Adult</defName>
+        <identifier>FCP_Backstory_Karl_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Decanus at Cottonwood Cove</title>
+        <titleShort>Decanus</titleShort>
+        <description>[PAWN_nameDef] serves as Decanus at Cottonwood Cove, a Legion river outpost. [PAWN_pronoun] manages ferry operations and oversees security along the Colorado River approach to The Fort.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>6</Shooting>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Karl_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Otho _____-->
+
+    <!-- Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Otho_Child</defName>
+        <identifier>FCP_Backstory_Otho_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Beast handler child</title>
+        <titleShort>handler</titleShort>
+        <description>[PAWN_nameDef] grew up around dangerous wasteland creatures. [PAWN_pronoun] learned to understand their behavior and train them through a mix of discipline and reward.</description>
+        <skillGains>
+            <Animals>5</Animals>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Otho_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Otho_Adult</defName>
+        <identifier>FCP_Backstory_Otho_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion mongrel master</title>
+        <titleShort>Handler</titleShort>
+        <description>[PAWN_nameDef] manages the Legion's mongrel war dogs at The Fort. [PAWN_pronoun] breeds, trains, and maintains these vicious animals used for guarding and combat. [PAWN_nameDef] understands his beasts better than most people.</description>
+        <skillGains>
+            <Animals>8</Animals>
+            <Melee>5</Melee>
+            <Shooting>4</Shooting>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Otho_Adult</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Male</bodyTypeGlobal>
+    </BackstoryDef>
+
+    <!--_____ Antony _____-->
+
+    <!-- Childhood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Antony_Child</defName>
+        <identifier>FCP_Backstory_Antony_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Trader's apprentice</title>
+        <titleShort>trader</titleShort>
+        <description>[PAWN_nameDef] grew up in a merchant family, learning the value of goods and the art of negotiation. [PAWN_pronoun] could spot quality weapons and armor from an early age.</description>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Antony_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Adulthood -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Antony_Adult</defName>
+        <identifier>FCP_Backstory_Antony_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>Legion arms dealer</title>
+        <titleShort>Merchant</titleShort>
+        <description>[PAWN_nameDef] serves as the Legion's primary arms merchant at The Fort. [PAWN_pronoun] trades weapons, armor, and supplies with Legion members and approved visitors. [PAWN_nameDef] maintains good relations with Caesar's forces while turning a profit.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>6</Intellectual>
+            <Shooting>4</Shooting>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Antony_Adult</li>
         </spawnCategories>
         <bodyTypeGlobal>Male</bodyTypeGlobal>
     </BackstoryDef>

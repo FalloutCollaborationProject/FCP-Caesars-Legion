@@ -64,6 +64,7 @@
         <gearHealthRange>1.0~1.0</gearHealthRange>
         <apparelRequired>
             <li>FCP_Apparel_Legion_Legate_Armor</li>
+            <li>FCP_Apparel_Legion_Legate_Helmet</li>
         </apparelRequired>
         <weaponMoney>400~600</weaponMoney>
         <weaponTags>
@@ -158,6 +159,7 @@
         <gearHealthRange>0.9~1.0</gearHealthRange>
         <apparelRequired>
             <li>FCP_Apparel_Legion_Vexillarius_Armor</li>
+            <li>FCP_Apparel_Legion_Vexillarius_Helmet</li>
         </apparelRequired>
         <weaponMoney>300~500</weaponMoney>
         <weaponTags>
@@ -206,6 +208,7 @@
         <gearHealthRange>0.9~1.0</gearHealthRange>
         <apparelRequired>
             <li>FCP_Apparel_Legion_Centurion_Armor</li>
+            <li>FCP_Apparel_Legion_Centurion_Helmet</li>
         </apparelRequired>
         <weaponMoney>300~500</weaponMoney>
         <weaponTags>
@@ -238,6 +241,594 @@
                 <li>
                     <thingDef>MedicineIndustrial</thingDef>
                     <countRange>2~4</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Dead Sea -->
+
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Unique_Pawnkind_Dead_Sea</defName>
+        <label>Centurion Dead Sea</label>
+        <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
+        <combatPower>105</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Centurion_Armor</li>
+            <li>FCP_Apparel_Legion_Centurion_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>300~500</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+        </weaponTags>
+        <initialWillRange>7~8</initialWillRange>
+        <initialResistanceRange>28~38</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Dead_Sea_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Dead_Sea_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>100~200</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Alexus -->
+
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Unique_Pawnkind_Alexus</defName>
+        <label>Centurion Alexus</label>
+        <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
+        <combatPower>100</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Centurion_Armor</li>
+            <li>FCP_Apparel_Legion_Centurion_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>300~500</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+        </weaponTags>
+        <initialWillRange>6~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Alexus_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Alexus_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>100~200</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Canyon Runner -->
+
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Unique_Pawnkind_Canyon_Runner</defName>
+        <label>Centurion Canyon Runner</label>
+        <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
+        <combatPower>100</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Centurion_Armor</li>
+            <li>FCP_Apparel_Legion_Centurion_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>300~500</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+        </weaponTags>
+        <initialWillRange>6~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Canyon_Runner_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Canyon_Runner_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>100~200</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Gaius Magnus -->
+
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Unique_Pawnkind_Gaius_Magnus</defName>
+        <label>Centurion Gaius Magnus</label>
+        <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
+        <combatPower>100</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Centurion_Armor</li>
+            <li>FCP_Apparel_Legion_Centurion_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>300~500</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+        </weaponTags>
+        <initialWillRange>6~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Gaius_Magnus_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Gaius_Magnus_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>100~200</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Severus -->
+
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Unique_Pawnkind_Centurion_Severus</defName>
+        <label>Centurion Severus</label>
+        <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
+        <combatPower>100</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Centurion_Armor</li>
+            <li>FCP_Apparel_Legion_Centurion_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>300~500</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+        </weaponTags>
+        <initialWillRange>6~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Centurion_Severus_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Centurion_Severus_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>100~200</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Picus -->
+
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Unique_Pawnkind_Picus</defName>
+        <label>Frumentarius Picus</label>
+        <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
+        <combatPower>95</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Vexillarius_Armor</li>
+            <li>FCP_Apparel_Legion_Vexillarius_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>250~400</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeDecent</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+        </weaponTags>
+        <initialWillRange>6~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Picus_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Picus_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>100~200</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Cursor Lucullus -->
+
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Unique_Pawnkind_Cursor_Lucullus</defName>
+        <label>Cursor Lucullus</label>
+        <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
+        <combatPower>90</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Explorer_Armor</li>
+            <li>FCP_Apparel_Legion_Explorer_Hood</li>
+        </apparelRequired>
+        <weaponMoney>200~350</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeDecent</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>22~32</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Cursor_Lucullus_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Cursor_Lucullus_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>80~150</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Silus -->
+
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Unique_Pawnkind_Silus</defName>
+        <label>Frumentarius Silus</label>
+        <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
+        <combatPower>90</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Vexillarius_Armor</li>
+            <li>FCP_Apparel_Legion_Vexillarius_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>200~350</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeDecent</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>20~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Silus_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Silus_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>80~150</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Decanus Severus -->
+
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Unique_Pawnkind_Decanus_Severus</defName>
+        <label>Decanus Severus</label>
+        <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
+        <combatPower>85</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Veteran_Armor</li>
+            <li>FCP_Apparel_Legion_Veteran_Decanus_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>200~350</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>20~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Decanus_Severus_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Decanus_Severus_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>60~120</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Karl -->
+
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Unique_Pawnkind_Karl</defName>
+        <label>Decanus Karl</label>
+        <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
+        <combatPower>85</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Veteran_Armor</li>
+            <li>FCP_Apparel_Legion_Veteran_Decanus_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>200~350</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeAdvanced</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>20~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Karl_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Karl_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>60~120</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Otho -->
+
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Unique_Pawnkind_Otho</defName>
+        <label>Otho</label>
+        <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
+        <combatPower>80</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Veteran_Armor</li>
+            <li>FCP_Apparel_Legion_Veteran_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>150~300</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeDecent</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>20~28</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Otho_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Otho_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>50~100</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Antony -->
+
+    <PawnKindDef ParentName="FCP_LegionkindBase">
+        <defName>FCP_Unique_Pawnkind_Antony</defName>
+        <label>Antony</label>
+        <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
+        <combatPower>70</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Prime_Armor</li>
+            <li>FCP_Apparel_Legion_Prime_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>150~250</weaponMoney>
+        <weaponTags>
+            <li>NeolithicMeleeDecent</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+        </weaponTags>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>18~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Antony_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Antony_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Legion_Denarius</thingDef>
+                    <countRange>150~300</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~3</countRange>
                 </li>
             </subOptionsChooseOne>
         </inventoryOptions>
