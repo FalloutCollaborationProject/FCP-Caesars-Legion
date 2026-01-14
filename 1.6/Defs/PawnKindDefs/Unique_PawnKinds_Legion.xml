@@ -9,6 +9,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Caesar</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Caesar</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <factionLeader>true</factionLeader>
@@ -57,6 +58,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Legate_Lanius</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Legate Lanius</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>150</combatPower>
@@ -105,6 +107,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Lucius</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Commander Lucius</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>130</combatPower>
@@ -152,6 +155,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Vulpes_Inculta</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Vulpes Inculta</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>110</combatPower>
@@ -201,6 +205,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Aurelius</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Centurion Aurelius</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>100</combatPower>
@@ -250,6 +255,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Dead_Sea</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Centurion Dead Sea</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>105</combatPower>
@@ -299,6 +305,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Alexus</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Centurion Alexus</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>100</combatPower>
@@ -348,6 +355,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Canyon_Runner</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Centurion Canyon Runner</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>100</combatPower>
@@ -397,6 +405,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Gaius_Magnus</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Centurion Gaius Magnus</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>100</combatPower>
@@ -446,6 +455,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Centurion_Severus</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Centurion Severus</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>100</combatPower>
@@ -495,6 +505,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Picus</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Frumentarius Picus</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>95</combatPower>
@@ -544,6 +555,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Cursor_Lucullus</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Cursor Lucullus</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>90</combatPower>
@@ -593,6 +605,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Silus</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Frumentarius Silus</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>90</combatPower>
@@ -642,6 +655,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Decanus_Severus</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Decanus Severus</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>85</combatPower>
@@ -691,6 +705,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Karl</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Decanus Karl</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>85</combatPower>
@@ -740,6 +755,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Otho</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Otho</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>80</combatPower>
@@ -789,6 +805,7 @@
 
     <PawnKindDef ParentName="FCP_LegionkindBase">
         <defName>FCP_Unique_Pawnkind_Antony</defName>
+        <showInDebugSpawner>false</showInDebugSpawner>
         <label>Antony</label>
         <defaultFactionDef>FCP_Faction_Caesars_Legion</defaultFactionDef>
         <combatPower>70</combatPower>
