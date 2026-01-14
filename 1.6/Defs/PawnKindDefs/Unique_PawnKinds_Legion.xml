@@ -16,6 +16,8 @@
         <combatPower>150</combatPower>
         <itemQuality>Legendary</itemQuality>
         <gearHealthRange>1.0~1.0</gearHealthRange>
+        <apparelMoney>9999~9999</apparelMoney>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
         <apparelRequired>
             <li>FCP_Apparel_Caesar_Robes</li>
         </apparelRequired>
