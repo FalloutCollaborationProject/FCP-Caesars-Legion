@@ -198,13 +198,13 @@
                 <currency>FCP_Currency_Legion_Denarius</currency>
             </li>
             <!-- Make them hostile to the NCR -->
-            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+            <li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
                 <hostileFactionDefs>
                     <li MayRequire="Rick.FCP.NCR">FCP_Faction_NCR</li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->
-            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+            <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
                 <arrivalModes>
                     <li>EdgeDrop</li>
                     <li>EdgeDropGroups</li>
@@ -220,7 +220,7 @@
                 <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
             </li>
             <!-- Ideology stuff -->
-            <li Class="FCP.Core.ModExtension_FixedIdeo">
+            <li Class="FCP.Factions.FactionExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_Legion</ideoIconDef>
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Legionnaire</memberName>
@@ -239,7 +239,7 @@
                 </roleOverrides>
             </li>
             <!-- territory stuff -->
-            <!-- <li Class="FCP.Core.ModExtension_FactionTerritory">
+            <!-- <li Class="FCP.Factions.FactionExtension_HasTerritory">
                 <territoryColor>(253, 181, 21)</territoryColor>
                 <territoryBorderColor>(0.48, 0.11, 0.1, 0.75)</territoryBorderColor>
                 <factionLabelColor>(0.9, 0.2, 0.2, 1.0)</factionLabelColor>
