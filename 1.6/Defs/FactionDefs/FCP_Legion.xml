@@ -194,7 +194,7 @@
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
         <modExtensions Inherit="False">
             <!-- Faction tab label override -->
-            <li Class="FCP.Factions.FactionExtension_FactionTabLabelOverride">
+            <li Class="FCP.Factions.FactionExtension_FactionExtension_FlavorOverride">
                 <newLabel>Neo-Roman Tribal Legion</newLabel>
             </li>
             <!-- Legion Denarius -->
