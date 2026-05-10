@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- Add power line placement to Ancient Asphalt Road -->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/RoadDef[defName="AncientAsphaltRoad"]/roadGenSteps</xpath>
+        <value>
+            <li Class="RoadDefGenStep_Place">
+                <chancePerPositionCurve>
+                    <points>
+                        <li>(0, 0)</li>
+                        <li>(2.0, 0)</li>
+                        <li>(2.5, 0.6)</li>
+                        <li>(3.2, 0)</li>
+                    </points>
+                </chancePerPositionCurve>
+                <suppressOnTerrainTag>Water</suppressOnTerrainTag>
+                <place>FCP_Building_PowerLine</place>
+                <periodicSpacing>24</periodicSpacing>
+                <proximitySpacing>6</proximitySpacing>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Add power line placement to Ancient Asphalt Highway -->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/RoadDef[defName="AncientAsphaltHighway"]/roadGenSteps</xpath>
+        <value>
+            <li Class="RoadDefGenStep_Place">
+                <chancePerPositionCurve>
+                    <points>
+                        <li>(0, 0)</li>
+                        <li>(3.2, 0)</li>
+                        <li>(3.8, 0.5)</li>
+                        <li>(4.5, 0)</li>
+                    </points>
+                </chancePerPositionCurve>
+                <suppressOnTerrainTag>Water</suppressOnTerrainTag>
+                <place>FCP_Building_PowerLine</place>
+                <periodicSpacing>20</periodicSpacing>
+                <proximitySpacing>6</proximitySpacing>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

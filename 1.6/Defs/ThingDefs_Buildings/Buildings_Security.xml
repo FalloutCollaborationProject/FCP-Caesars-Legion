@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Pre-War Power Line __________-->
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>FCP_Building_PowerLine</defName>
+        <label>pre-war power line</label>
+        <description>An ancient electrical power line from before the war. Often found along old roads with victims who got too close.\n\nPrisoners can be strapped to it as punishment.</description>
+        <thingClass>FCP.Core.Buildings.Building_PowerLine</thingClass>
+        <category>Building</category>
+        <graphicData>
+            <texPath>Buildings/FCP_PowerLine/FCP_PowerLine</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(5,5)</drawSize>
+            <shadowData>
+                <volume>(1.8, 0.6, 2.6)</volume>
+            </shadowData>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <fillPercent>0.5</fillPercent>
+        <pathCost>70</pathCost>
+        <castEdgeShadows>true</castEdgeShadows>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>35</Mass>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <size>(1,1)</size>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="FCP.Core.Buildings.CompProperties_PowerLine">
+                <drawOffset>(0, 0, 1.5)</drawOffset>
+            </li>
+            <li Class="FCP.Core.Buildings.CompProperties_PowerLineGizmos">
+            </li>
+            <li Class="FCP.Core.Buildings.CompProperties_NaturalPowerLine">
+                <allowedFactions>
+                    <li>Pirate</li>
+                    <li>TribeCivil</li>
+                    <li>TribeRough</li>
+                    <li>OutlanderCivil</li>
+                    <li>OutlanderRough</li>
+                </allowedFactions>
+                <pawnDeadChance>0.5~0.9</pawnDeadChance>
+                <alwaysHasPawn>false</alwaysHasPawn>
+            </li>
+        </comps>
+        <building>
+            <destroySound>BuildingDestroyed_Wood_Small</destroySound>
+            <claimable>true</claimable>
+        </building>
+        <startingHpRange>0.3~1</startingHpRange>
+        <rotatable>true</rotatable>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsMisc</li>
+        </thingCategories>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    </ThingDef>
+
+</Defs>

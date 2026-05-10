@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!-- Power Line Gizmos -->
+    <FCP_StrapToPowerLine>Strap to power line</FCP_StrapToPowerLine>
+    <FCP_StrapToPowerLineDesc>Select a prisoner to strap to this power line.</FCP_StrapToPowerLineDesc>
+    <FCP_RemoveFromPowerLineDesc>Order a colonist to remove this person from the power line.</FCP_RemoveFromPowerLineDesc>
+    <FCP_SelectColonistToRemove>A colonist will be sent to remove the prisoner from the power line.</FCP_SelectColonistToRemove>
+    <FCP_NoPrisoners>No prisoners available</FCP_NoPrisoners>
+    
+    <!-- Power Line Messages -->
+    <FCP_StrapPawn>Strap {0}</FCP_StrapPawn>
+    <FCP_RemoveFromPowerLine>Remove {0} from power line</FCP_RemoveFromPowerLine>
+    <FCP_PawnStrapped>{0} has been strapped to the power line.</FCP_PawnStrapped>
+    <FCP_PawnRemovedFromPowerLine>{0} has been removed from the power line.</FCP_PawnRemovedFromPowerLine>
+    
+    <!-- Inspect String -->
+    <FCP_ContainedPawn>Strapped: {0}</FCP_ContainedPawn>
+
+</LanguageData>

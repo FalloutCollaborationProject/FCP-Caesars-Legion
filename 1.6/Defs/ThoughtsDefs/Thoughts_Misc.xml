@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+	<!--__________ Thought Defs __________-->
+
+	<!-- Turned in a slave -->
+
 	<ThoughtDef>
 		<defName>FCP_Legion_Turned_In_A_Slave</defName>
 		<durationDays>4</durationDays>
@@ -11,6 +15,52 @@
 				<label>turned in a slave</label>
 				<description>This colony turned in a prisoner to the Legion. Everyone shall know of our might!</description>
 				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- Witnessed crucifixion -->
+
+	<ThoughtDef>
+		<defName>FCP_Legion_WitnessedCrucifixion</defName>
+		<durationDays>5</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>witnessed crucifixion</label>
+				<description>I saw someone crucified. The Legion's justice is brutal but effective.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- Was crucified -->
+
+	<ThoughtDef>
+		<defName>FCP_Legion_WasCrucified</defName>
+		<durationDays>30</durationDays>
+		<stages>
+			<li>
+				<label>was crucified</label>
+				<description>I was nailed to a cross and left to suffer. The pain and humiliation will haunt me forever.</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- Crucified someone -->
+
+	<ThoughtDef>
+		<defName>FCP_Legion_CrucifiedSomeone</defName>
+		<durationDays>3</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>crucified someone</label>
+				<description>I crucified someone. It was brutal work.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
