@@ -159,6 +159,44 @@
                 <countRange>2~6</countRange>
             </li>
 
+            <!--__ Medicine __-->
+
+            <!-- Healing Powder -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Healing_Powder</thingDef>
+                <countRange>30~70</countRange>
+            </li>
+
+            <!--__ Weapons __-->
+
+            <!-- Melee Weapons -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDef>FCP_Melee_Scrap_Machete</thingDef>
+                <countRange>3~8</countRange>
+            </li>
+
+            <!-- Simple Firearms -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDef>FCP_Gun_Cowboy_Repeater</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDef>FCP_Lever_Action_Rifle</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>PlantFoodRaw</tag>
+            </li>
+
+            <li Class="StockGenerator_BuyTradeTag"><tag>WeaponMelee</tag></li>
+
             <!--__ Currency __-->
 
             <!-- Legion Denarii -->

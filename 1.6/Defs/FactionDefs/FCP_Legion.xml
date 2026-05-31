@@ -251,7 +251,7 @@
                 <renderTerritoryOverWater>false</renderTerritoryOverWater>
             </li> -->
             <!-- Clusters and biome configuration -->
-            <li Class="FCP.Factions.FactionExtension_SpawnConfig">
+            <li Class="FCP.Factions.FactionExtension_SettlementControl">
                 <allowedBiomes>
                     <li>AridShrubland</li>
                     <li>Desert</li>
