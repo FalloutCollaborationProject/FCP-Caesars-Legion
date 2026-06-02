@@ -265,6 +265,7 @@
                     <li MayRequire="FIP.Arktos">Arktos_Mojave</li>
                     <li>AridShrubland</li>
                     <li>Desert</li>
+                    <li>ExtremeDesert</li>
                 </allowedBiomes>
                 <clustered>true</clustered>
                 <clusterRadius>30</clusterRadius>
