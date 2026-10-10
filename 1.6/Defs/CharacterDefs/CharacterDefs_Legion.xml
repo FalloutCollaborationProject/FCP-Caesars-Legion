@@ -108,7 +108,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(90, 70, 50)</hairColor>
                 <hairDef>Mop</hairDef>
-                <beardDef>Circle</beardDef>
+                <beardDef>FCP_Beard_Rough_Beard</beardDef>
                 <skinColorOverride>(180, 150, 125)</skinColorOverride>
                 <headTypeDef>Male_NarrowNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -667,7 +667,7 @@
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(85, 65, 50)</hairColor>
                 <hairDef>Mop</hairDef>
-                <beardDef>Goatee</beardDef>
+                <beardDef>FCP_Beard_Chin_Strip</beardDef>
                 <skinColorOverride>(185, 155, 130)</skinColorOverride>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
