@@ -38,6 +38,10 @@
                     <storeAs>asker</storeAs>
                     <factionToUse>$askerFaction</factionToUse>
                 </li>
+                <li Class="QuestNode_Set">
+                    <name>prisonerFaction</name>
+                    <value>$askerFaction</value>
+                </li>
                 <li Class="FCP.Core.RadiantQuests.QuestNode_GetPawnKind">
                     <!--Dont change storeAs its hardcoded in C#-->
                     <storeAs>prisonerPawnKind</storeAs>

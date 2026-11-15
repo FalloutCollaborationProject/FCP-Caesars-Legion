@@ -51,6 +51,7 @@
                 </li>
                 <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
                     <storeAs>enemyFaction</storeAs>
+                    <mustBeNonHostile>false</mustBeNonHostile>
                     <factionDefs>
                         <li MayRequire="Rick.FCP.NCR">FCP_Faction_NCR</li>
                     </factionDefs>
